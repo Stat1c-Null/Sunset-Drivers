@@ -8,7 +8,9 @@ richting = 0
 
 var key_left = keyboard_check(ord("A"))
 var key_right = keyboard_check(ord("D"))
-
+gamepad_RT = gamepad_button_check(0, gp_shoulderrb)
+gamepad_LT = gamepad_button_check(0, gp_shoulderlb)
+gamepad_LS = gamepad_button_check(0, gp_shoulderl)//Handbrake
 
 if not key_left {
     if richting > 0 {richting -= 3}} 
@@ -57,5 +59,9 @@ previd[1] = 0
 previd[2] = 0
 previd[3] = 0
 previd[4] = 0
+
+controller = 0//Detect if controller is connected
+
+
 
 

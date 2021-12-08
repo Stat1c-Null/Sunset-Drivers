@@ -4,8 +4,14 @@ var key_brake = keyboard_check(ord("S"))
 var key_left = keyboard_check(ord("A"))
 var key_right = keyboard_check(ord("D"))
 var key_handbrake = keyboard_check(vk_space)
-//Gamepad
-GamepadControls()
+
+//Gamepad gas and break
+if(gamepad_is_connected(0)){
+	//Do actions with controller
+	gamepad_RT = gamepad_button_check(0, gp_shoulderrb)//Gas
+	gamepad_LT = gamepad_button_check(0, gp_shoulderlb)//Brake
+	gamepad_LS = gamepad_button_check(0, gp_shoulderl)//Handbrake
+}
 Vvoorx = Xvoor - Xvooroud
 Xvooroud = Xvoor
 
@@ -25,6 +31,12 @@ phy_speed_y += lengthdir_y(acceleration_speed,-phy_rotation)}
 if (key_brake or gamepad_LT) {
 phy_speed_x += lengthdir_x(-acceleration_speed/2,-phy_rotation)
 phy_speed_y += lengthdir_y(-acceleration_speed/2,-phy_rotation)}
+
+//Handbrake Drift
+if(key_handbrake or gamepad_LS){
+	phy_speed_x += lengthdir_x(-acceleration_speed/4,-phy_rotation)
+	phy_speed_y += lengthdir_y(-acceleration_speed/4,-phy_rotation)
+}
 
 if (key_left) {
 if richting < 45 {richting += 3}
