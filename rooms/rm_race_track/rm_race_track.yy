@@ -73,6 +73,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_ball","path":"objects/obj_ball/obj_ball.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":4397.0,"y":334.0,"resourceVersion":"1.0","name":"inst_EC7B6FCA","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_ball","path":"objects/obj_ball/obj_ball.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":4447.0,"y":367.0,"resourceVersion":"1.0","name":"inst_4D9BE6B8","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_car","path":"objects/obj_car/obj_car.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":760.0,"y":608.0,"resourceVersion":"1.0","name":"inst_148D655A","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"o_hud","path":"objects/o_hud/o_hud.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":544.0,"y":320.0,"resourceVersion":"1.0","name":"inst_5A3B7C47","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Compatibility_Instances_Depth_0","tags":[],"resourceType":"GMRInstanceLayer",},
     {"assets":[
         {"spriteId":{"name":"WegSet2","path":"sprites/WegSet2/WegSet2.yy",},"w":192,"h":192,"u0":0,"v0":204,"u1":192,"v1":396,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":3912.0,"y":1000.0,"resourceVersion":"1.0","name":"inst_63F00529","tags":[],"resourceType":"GMRGraphic",},
@@ -252,6 +253,7 @@
     {"name":"inst_EC7B6FCA","path":"rooms/rm_race_track/rm_race_track.yy",},
     {"name":"inst_4D9BE6B8","path":"rooms/rm_race_track/rm_race_track.yy",},
     {"name":"inst_148D655A","path":"rooms/rm_race_track/rm_race_track.yy",},
+    {"name":"inst_5A3B7C47","path":"rooms/rm_race_track/rm_race_track.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

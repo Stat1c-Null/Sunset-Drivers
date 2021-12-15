@@ -24,10 +24,16 @@ Xachteroud = Xachter
 Vachtery = Yachter - Yachteroud
 Yachteroud = Yachter
 
-if (key_forward or gamepad_RT) {
-phy_speed_x += lengthdir_x(acceleration_speed,-phy_rotation)
-phy_speed_y += lengthdir_y(acceleration_speed,-phy_rotation)}
+gasConsume = random_range(0.01, 0.05)
+if(global.gasAmount > 0) {
 
+	//Drive forward
+	if ((key_forward or gamepad_RT)) {
+	global.gasAmount -= gasConsume
+	phy_speed_x += lengthdir_x(acceleration_speed,-phy_rotation)
+	phy_speed_y += lengthdir_y(acceleration_speed,-phy_rotation)} 
+}
+//Stop
 if (key_brake or gamepad_LT) {
 phy_speed_x += lengthdir_x(-acceleration_speed/2,-phy_rotation)
 phy_speed_y += lengthdir_y(-acceleration_speed/2,-phy_rotation)}
@@ -48,13 +54,13 @@ if richting < -45 {richting = -45}}
 
 
 if not key_left {
-    if richting > 0 {richting += angle_difference(0,richting)/3}}
+	if richting > 0 {richting += angle_difference(0,richting)/3}}
 
 if not key_right {
-    if richting < 0 {richting += angle_difference(0,richting)/3}}
+	if richting < 0 {richting += angle_difference(0,richting)/3}}
 
 if not key_left and not key_right {
-    if abs(richting) <= 3 {richting = 0}}
+	if abs(richting) <= 3 {richting = 0}}
     
 Xvoor = x+lengthdir_x(center_to_front,-phy_rotation)
 Yvoor = y+lengthdir_y(center_to_front,-phy_rotation)
