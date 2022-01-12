@@ -24,7 +24,8 @@ Xachteroud = Xachter
 Vachtery = Yachter - Yachteroud
 Yachteroud = Yachter
 
-gasConsume = random_range(0.01, 0.05)
+gasConsume = random_range(0.01, 0.08)
+backGasConsume = random_range(0.01, 0.04)
 if(global.gasAmount > 0) {
 
 	//Drive forward
@@ -32,11 +33,14 @@ if(global.gasAmount > 0) {
 	global.gasAmount -= gasConsume
 	phy_speed_x += lengthdir_x(acceleration_speed,-phy_rotation)
 	phy_speed_y += lengthdir_y(acceleration_speed,-phy_rotation)} 
+	
+	//Stop
+	if (key_brake or gamepad_LT) {
+	global.gasAmount -= backGasConsume
+	phy_speed_x += lengthdir_x(-acceleration_speed/2,-phy_rotation)
+	phy_speed_y += lengthdir_y(-acceleration_speed/2,-phy_rotation)}
 }
-//Stop
-if (key_brake or gamepad_LT) {
-phy_speed_x += lengthdir_x(-acceleration_speed/2,-phy_rotation)
-phy_speed_y += lengthdir_y(-acceleration_speed/2,-phy_rotation)}
+
 
 //Handbrake Drift
 if(key_handbrake or gamepad_LS){
