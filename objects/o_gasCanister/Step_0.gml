@@ -1,5 +1,6 @@
-if(place_meeting(x,y,obj_car))
+if(place_meeting(x,y,obj_car) and global.gasAmount <= 50)//Check if car touched canister
 {
+	image_index = 0
 	//Increase Gas on touch
 	global.gasAmount += 50
 	if (global.gasAmount > 100) {
@@ -8,4 +9,11 @@ if(place_meeting(x,y,obj_car))
 
 	//Destroy Canister
 	instance_destroy(self)	
+}else if(place_meeting(x,y,obj_car) and global.gasAmount > 50)
+{
+	//If collided with player but they have too much gas
+	image_index = 1
+} else if(not place_meeting(x,y,obj_car)) {
+	//Not colliding with car
+	image_index = 0	
 }

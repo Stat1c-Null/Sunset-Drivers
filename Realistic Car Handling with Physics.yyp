@@ -18,7 +18,6 @@
     {"id":{"name":"s_gasCanister","path":"sprites/s_gasCanister/s_gasCanister.yy",},"order":20,},
     {"id":{"name":"WegSet5","path":"sprites/WegSet5/WegSet5.yy",},"order":11,},
     {"id":{"name":"WegSet6","path":"sprites/WegSet6/WegSet6.yy",},"order":13,},
-    {"id":{"name":"o_hud","path":"objects/o_hud/o_hud.yy",},"order":16,},
     {"id":{"name":"WegSet7","path":"sprites/WegSet7/WegSet7.yy",},"order":15,},
     {"id":{"name":"WegSet1_tileset","path":"tilesets/WegSet1_tileset/WegSet1_tileset.yy",},"order":1,},
     {"id":{"name":"WegSet2_tileset","path":"tilesets/WegSet2_tileset/WegSet2_tileset.yy",},"order":3,},
