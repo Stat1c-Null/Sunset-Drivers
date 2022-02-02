@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"rm_test","path":"rooms/rm_test/rm_test.yy",},"order":2,},
     {"id":{"name":"spr_car","path":"sprites/spr_car/spr_car.yy",},"order":1,},
     {"id":{"name":"spr_car2","path":"sprites/spr_car2/spr_car2.yy",},"order":16,},
     {"id":{"name":"spr_wheel","path":"sprites/spr_wheel/spr_wheel.yy",},"order":3,},
@@ -34,6 +35,7 @@
     {"id":{"name":"__init_action","path":"scripts/__init_action/__init_action.yy",},"order":9,},
     {"id":{"name":"instance_create","path":"scripts/instance_create/instance_create.yy",},"order":1,},
     {"id":{"name":"object_get_depth","path":"scripts/object_get_depth/object_get_depth.yy",},"order":1,},
+    {"id":{"name":"s_road_forward","path":"sprites/s_road_forward/s_road_forward.yy",},"order":0,},
     {"id":{"name":"__init_global","path":"scripts/__init_global/__init_global.yy",},"order":7,},
     {"id":{"name":"__global_object_depths","path":"scripts/__global_object_depths/__global_object_depths.yy",},"order":9,},
     {"id":{"name":"obj_parent_physics","path":"objects/obj_parent_physics/obj_parent_physics.yy",},"order":15,},
@@ -59,13 +61,13 @@
   ],
   "isDnDProject": false,
   "isEcma": false,
-  "tutorialPath": "",
   "configs": {
     "name": "Default",
     "children": [],
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"rm_race_track","path":"rooms/rm_race_track/rm_race_track.yy",},},
+    {"roomId":{"name":"rm_test","path":"rooms/rm_test/rm_test.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
@@ -88,6 +90,7 @@
     {"folderPath":"folders/Extensions.yy","order":25,"resourceVersion":"1.0","name":"Extensions","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Animation Curves.yy","order":1,"resourceVersion":"1.0","name":"Animation Curves","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/UI.yy","order":19,"resourceVersion":"1.0","name":"UI","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/Roads.yy","order":21,"resourceVersion":"1.0","name":"Roads","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
@@ -97,7 +100,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.7.606",
+    "IDEVersion": "2022.1.0.609",
   },
   "resourceVersion": "1.4",
   "name": "Realistic Car Handling with Physics",
