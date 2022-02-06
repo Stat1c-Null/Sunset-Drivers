@@ -9,6 +9,11 @@ global.maxAmount = 100
 global.gasAmount = global.maxAmount
 global.maxSpeed = 285
 gasConsume = random_range(0.5, 1.5)
+//Score
+player_score = 0
+min_speed = 15
+good_speed = 35
+inc_speed = 0
 
 //Keys
 

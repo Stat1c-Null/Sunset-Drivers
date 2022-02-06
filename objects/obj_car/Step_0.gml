@@ -1,8 +1,8 @@
 //Keys
-var key_forward = keyboard_check(ord("W"))
-var key_brake = keyboard_check(ord("S"))
-var key_left = keyboard_check(ord("A"))
-var key_right = keyboard_check(ord("D"))
+var key_forward = keyboard_check(ord("W")) or keyboard_check(vk_up)
+var key_brake = keyboard_check(ord("S")) or keyboard_check(vk_down)
+var key_left = keyboard_check(ord("A")) or keyboard_check(vk_left)
+var key_right = keyboard_check(ord("D")) or keyboard_check(vk_right)
 var key_handbrake = keyboard_check(vk_space)
 
 //Gamepad gas and break
@@ -31,16 +31,31 @@ if(global.gasAmount > 0) {
 	//Drive forward
 	if ((key_forward or gamepad_RT)) {
 	global.gasAmount -= gasConsume
+	inc_speed += 0.1
 	phy_speed_x += lengthdir_x(acceleration_speed,-phy_rotation)
-	phy_speed_y += lengthdir_y(acceleration_speed,-phy_rotation)} 
+	phy_speed_y += lengthdir_y(acceleration_speed,-phy_rotation)} else {
+		inc_speed -= 0.3
+	}
 	
 	//Stop
 	if (key_brake or gamepad_LT) {
 	global.gasAmount -= backGasConsume
+	inc_speed -= 0.1
 	phy_speed_x += lengthdir_x(-acceleration_speed/2,-phy_rotation)
 	phy_speed_y += lengthdir_y(-acceleration_speed/2,-phy_rotation)}
+	show_debug_message(inc_speed)
 }
-
+//Reduce score if player's speed
+if(inc_speed > min_speed) {
+	player_score += 0.3	
+} else if(inc_speed > good_speed) {
+	player_score += 0.6	
+} else if(inc_speed > 60) {
+	inc_speed = 60
+}
+else if(inc_speed <= 0) {
+	inc_speed = 0	
+}
 
 //Handbrake Drift
 if(key_handbrake or gamepad_LS){
