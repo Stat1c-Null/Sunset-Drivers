@@ -8,6 +8,9 @@ richting = 0
 global.maxAmount = 100
 global.gasAmount = global.maxAmount
 global.maxSpeed = 285
+//Condition
+global.maxHealth = 100
+global.health = global.maxHealth
 gasConsume = random_range(0.5, 1.5)
 //Score
 player_score = 0

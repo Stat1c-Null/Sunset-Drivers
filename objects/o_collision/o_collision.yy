@@ -1,10 +1,10 @@
 {
   "spriteId": {
-    "name": "s_gasCanister",
-    "path": "sprites/s_gasCanister/s_gasCanister.yy",
+    "name": "s_collision",
+    "path": "sprites/s_collision/s_collision.yy",
   },
   "solid": false,
-  "visible": true,
+  "visible": false,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
@@ -22,16 +22,16 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_car","path":"objects/obj_car/obj_car.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "GameObjects",
-    "path": "folders/Objects/GameObjects.yy",
+    "name": "BehindScene",
+    "path": "folders/Objects/BehindScene.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_gasCanister",
+  "name": "o_collision",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "s_gasCanister",
-    "path": "sprites/s_gasCanister/s_gasCanister.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -21,17 +18,16 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":81,"eventType":9,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "GameObjects",
-    "path": "folders/Objects/GameObjects.yy",
+    "name": "BehindScene",
+    "path": "folders/Objects/BehindScene.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_gasCanister",
+  "name": "o_game_controller",
   "tags": [],
   "resourceType": "GMObject",
 }

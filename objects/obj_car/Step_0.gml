@@ -63,6 +63,7 @@ if(key_handbrake or gamepad_LS){
 	phy_speed_y += lengthdir_y(-acceleration_speed/4,-phy_rotation)
 }
 
+//Turning
 if (key_left) {
 if richting < 45 {richting += 3}
 if richting > 45 {richting = 45}}
@@ -80,6 +81,13 @@ if not key_right {
 
 if not key_left and not key_right {
 	if abs(richting) <= 3 {richting = 0}}
+	
+//Destroy car if there is no health
+if(global.health <= 0)
+{
+	instance_destroy(obj_car)	
+}
+//Car Physics
     
 Xvoor = x+lengthdir_x(center_to_front,-phy_rotation)
 Yvoor = y+lengthdir_y(center_to_front,-phy_rotation)
