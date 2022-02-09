@@ -51,6 +51,7 @@
     {"id":{"name":"obj_ball_piece4","path":"objects/obj_ball_piece4/obj_ball_piece4.yy",},"order":5,},
     {"id":{"name":"obj_ball","path":"objects/obj_ball/obj_ball.yy",},"order":1,},
     {"id":{"name":"s_collision","path":"sprites/s_collision/s_collision.yy",},"order":22,},
+    {"id":{"name":"f_debug","path":"fonts/f_debug/f_debug.yy",},"order":0,},
     {"id":{"name":"rm_race_track","path":"rooms/rm_race_track/rm_race_track.yy",},"order":1,},
     {"id":{"name":"notes","path":"notes/notes/notes.yy",},"order":1,},
     {"id":{"name":"o_collision","path":"objects/o_collision/o_collision.yy",},"order":2,},
