@@ -1,17 +1,6 @@
 //Keys
-var key_forward = keyboard_check(ord("W")) or keyboard_check(vk_up)
-var key_brake = keyboard_check(ord("S")) or keyboard_check(vk_down)
-var key_left = keyboard_check(ord("A")) or keyboard_check(vk_left)
-var key_right = keyboard_check(ord("D")) or keyboard_check(vk_right)
-var key_handbrake = keyboard_check(vk_space)
 
-//Gamepad gas and break
-if(gamepad_is_connected(0)){
-	//Do actions with controller
-	gamepad_RT = gamepad_button_check(0, gp_shoulderrb)//Gas
-	gamepad_LT = gamepad_button_check(0, gp_shoulderlb)//Brake
-	gamepad_LS = gamepad_button_check(0, gp_shoulderl)//Handbrake
-}
+
 Vvoorx = Xvoor - Xvooroud
 Xvooroud = Xvoor
 
@@ -24,69 +13,41 @@ Xachteroud = Xachter
 Vachtery = Yachter - Yachteroud
 Yachteroud = Yachter
 
-gasConsume = random_range(0.01, 0.08)
-backGasConsume = random_range(0.01, 0.04)
-show_debug_message("Phy X")
-show_debug_message(phy_speed_x)
 
-if(global.gasAmount > 0) {
 
-	//Drive forward
-	if ((key_forward or gamepad_RT)) {
-	global.gasAmount -= gasConsume
-	inc_speed += 0.1
-	phy_speed_x += lengthdir_x(acceleration_speed,-phy_rotation)
-	phy_speed_y += lengthdir_y(acceleration_speed,-phy_rotation)} else {
-		inc_speed -= 0.3
-	}
+//Drive forward
+if (forward) {
+
+phy_speed_x += lengthdir_x(acceleration_speed,-phy_rotation)
+phy_speed_y += lengthdir_y(acceleration_speed,-phy_rotation)}
 	
-	//Stop
-	if (key_brake or gamepad_LT) {
-	global.gasAmount -= backGasConsume
-	inc_speed -= 0.1
-	phy_speed_x += lengthdir_x(-acceleration_speed/2,-phy_rotation)
-	phy_speed_y += lengthdir_y(-acceleration_speed/2,-phy_rotation)}
-	show_debug_message(inc_speed)
-}
-//Reduce score if player's speed is not high enough
-if(inc_speed > min_speed) {
-	player_score += 0.3	
-} else if(inc_speed > good_speed) {
-	player_score += 0.6	
-} else if(inc_speed > 60) {
-	inc_speed = 60
-}
-else if(inc_speed <= 0) {
-	inc_speed = 0	
-}
+//Stop
+if (brake) {
 
-//Handbrake Drift
-if(key_handbrake or gamepad_LS){
-	phy_speed_x += lengthdir_x(-acceleration_speed/4,-phy_rotation)
-	phy_speed_y += lengthdir_y(-acceleration_speed/4,-phy_rotation)
-}
+phy_speed_x += lengthdir_x(-acceleration_speed/2,-phy_rotation)
+phy_speed_y += lengthdir_y(-acceleration_speed/2,-phy_rotation)}
 
 //Turning
-if (key_left) {
+if (left) {
 if richting < 45 {richting += 3}
 if richting > 45 {richting = 45}}
 
-if (key_right) {
+if (right) {
 if richting > -45 {richting -= 3}
 if richting < -45 {richting = -45}}
 
 
-if not key_left {
+if not left {
 	if richting > 0 {richting += angle_difference(0,richting)/3}}
 
-if not key_right {
+if not right {
 	if richting < 0 {richting += angle_difference(0,richting)/3}}
 
-if not key_left and not key_right {
+if not left and not right {
 	if abs(richting) <= 3 {richting = 0}}
 	
 //Destroy car if there is no health
-if(global.health <= 0)
+if(car_hp <= 0)
 {
 	instance_destroy(obj_car)	
 }
