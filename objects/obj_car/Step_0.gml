@@ -26,8 +26,7 @@ Yachteroud = Yachter
 
 gasConsume = random_range(0.01, 0.08)
 backGasConsume = random_range(0.01, 0.04)
-show_debug_message("Phy X")
-show_debug_message(phy_speed_x)
+
 
 if(global.gasAmount > 0) {
 
@@ -46,7 +45,7 @@ if(global.gasAmount > 0) {
 	inc_speed -= 0.1
 	phy_speed_x += lengthdir_x(-acceleration_speed/2,-phy_rotation)
 	phy_speed_y += lengthdir_y(-acceleration_speed/2,-phy_rotation)}
-	show_debug_message(inc_speed)
+	//show_debug_message(inc_speed)
 }
 //Reduce score if player's speed is not high enough
 if(inc_speed > min_speed) {
