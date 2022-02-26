@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_civcar","path":"sprites/s_civcar/s_civcar.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_civcar",
     "tags": [],
     "resourceType": "GMSequence",

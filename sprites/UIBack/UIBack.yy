@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"UIBack","path":"sprites/UIBack/UIBack.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "UIBack",
     "tags": [],
     "resourceType": "GMSequence",

@@ -1,5 +1,5 @@
 //Keys
-
+direction = 90
 
 Vvoorx = Xvoor - Xvooroud
 Xvooroud = Xvoor

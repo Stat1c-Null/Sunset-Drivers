@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"o_destroy","path":"sprites/o_destroy/o_destroy.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "o_destroy",
     "tags": [],
     "resourceType": "GMSequence",

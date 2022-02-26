@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_gasCanister","path":"sprites/s_gasCanister/s_gasCanister.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_gasCanister",
     "tags": [],
     "resourceType": "GMSequence",

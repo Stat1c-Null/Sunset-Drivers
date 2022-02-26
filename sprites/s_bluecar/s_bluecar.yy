@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_bluecar","path":"sprites/s_bluecar/s_bluecar.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_bluecar",
     "tags": [],
     "resourceType": "GMSequence",

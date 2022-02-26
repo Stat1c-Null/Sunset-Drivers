@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_condition_front","path":"sprites/s_condition_front/s_condition_front.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_condition_front",
     "tags": [],
     "resourceType": "GMSequence",

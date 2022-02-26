@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_condition_back","path":"sprites/s_condition_back/s_condition_back.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_condition_back",
     "tags": [],
     "resourceType": "GMSequence",

@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"GasUI","path":"sprites/GasUI/GasUI.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "GasUI",
     "tags": [],
     "resourceType": "GMSequence",
