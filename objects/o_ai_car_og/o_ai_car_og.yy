@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_volga",
-    "path": "sprites/s_volga/s_volga.yy",
+    "name": "s_opel",
+    "path": "sprites/s_opel/s_opel.yy",
   },
   "solid": false,
   "visible": true,
@@ -35,8 +35,6 @@
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_parent_physics","path":"objects/obj_parent_physics/obj_parent_physics.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":64,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":70,"eventType":9,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -45,7 +43,7 @@
     "path": "folders/Objects/Cars.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_car",
+  "name": "o_ai_car_og",
   "tags": [],
   "resourceType": "GMObject",
 }
