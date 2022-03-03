@@ -1,6 +1,6 @@
 friction_strength = 6
 acceleration_speed = 0.7
-center_to_front = 40
+center_to_front = 33//Number of pixels from your cars center to it's front wheels
 
 richting = 0
 

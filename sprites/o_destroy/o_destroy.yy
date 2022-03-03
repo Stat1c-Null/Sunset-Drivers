@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "InvisibleObjects",
+    "path": "folders/Sprites/InvisibleObjects.yy",
   },
   "resourceVersion": "1.0",
   "name": "o_destroy",

@@ -39,8 +39,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Cars",
-    "path": "folders/Objects/Cars.yy",
+    "name": "UnusedButNotForgotten",
+    "path": "folders/Objects/UnusedButNotForgotten.yy",
   },
   "resourceVersion": "1.0",
   "name": "o_ai_car_og",
