@@ -13,17 +13,17 @@ if(gamepad_is_connected(0)){
 	gamepad_LS = gamepad_button_check(0, gp_shoulderl)//Handbrake
 }
 //Sprites switching
-if(key_forward and !key_left and !key_right) {
+if(key_forward and !key_left and !key_right and !destroyed) {
 	image_index = 0	
 	reverse_count = 0
 	turn_left = false
 	turn_right = false
-} else if(key_brake and reverse_count < reverse_detect) {
+} else if(key_brake and reverse_count < reverse_detect and !destroyed) {
 	image_index = 1	
 	reverse_count += reverse_mult
-} else if(key_brake and reverse_count >= reverse_detect){
+} else if(key_brake and reverse_count >= reverse_detect and !destroyed){
 	image_index = 2
-} else if(!key_forward and !key_left and !key_right and !key_brake) {
+} else if(!key_forward and !key_left and !key_right and !key_brake and !destroyed) {
 	turn_left = false
 	turn_right = false
 	reverse_count = 0
@@ -50,7 +50,7 @@ backGasConsume = random_range(0.01, 0.04)
 if(global.gasAmount > 0) {
 
 	//Drive forward
-	if ((key_forward or gamepad_RT)) {
+	if ((key_forward or gamepad_RT) and !destroyed) {
 	global.gasAmount -= gasConsume
 	inc_speed += 0.1
 	phy_speed_x += lengthdir_x(acceleration_speed,-phy_rotation)
@@ -59,7 +59,7 @@ if(global.gasAmount > 0) {
 	}
 	
 	//Stop
-	if (key_brake or gamepad_LT) {
+	if ((key_brake or gamepad_LT) and !destroyed) {
 	global.gasAmount -= backGasConsume
 	inc_speed -= 0.2
 	phy_speed_x += lengthdir_x(-acceleration_speed/2,-phy_rotation)
@@ -81,34 +81,41 @@ else if(inc_speed <= 0) {
 }
 
 //Handbrake Drift
-if(key_handbrake or gamepad_LS){
+if((key_handbrake or gamepad_LS) and !destroyed){
 	phy_speed_x += lengthdir_x(-acceleration_speed/4,-phy_rotation)
 	phy_speed_y += lengthdir_y(-acceleration_speed/4,-phy_rotation)
 }
 
 //Turning
 if (key_left) {
-if richting < 45 {richting += 3}
+if richting < 45 {richting += turn_multi}
 if richting > 45 {richting = 45}}
 
 if (key_right) {
-if richting > -45 {richting -= 3}
+if richting > -45 {richting -= turn_multi}
 if richting < -45 {richting = -45}}
 
 
 if not key_left {
-	if richting > 0 {richting += angle_difference(0,richting)/3}}
+	if richting > 0 {richting += angle_difference(0,richting)/turn_multi}}
 
 if not key_right {
-	if richting < 0 {richting += angle_difference(0,richting)/3}}
+	if richting < 0 {richting += angle_difference(0,richting)/turn_multi}}
 
 if not key_left and not key_right {
-	if abs(richting) <= 3 {richting = 0}}
+	if abs(richting) <= turn_multi {richting = 0}}
 	
 //Destroy car if there is no health
 if(global.health <= 0)
 {
-	instance_destroy(obj_car)	
+	destroyed = true
+	turn_left = false
+	turn_right = false
+	if(alarm[1] == 0) {
+		alarm[1] = signal_timer * room_speed
+	}
+	phy_speed_x = 0
+	phy_speed_y = 0
 }
 //Car Physics
     

@@ -38,6 +38,7 @@
     {"id":{"name":"action_if_variable","path":"scripts/action_if_variable/action_if_variable.yy",},"order":3,},
     {"id":{"name":"s_devyatka","path":"sprites/s_devyatka/s_devyatka.yy",},"order":8,},
     {"id":{"name":"o_car_destroyer","path":"objects/o_car_destroyer/o_car_destroyer.yy",},"order":3,},
+    {"id":{"name":"o_staticParent","path":"objects/o_staticParent/o_staticParent.yy",},"order":4,},
     {"id":{"name":"UIBack","path":"sprites/UIBack/UIBack.yy",},"order":1,},
     {"id":{"name":"o_barrier","path":"objects/o_barrier/o_barrier.yy",},"order":6,},
     {"id":{"name":"action_kill_object","path":"scripts/action_kill_object/action_kill_object.yy",},"order":5,},

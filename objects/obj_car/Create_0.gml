@@ -1,6 +1,6 @@
 friction_strength = 6
 acceleration_speed = 0.7
-center_to_front = 45//Number of pixels from your cars center to it's front wheels
+center_to_front = 47//Number of pixels from your cars center to it's front wheels
 
 richting = 0
 
@@ -9,9 +9,11 @@ image_index = 0
 signal_timer = 0.35
 turn_left = false
 turn_right = false
+destroyed = false
 reverse_count = 0
 reverse_detect = 13
 reverse_mult = 0.3
+turn_multi = 2
 //Gas gas gas
 global.maxAmount = 100
 global.gasAmount = global.maxAmount
