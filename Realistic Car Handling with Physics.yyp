@@ -60,6 +60,7 @@
     {"id":{"name":"s_condition_front","path":"sprites/s_condition_front/s_condition_front.yy",},"order":3,},
     {"id":{"name":"o_destroy","path":"sprites/o_destroy/o_destroy.yy",},"order":3,},
     {"id":{"name":"s_volga2","path":"sprites/s_volga2/s_volga2.yy",},"order":1,},
+    {"id":{"name":"s_volga340","path":"sprites/s_volga340/s_volga340.yy",},"order":4,},
     {"id":{"name":"s_condition_back","path":"sprites/s_condition_back/s_condition_back.yy",},"order":2,},
     {"id":{"name":"obj_skid_mark","path":"objects/obj_skid_mark/obj_skid_mark.yy",},"order":1,},
     {"id":{"name":"obj_ball_piece1","path":"objects/obj_ball_piece1/obj_ball_piece1.yy",},"order":2,},
