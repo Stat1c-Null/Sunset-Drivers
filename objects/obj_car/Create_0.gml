@@ -1,9 +1,17 @@
 friction_strength = 6
 acceleration_speed = 0.7
-center_to_front = 33//Number of pixels from your cars center to it's front wheels
+center_to_front = 50//Number of pixels from your cars center to it's front wheels
 
 richting = 0
 
+image_index = 0
+//Turn signal timer
+signal_timer = 0.5
+turn_left = false
+turn_right = false
+reverse_count = 0
+reverse_detect = 13
+reverse_mult = 0.3
 //Gas gas gas
 global.maxAmount = 100
 global.gasAmount = global.maxAmount
@@ -19,7 +27,6 @@ good_speed = 35
 inc_speed = 0
 
 //Keys
-
 var key_left = keyboard_check(ord("A"))
 var key_right = keyboard_check(ord("D"))
 gamepad_RT = gamepad_button_check(0, gp_shoulderrb)

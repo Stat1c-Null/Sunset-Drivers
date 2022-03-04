@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "s_opel",
-    "path": "sprites/s_opel/s_opel.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,

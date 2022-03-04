@@ -12,6 +12,26 @@ if(gamepad_is_connected(0)){
 	gamepad_LT = gamepad_button_check(0, gp_shoulderlb)//Brake
 	gamepad_LS = gamepad_button_check(0, gp_shoulderl)//Handbrake
 }
+//Sprites switching
+if(key_forward and !key_left and !key_right) {
+	image_index = 0	
+	reverse_count = 0
+	turn_left = false
+	turn_right = false
+} else if(key_brake and reverse_count < reverse_detect) {
+	image_index = 1	
+	reverse_count += reverse_mult
+} else if(key_brake and reverse_count >= reverse_detect){
+	image_index = 2
+} else if(!key_forward and !key_left and !key_right and !key_brake) {
+	turn_left = false
+	turn_right = false
+	reverse_count = 0
+	image_index = 0	
+}
+
+
+//Movement
 Vvoorx = Xvoor - Xvooroud
 Xvooroud = Xvoor
 
@@ -26,7 +46,6 @@ Yachteroud = Yachter
 
 gasConsume = random_range(0.01, 0.08)
 backGasConsume = random_range(0.01, 0.04)
-
 
 if(global.gasAmount > 0) {
 
@@ -44,7 +63,7 @@ if(global.gasAmount > 0) {
 	global.gasAmount -= backGasConsume
 	inc_speed -= 0.2
 	phy_speed_x += lengthdir_x(-acceleration_speed/2,-phy_rotation)
-	phy_speed_y += lengthdir_y(-acceleration_speed/2,-phy_rotation)}
+	phy_speed_y += lengthdir_y(-acceleration_speed/2,-phy_rotation)} 
 	//show_debug_message(inc_speed)
 }
 //Reduce score if player's speed is not high enough

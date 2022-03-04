@@ -8,13 +8,13 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 1,
-  "bbox_right": 88,
-  "bbox_top": 7,
-  "bbox_bottom": 42,
+  "bbox_right": 117,
+  "bbox_top": 1,
+  "bbox_bottom": 48,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 90,
+  "width": 120,
   "height": 50,
   "textureGroupId": {
     "name": "Default",
@@ -24,15 +24,15 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"c508d8a6-e10f-48e6-b3f8-e2e187331102","path":"sprites/s_volga/s_volga.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"c508d8a6-e10f-48e6-b3f8-e2e187331102","path":"sprites/s_volga/s_volga.yy",},"LayerId":{"name":"495e849b-e8ce-4e35-a35b-3e661edf4a96","path":"sprites/s_volga/s_volga.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"s_volga","path":"sprites/s_volga/s_volga.yy",},"resourceVersion":"1.0","name":"c508d8a6-e10f-48e6-b3f8-e2e187331102","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"21efff49-fbaa-4518-8e54-a6a73e14be4e","path":"sprites/s_volga/s_volga.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"21efff49-fbaa-4518-8e54-a6a73e14be4e","path":"sprites/s_volga/s_volga.yy",},"LayerId":{"name":"05e30d57-295e-4f1d-be4e-bee717be8ca3","path":"sprites/s_volga/s_volga.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"s_volga","path":"sprites/s_volga/s_volga.yy",},"resourceVersion":"1.0","name":"21efff49-fbaa-4518-8e54-a6a73e14be4e","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"s_volga","path":"sprites/s_volga/s_volga.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 1.0,
+    "playbackSpeed": 0.0,
     "playbackSpeedType": 1,
     "autoRecord": true,
     "volume": 1.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"f9e0ee02-3b21-48d8-aa20-6f5af5be0db6","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c508d8a6-e10f-48e6-b3f8-e2e187331102","path":"sprites/s_volga/s_volga.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"80285762-824b-43e4-b2b5-36e2ba01db34","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"21efff49-fbaa-4518-8e54-a6a73e14be4e","path":"sprites/s_volga/s_volga.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -54,7 +54,7 @@
     "backdropHeight": 1080,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 45,
+    "xorigin": 60,
     "yorigin": 25,
     "eventToFunction": {},
     "eventStubScript": null,
@@ -65,12 +65,12 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1","resourceVersion":"1.0","name":"495e849b-e8ce-4e35-a35b-3e661edf4a96","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"05e30d57-295e-4f1d-be4e-bee717be8ca3","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Cars",
-    "path": "folders/Sprites/Cars.yy",
+    "name": "Volga",
+    "path": "folders/Sprites/Cars/Volga.yy",
   },
   "resourceVersion": "1.0",
   "name": "s_volga",
