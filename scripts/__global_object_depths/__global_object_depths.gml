@@ -13,6 +13,10 @@ function __global_object_depths() {
 	global.__objectDepths[5] = 0; // obj_ball_piece4
 	global.__objectDepths[6] = 0; // obj_ball
 	global.__objectDepths[7] = 0; // obj_parent_physics
+	global.__objectDepths[8] = 0; // obj_rain_generator
+	global.__objectDepths[9] = 0; // obj_rain
+	global.__objectDepths[10] = 0; // obj_guy
+	global.__objectDepths[11] = 0; // obj_splash
 
 
 	global.__objectNames[0] = "obj_car";
@@ -23,6 +27,10 @@ function __global_object_depths() {
 	global.__objectNames[5] = "obj_ball_piece4";
 	global.__objectNames[6] = "obj_ball";
 	global.__objectNames[7] = "obj_parent_physics";
+	global.__objectNames[8] = "obj_rain_generator";
+	global.__objectNames[9] = "obj_rain";
+	global.__objectNames[10] = "obj_guy";
+	global.__objectNames[11] = "obj_splash";
 
 
 	// create another array that has the correct entries
