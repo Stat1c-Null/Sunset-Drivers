@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "s_repairTool",
+    "path": "sprites/s_repairTool/s_repairTool.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -7,8 +10,8 @@
   "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
-  "physicsShape": 0,
-  "physicsGroup": 0,
+  "physicsShape": 1,
+  "physicsGroup": 1,
   "physicsDensity": 0.5,
   "physicsRestitution": 0.1,
   "physicsLinearDamping": 0.1,
@@ -19,16 +22,16 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Cars",
-    "path": "folders/Objects/Cars.yy",
+    "name": "GameObjects",
+    "path": "folders/Objects/GameObjects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_skid_mark",
+  "name": "o_repairTool",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -36,8 +36,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "GameObjects",
-    "path": "folders/Objects/GameObjects.yy",
+    "name": "DynamicObjects",
+    "path": "folders/Objects/DynamicObjects.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_ball",

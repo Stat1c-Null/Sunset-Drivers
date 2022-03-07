@@ -9,7 +9,7 @@
   "swfPrecision": 2.525,
   "bbox_left": 1,
   "bbox_right": 7,
-  "bbox_top": 1,
+  "bbox_top": 0,
   "bbox_bottom": 7,
   "HTile": false,
   "VTile": false,
@@ -27,15 +27,15 @@
     {"compositeImage":{"FrameId":{"name":"230c2252-424b-4ae5-847f-6b4fb19381e1","path":"sprites/s_splash/s_splash.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"230c2252-424b-4ae5-847f-6b4fb19381e1","path":"sprites/s_splash/s_splash.yy",},"LayerId":{"name":"97696bd0-4262-43b1-98d6-c208b52f63c5","path":"sprites/s_splash/s_splash.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"s_splash","path":"sprites/s_splash/s_splash.yy",},"resourceVersion":"1.0","name":"230c2252-424b-4ae5-847f-6b4fb19381e1","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"b9954bed-92dc-4e55-bac1-351daacac41c","path":"sprites/s_splash/s_splash.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"b9954bed-92dc-4e55-bac1-351daacac41c","path":"sprites/s_splash/s_splash.yy",},"LayerId":{"name":"97696bd0-4262-43b1-98d6-c208b52f63c5","path":"sprites/s_splash/s_splash.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"s_splash","path":"sprites/s_splash/s_splash.yy",},"resourceVersion":"1.0","name":"b9954bed-92dc-4e55-bac1-351daacac41c","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"ff7234eb-f98b-4c9d-89de-b1545f50f12b","path":"sprites/s_splash/s_splash.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"ff7234eb-f98b-4c9d-89de-b1545f50f12b","path":"sprites/s_splash/s_splash.yy",},"LayerId":{"name":"97696bd0-4262-43b1-98d6-c208b52f63c5","path":"sprites/s_splash/s_splash.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"s_splash","path":"sprites/s_splash/s_splash.yy",},"resourceVersion":"1.0","name":"ff7234eb-f98b-4c9d-89de-b1545f50f12b","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"s_splash","path":"sprites/s_splash/s_splash.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 6.0,
+    "playbackSpeed": 8.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
@@ -45,7 +45,7 @@
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"3c606f76-1620-49cd-9493-f68d0a60272b","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"230c2252-424b-4ae5-847f-6b4fb19381e1","path":"sprites/s_splash/s_splash.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"1638e84a-6ed4-4948-82d6-4c6032edbdd5","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b9954bed-92dc-4e55-bac1-351daacac41c","path":"sprites/s_splash/s_splash.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"84422495-c205-4fa2-84e9-f3b70d304c4c","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ff7234eb-f98b-4c9d-89de-b1545f50f12b","path":"sprites/s_splash/s_splash.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,

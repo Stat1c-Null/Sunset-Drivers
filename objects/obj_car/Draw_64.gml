@@ -11,4 +11,5 @@ draw_sprite(s_condition_back, 1, 2240, 100)
 //draw_text(100, 300, "Speed: " + string(speed))
 //Score
 draw_set_font(f_debug)
-draw_text(100, 300, "Score: " + string(player_score))
+draw_set_color(c_black)
+draw_text(100, 300, "Score: " + string(round(player_score)))
