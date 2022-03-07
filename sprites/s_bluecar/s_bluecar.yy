@@ -94,7 +94,7 @@
   },
   "parent": {
     "name": "Dodge Charger",
-    "path": "folders/Sprites/Cars/Dodge Charger.yy",
+    "path": "folders/Sprites/Cars/SportCars/Dodge Charger.yy",
   },
   "resourceVersion": "1.0",
   "name": "s_bluecar",

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_test",
-    "path": "sprites/s_test/s_test.yy",
+    "name": "s_table_part",
+    "path": "sprites/s_table_part/s_table_part.yy",
   },
   "solid": false,
   "visible": true,
@@ -15,7 +15,7 @@
   "physicsSensor": false,
   "physicsShape": 1,
   "physicsGroup": 0,
-  "physicsDensity": 0.2,
+  "physicsDensity": 0.5,
   "physicsRestitution": 0.1,
   "physicsLinearDamping": 2.0,
   "physicsAngularDamping": 2.0,
@@ -24,16 +24,13 @@
   "physicsKinematic": false,
   "physicsShapePoints": [
     {"x":0.0,"y":0.0,},
-    {"x":50.0,"y":0.0,},
-    {"x":50.0,"y":90.0,},
-    {"x":0.0,"y":90.0,},
+    {"x":20.0,"y":0.0,},
+    {"x":20.0,"y":20.0,},
+    {"x":0.0,"y":20.0,},
   ],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":2,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_parent_physics","path":"objects/obj_parent_physics/obj_parent_physics.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_car","path":"objects/obj_car/obj_car.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -42,7 +39,7 @@
     "path": "folders/Objects/DynamicObjects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_table",
+  "name": "o_table_piece1",
   "tags": [],
   "resourceType": "GMObject",
 }
