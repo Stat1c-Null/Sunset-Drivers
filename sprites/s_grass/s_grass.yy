@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "World",
-    "path": "folders/Sprites/World.yy",
+    "name": "WorldObjects",
+    "path": "folders/Sprites/WorldObjects.yy",
   },
   "resourceVersion": "1.0",
   "name": "s_grass",
