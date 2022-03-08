@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_ball",
-    "path": "sprites/spr_ball/spr_ball.yy",
+    "name": "s_challenger",
+    "path": "sprites/s_challenger/s_challenger.yy",
   },
   "solid": false,
   "visible": true,
@@ -13,9 +13,9 @@
   },
   "physicsObject": true,
   "physicsSensor": false,
-  "physicsShape": 0,
+  "physicsShape": 1,
   "physicsGroup": 0,
-  "physicsDensity": 1.5,
+  "physicsDensity": 0.8,
   "physicsRestitution": 0.1,
   "physicsLinearDamping": 3.0,
   "physicsAngularDamping": 3.0,
@@ -23,8 +23,10 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [
-    {"x":16.0,"y":16.0,},
-    {"x":16.0,"y":16.0,},
+    {"x":0.0,"y":0.0,},
+    {"x":114.0,"y":0.0,},
+    {"x":114.0,"y":52.0,},
+    {"x":0.0,"y":52.0,},
   ],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
@@ -36,11 +38,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Barrel",
-    "path": "folders/Objects/DynamicObjects/Barrel.yy",
+    "name": "ParkedCars",
+    "path": "folders/Objects/DynamicObjects/ParkedCars.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_ball",
+  "name": "o_parked_car2",
   "tags": [],
   "resourceType": "GMObject",
 }

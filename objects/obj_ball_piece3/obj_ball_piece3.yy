@@ -38,8 +38,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "DynamicObjects",
-    "path": "folders/Objects/DynamicObjects.yy",
+    "name": "Barrel",
+    "path": "folders/Objects/DynamicObjects/Barrel.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_ball_piece3",
