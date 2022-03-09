@@ -36,8 +36,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "GameObjects",
-    "path": "folders/Objects/GameObjects.yy",
+    "name": "Buildings",
+    "path": "folders/Objects/GameObjects/Buildings.yy",
   },
   "resourceVersion": "1.0",
   "name": "o_gasstation",

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_barrier",
-    "path": "sprites/s_barrier/s_barrier.yy",
+    "name": "s_repairshop",
+    "path": "sprites/s_repairshop/s_repairshop.yy",
   },
   "solid": false,
   "visible": true,
@@ -23,10 +23,10 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [
-    {"x":0.0,"y":0.0,},
-    {"x":64.0,"y":0.0,},
-    {"x":64.0,"y":64.0,},
-    {"x":0.0,"y":64.0,},
+    {"x":1.0,"y":0.0,},
+    {"x":600.0,"y":0.0,},
+    {"x":600.0,"y":463.0,},
+    {"x":1.0,"y":463.0,},
   ],
   "eventList": [],
   "properties": [],
@@ -36,7 +36,7 @@
     "path": "folders/Objects/GameObjects/Buildings.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_barrier",
+  "name": "o_repairShop",
   "tags": [],
   "resourceType": "GMObject",
 }
