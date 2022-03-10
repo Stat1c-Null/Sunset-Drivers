@@ -14,6 +14,7 @@ reverse_count = 0
 reverse_detect = 13
 reverse_mult = 0.3
 turn_multi = 2
+turn_limit = 45
 //Gas gas gas
 global.maxAmount = 100
 global.gasAmount = global.maxAmount
@@ -21,16 +22,16 @@ global.maxSpeed = 285
 //Condition
 global.maxHealth = 100
 global.health = global.maxHealth
-gasConsume = random_range(0.5, 1.5)
+standing_consume = 0.01
 //Score
 player_score = 0
 score_y_pos = 1265
-min_speed = 15
-good_speed = 35
+min_speed = 10
+good_speed = 25
 inc_speed = 0
 //Money
 global.dollars = 0
-
+money_timer = 4
 //Keys
 var key_left = keyboard_check(ord("A"))
 var key_right = keyboard_check(ord("D"))

@@ -15,6 +15,7 @@ if(place_meeting(x,y,obj_car) and global.gasAmount <= min_amount and global.doll
 {
 	//If collided with player but they have too much gas
 	image_index = 1
+	global.not_enough_money = true
 } else if(not place_meeting(x,y,obj_car)) {
 	//Not colliding with car
 	image_index = 0	

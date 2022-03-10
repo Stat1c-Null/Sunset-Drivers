@@ -55,11 +55,15 @@ Xachteroud = Xachter
 Vachtery = Yachter - Yachteroud
 Yachteroud = Yachter
 
-gasConsume = random_range(0.01, 0.08)
+gasConsume = random_range(0.01, 0.07)
 backGasConsume = random_range(0.01, 0.04)
 
 if(global.gasAmount > 0) {
-
+	//Reduce gas when car is just standing
+	if(!key_forward and !key_brake)
+	{
+		global.gasAmount -= standing_consume
+	}
 	//Drive forward
 	if ((key_forward or gamepad_RT) and !destroyed) {
 	global.gasAmount -= gasConsume
@@ -93,18 +97,24 @@ else if(inc_speed <= 0) {
 
 //Handbrake Drift
 if((key_handbrake or gamepad_LS) and !destroyed){
-	phy_speed_x += lengthdir_x(-acceleration_speed/4,-phy_rotation)
-	phy_speed_y += lengthdir_y(-acceleration_speed/4,-phy_rotation)
+	turn_multi = 8
+	//turn_limit = 15
+	phy_speed_x += lengthdir_x(-acceleration_speed/6,-phy_rotation)
+	phy_speed_y += lengthdir_y(-acceleration_speed/6,-phy_rotation)
+} else {
+	turn_multi = 2
+	turn_limit = 45
 }
 
+//Work with hand brake
 //Turning
 if (key_left) {
-if richting < 45 {richting += turn_multi}
-if richting > 45 {richting = 45}}
+if richting < turn_limit {richting += turn_multi}
+if richting > turn_limit {richting = turn_limit}}
 
 if (key_right) {
-if richting > -45 {richting -= turn_multi}
-if richting < -45 {richting = -45}}
+if richting > -turn_limit {richting -= turn_multi}
+if richting < -turn_limit {richting = -turn_limit}}
 
 
 if not key_left {

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "o_spawner_rightlane",
-    "path": "sprites/o_spawner_rightlane/o_spawner_rightlane.yy",
+    "name": "s_dollarBill",
+    "path": "sprites/s_dollarBill/s_dollarBill.yy",
   },
   "solid": false,
   "visible": true,
