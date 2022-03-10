@@ -32,8 +32,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Buildings",
-    "path": "folders/Objects/GameObjects/Buildings.yy",
+    "name": "StaticObjects",
+    "path": "folders/Objects/StaticObjects.yy",
   },
   "resourceVersion": "1.0",
   "name": "o_barrier",

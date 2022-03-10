@@ -16,7 +16,6 @@
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_rain_generator","path":"objects/obj_rain_generator/obj_rain_generator.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1484.0,"y":9918.0,"resourceVersion":"1.0","name":"inst_6E9D2688","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"o_game_controller","path":"objects/o_game_controller/o_game_controller.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1448.0,"y":9921.0,"resourceVersion":"1.0","name":"inst_72498310","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"o_parked_car","path":"objects/o_parked_car/o_parked_car.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":10.6091795,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1097.0,"y":8491.0,"resourceVersion":"1.0","name":"inst_30D45FA1","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":-50,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Invisible","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_car","path":"objects/obj_car/obj_car.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":91.34022,"scaleX":1.01111114,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":842.0,"y":9684.0,"resourceVersion":"1.0","name":"inst_63BAAEF9","tags":[],"resourceType":"GMRInstance",},
@@ -66,6 +65,9 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"o_dollarBill","path":"objects/o_dollarBill/o_dollarBill.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":-89.36394,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1206.51892,"y":788.9136,"resourceVersion":"1.0","name":"inst_6F980EE1","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"o_dollarBill","path":"objects/o_dollarBill/o_dollarBill.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":-89.36394,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1606.49426,"y":784.473145,"resourceVersion":"1.0","name":"inst_5C1D2643","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"o_dollarBill","path":"objects/o_dollarBill/o_dollarBill.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":-89.36394,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1821.48108,"y":782.0864,"resourceVersion":"1.0","name":"inst_1B34C8D5","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"o_parked_car","path":"objects/o_parked_car/o_parked_car.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1098.0,"y":8498.0,"resourceVersion":"1.0","name":"inst_6BA4028E","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"o_repairShopPrice","path":"objects/o_repairShopPrice/o_repairShopPrice.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":-90.14308,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1051.0,"y":7603.0,"resourceVersion":"1.0","name":"inst_6EED4084","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"o_repairShopPrice","path":"objects/o_repairShopPrice/o_repairShopPrice.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1439.0,"y":602.0,"resourceVersion":"1.0","name":"inst_6DB86A31","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":50,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"GameObjects","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"o_barrier","path":"objects/o_barrier/o_barrier.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":138.390625,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1786.25574,"y":1087.0,"resourceVersion":"1.0","name":"inst_1FC4954D","tags":[],"resourceType":"GMRInstance",},
@@ -125,7 +127,6 @@
     {"name":"inst_58AA9A81","path":"rooms/rm_race_track/rm_race_track.yy",},
     {"name":"inst_442CCEEF","path":"rooms/rm_race_track/rm_race_track.yy",},
     {"name":"inst_63780F47","path":"rooms/rm_race_track/rm_race_track.yy",},
-    {"name":"inst_30D45FA1","path":"rooms/rm_race_track/rm_race_track.yy",},
     {"name":"inst_7E85FF84","path":"rooms/rm_race_track/rm_race_track.yy",},
     {"name":"inst_22907027","path":"rooms/rm_race_track/rm_race_track.yy",},
     {"name":"inst_1806C419","path":"rooms/rm_race_track/rm_race_track.yy",},
@@ -151,6 +152,9 @@
     {"name":"inst_6F980EE1","path":"rooms/rm_race_track/rm_race_track.yy",},
     {"name":"inst_5C1D2643","path":"rooms/rm_race_track/rm_race_track.yy",},
     {"name":"inst_1B34C8D5","path":"rooms/rm_race_track/rm_race_track.yy",},
+    {"name":"inst_6BA4028E","path":"rooms/rm_race_track/rm_race_track.yy",},
+    {"name":"inst_6EED4084","path":"rooms/rm_race_track/rm_race_track.yy",},
+    {"name":"inst_6DB86A31","path":"rooms/rm_race_track/rm_race_track.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

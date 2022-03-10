@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 599,
+  "bbox_right": 149,
   "bbox_top": 0,
-  "bbox_bottom": 799,
+  "bbox_bottom": 89,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 600,
-  "height": 800,
+  "width": 150,
+  "height": 90,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"bb64d85a-3231-4a9e-b12d-cd4696395209","path":"sprites/s_repairshop/s_repairshop.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"bb64d85a-3231-4a9e-b12d-cd4696395209","path":"sprites/s_repairshop/s_repairshop.yy",},"LayerId":{"name":"29a1a050-d4ea-48bb-b2c5-7ec55b568d92","path":"sprites/s_repairshop/s_repairshop.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"s_repairshop","path":"sprites/s_repairshop/s_repairshop.yy",},"resourceVersion":"1.0","name":"bb64d85a-3231-4a9e-b12d-cd4696395209","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"1dbcb720-a01a-431d-9b35-af18c0fc9fb9","path":"sprites/s_repairShopPrice/s_repairShopPrice.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"1dbcb720-a01a-431d-9b35-af18c0fc9fb9","path":"sprites/s_repairShopPrice/s_repairShopPrice.yy",},"LayerId":{"name":"f0ac7b28-a87e-4618-99dd-5c32bcbe217d","path":"sprites/s_repairShopPrice/s_repairShopPrice.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"s_repairShopPrice","path":"sprites/s_repairShopPrice/s_repairShopPrice.yy",},"resourceVersion":"1.0","name":"1dbcb720-a01a-431d-9b35-af18c0fc9fb9","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"s_repairshop","path":"sprites/s_repairshop/s_repairshop.yy",},
+    "spriteId": {"name":"s_repairShopPrice","path":"sprites/s_repairShopPrice/s_repairShopPrice.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"020029a6-e0ea-4fda-8a85-1fe56f5f8eab","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"bb64d85a-3231-4a9e-b12d-cd4696395209","path":"sprites/s_repairshop/s_repairshop.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"c6672657-9428-444d-8ba7-b4af5593476d","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1dbcb720-a01a-431d-9b35-af18c0fc9fb9","path":"sprites/s_repairShopPrice/s_repairShopPrice.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -54,18 +54,18 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 300,
-    "yorigin": 400,
+    "xorigin": 75,
+    "yorigin": 45,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"s_repairshop","path":"sprites/s_repairshop/s_repairshop.yy",},
+    "parent": {"name":"s_repairShopPrice","path":"sprites/s_repairShopPrice/s_repairShopPrice.yy",},
     "resourceVersion": "1.4",
-    "name": "s_repairshop",
+    "name": "s_repairShopPrice",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"29a1a050-d4ea-48bb-b2c5-7ec55b568d92","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"f0ac7b28-a87e-4618-99dd-5c32bcbe217d","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites/WorldObjects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "s_repairshop",
+  "name": "s_repairShopPrice",
   "tags": [],
   "resourceType": "GMSprite",
 }
