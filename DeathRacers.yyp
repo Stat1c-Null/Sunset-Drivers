@@ -6,6 +6,7 @@
     {"id":{"name":"spr_car","path":"sprites/spr_car/spr_car.yy",},"order":0,},
     {"id":{"name":"s_civcar","path":"sprites/s_civcar/s_civcar.yy",},"order":1,},
     {"id":{"name":"s_ferrari","path":"sprites/s_ferrari/s_ferrari.yy",},"order":3,},
+    {"id":{"name":"o_dollarBill","path":"objects/o_dollarBill/o_dollarBill.yy",},"order":10,},
     {"id":{"name":"spr_wheel","path":"sprites/spr_wheel/spr_wheel.yy",},"order":6,},
     {"id":{"name":"s_table_part","path":"sprites/s_table_part/s_table_part.yy",},"order":6,},
     {"id":{"name":"o_parked_car","path":"objects/o_parked_car/o_parked_car.yy",},"order":0,},
@@ -181,7 +182,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2022.2.0.614",
+    "IDEVersion": "2022.2.1.618",
   },
   "resourceVersion": "1.5",
   "name": "DeathRacers",

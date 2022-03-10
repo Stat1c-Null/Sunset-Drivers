@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "o_spawner_rightlane",
+    "path": "sprites/o_spawner_rightlane/o_spawner_rightlane.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -18,19 +21,17 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":81,"eventType":9,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":70,"eventType":9,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":69,"eventType":9,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "BehindScene",
-    "path": "folders/Objects/BehindScene.yy",
+    "name": "GameObjects",
+    "path": "folders/Objects/GameObjects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_game_controller",
+  "name": "o_dollarBill",
   "tags": [],
   "resourceType": "GMObject",
 }

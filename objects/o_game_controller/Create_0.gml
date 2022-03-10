@@ -1,0 +1,1 @@
+global.not_enough_money = false

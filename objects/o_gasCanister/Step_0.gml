@@ -1,6 +1,7 @@
-if(place_meeting(x,y,obj_car) and global.gasAmount <= min_amount)//Check if car touched canister
+if(place_meeting(x,y,obj_car) and global.gasAmount <= min_amount and global.dollars >= price)//Check if car touched canister
 {
 	image_index = 0
+	global.dollars -= price
 	//Increase Gas on touch
 	repair_amount = global.maxAmount - global.gasAmount
 	global.gasAmount += repair_amount
@@ -10,7 +11,7 @@ if(place_meeting(x,y,obj_car) and global.gasAmount <= min_amount)//Check if car 
 
 	//Destroy Canister
 	instance_destroy(self)	
-}else if(place_meeting(x,y,obj_car) and global.gasAmount > min_amount)
+}else if(place_meeting(x,y,obj_car) and (global.gasAmount > min_amount or global.dollars < price))
 {
 	//If collided with player but they have too much gas
 	image_index = 1

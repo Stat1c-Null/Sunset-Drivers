@@ -24,9 +24,12 @@ global.health = global.maxHealth
 gasConsume = random_range(0.5, 1.5)
 //Score
 player_score = 0
+score_y_pos = 1265
 min_speed = 15
 good_speed = 35
 inc_speed = 0
+//Money
+global.dollars = 0
 
 //Keys
 var key_left = keyboard_check(ord("A"))

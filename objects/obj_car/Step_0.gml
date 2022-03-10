@@ -29,7 +29,18 @@ if(key_forward and !key_left and !key_right and !destroyed) {
 	reverse_count = 0
 	image_index = 0	
 }
-
+//Switch score position depending on number of numbers
+if (player_score > 9 and player_score < 99) {
+	score_y_pos = 1261	
+} else if(player_score > 99 and player_score < 999) {
+	score_y_pos = 1250
+} else if(player_score > 999 and player_score < 9999) {
+	score_y_pos = 1236
+} else if(player_score > 9999 and player_score < 99999) {
+	score_y_pos = 1223
+} else if(player_score > 99999 and player_score < 9999999) {
+	score_y_pos = 1208
+}
 
 //Movement
 Vvoorx = Xvoor - Xvooroud
