@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "GameObjects",
-    "path": "folders/Sprites/GameObjects.yy",
+    "name": "Barrel",
+    "path": "folders/Sprites/GameObjects/Barrel.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_ball_piece2",

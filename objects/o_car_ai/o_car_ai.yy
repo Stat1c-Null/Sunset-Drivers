@@ -8,7 +8,7 @@
     "name": "obj_parent_physics",
     "path": "objects/obj_parent_physics/obj_parent_physics.yy",
   },
-  "physicsObject": true,
+  "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
   "physicsGroup": 1,

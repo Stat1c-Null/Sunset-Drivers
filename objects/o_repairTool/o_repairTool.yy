@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_repairTool",
-    "path": "sprites/s_repairTool/s_repairTool.yy",
+    "name": "s_repairToolAnim",
+    "path": "sprites/s_repairToolAnim/s_repairToolAnim.yy",
   },
   "solid": false,
   "visible": true,

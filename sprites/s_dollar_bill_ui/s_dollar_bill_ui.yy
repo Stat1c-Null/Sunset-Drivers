@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "GameObjects",
-    "path": "folders/Sprites/GameObjects.yy",
+    "name": "Money",
+    "path": "folders/Sprites/GameObjects/Money.yy",
   },
   "resourceVersion": "1.0",
   "name": "s_dollar_bill_ui",

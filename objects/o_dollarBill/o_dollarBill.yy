@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_dollarBill",
-    "path": "sprites/s_dollarBill/s_dollarBill.yy",
+    "name": "s_dollarbill_anim",
+    "path": "sprites/s_dollarbill_anim/s_dollarbill_anim.yy",
   },
   "solid": false,
   "visible": true,

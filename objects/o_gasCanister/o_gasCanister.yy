@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_gasCanister",
-    "path": "sprites/s_gasCanister/s_gasCanister.yy",
+    "name": "s_gasAnim",
+    "path": "sprites/s_gasAnim/s_gasAnim.yy",
   },
   "solid": false,
   "visible": true,

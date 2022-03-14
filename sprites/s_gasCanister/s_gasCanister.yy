@@ -73,8 +73,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "GameObjects",
-    "path": "folders/Sprites/GameObjects.yy",
+    "name": "GasCanister",
+    "path": "folders/Sprites/GameObjects/GasCanister.yy",
   },
   "resourceVersion": "1.0",
   "name": "s_gasCanister",
