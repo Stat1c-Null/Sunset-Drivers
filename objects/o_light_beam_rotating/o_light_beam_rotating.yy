@@ -30,8 +30,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "DayNightSystem",
-    "path": "folders/Objects/DayNightSystem.yy",
+    "name": "Unused",
+    "path": "folders/Objects/DayNightSystem/Unused.yy",
   },
   "resourceVersion": "1.0",
   "name": "o_light_beam_rotating",

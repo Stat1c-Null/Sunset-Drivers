@@ -25,4 +25,7 @@ if(global.not_enough_money){
 	draw_set_color(c_lime)
 }
 draw_text(200, 400, "$" + string(global.dollars))
-draw_text(200, 500, "Time " + string(global.time))
+//Draw Time Clock
+draw_sprite(s_clockUI, 1, 2500, 418)
+draw_set_color(c_aqua)
+draw_text(2270, 400, string(global.army_time) + " HR")

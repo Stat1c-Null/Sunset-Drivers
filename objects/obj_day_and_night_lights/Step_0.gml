@@ -2,14 +2,14 @@
 
 
 // Set up time calculations
-
 if(global.time < 1) {
-	global.time += time_changer / room_speed
+	//global.time += time_changer //Faster day and night Testing
+	global.time += time_changer / room_speed // Actual use
 } else {
-	global.time = 0.01	
+	global.time = 0.00	
 }
-
-
+//Calculate display time
+scr_calculate_time()
 
 
 key_previous = min(floor(global.time * num_of_key_times), num_of_key_times - 1)

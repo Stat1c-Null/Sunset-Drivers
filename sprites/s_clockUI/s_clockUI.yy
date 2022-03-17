@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 127,
+  "bbox_right": 79,
   "bbox_top": 0,
-  "bbox_bottom": 54,
+  "bbox_bottom": 79,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 128,
-  "height": 55,
+  "width": 80,
+  "height": 80,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"3ff9e0b8-fdd7-4cba-9b3f-79e6594b14db","path":"sprites/s_dollar_bill_ui/s_dollar_bill_ui.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"3ff9e0b8-fdd7-4cba-9b3f-79e6594b14db","path":"sprites/s_dollar_bill_ui/s_dollar_bill_ui.yy",},"LayerId":{"name":"f26390f6-9820-4793-9125-3afcc4e6eab1","path":"sprites/s_dollar_bill_ui/s_dollar_bill_ui.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"s_dollar_bill_ui","path":"sprites/s_dollar_bill_ui/s_dollar_bill_ui.yy",},"resourceVersion":"1.0","name":"3ff9e0b8-fdd7-4cba-9b3f-79e6594b14db","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"b336ca33-d828-49fe-829d-a4725be4bd80","path":"sprites/s_clockUI/s_clockUI.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"b336ca33-d828-49fe-829d-a4725be4bd80","path":"sprites/s_clockUI/s_clockUI.yy",},"LayerId":{"name":"bed5e604-b213-4200-8f0c-9bd669bdf414","path":"sprites/s_clockUI/s_clockUI.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"s_clockUI","path":"sprites/s_clockUI/s_clockUI.yy",},"resourceVersion":"1.0","name":"b336ca33-d828-49fe-829d-a4725be4bd80","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"s_dollar_bill_ui","path":"sprites/s_dollar_bill_ui/s_dollar_bill_ui.yy",},
+    "spriteId": {"name":"s_clockUI","path":"sprites/s_clockUI/s_clockUI.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"30030fe4-635d-4454-b34e-7185fec393d3","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3ff9e0b8-fdd7-4cba-9b3f-79e6594b14db","path":"sprites/s_dollar_bill_ui/s_dollar_bill_ui.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"af28c399-fd78-4092-8a53-bd57cc76a142","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b336ca33-d828-49fe-829d-a4725be4bd80","path":"sprites/s_clockUI/s_clockUI.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -54,18 +54,18 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 64,
-    "yorigin": 27,
+    "xorigin": 40,
+    "yorigin": 40,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"s_dollar_bill_ui","path":"sprites/s_dollar_bill_ui/s_dollar_bill_ui.yy",},
+    "parent": {"name":"s_clockUI","path":"sprites/s_clockUI/s_clockUI.yy",},
     "resourceVersion": "1.4",
-    "name": "s_dollar_bill_ui",
+    "name": "s_clockUI",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"f26390f6-9820-4793-9125-3afcc4e6eab1","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"bed5e604-b213-4200-8f0c-9bd669bdf414","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites/UI.yy",
   },
   "resourceVersion": "1.0",
-  "name": "s_dollar_bill_ui",
+  "name": "s_clockUI",
   "tags": [],
   "resourceType": "GMSprite",
 }
