@@ -25,3 +25,4 @@ if(global.not_enough_money){
 	draw_set_color(c_lime)
 }
 draw_text(200, 400, "$" + string(global.dollars))
+draw_text(200, 500, "Time " + string(global.time))
