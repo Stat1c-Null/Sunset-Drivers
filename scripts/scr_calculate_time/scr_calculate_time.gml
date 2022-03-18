@@ -6,6 +6,7 @@ function scr_calculate_time(){
 	{
 		//0 HR
 		case 0.00:
+			global.day += 1
 			global.army_time = "00:00";
 		break;
 		//1 HR

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_circlelight2",
-    "path": "sprites/s_circlelight2/s_circlelight2.yy",
+    "name": "s_circlelight_colorful",
+    "path": "sprites/s_circlelight_colorful/s_circlelight_colorful.yy",
   },
   "solid": false,
   "visible": true,

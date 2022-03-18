@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "tilesets",
-    "path": "folders/Sprites/tilesets.yy",
+    "name": "Racing Track",
+    "path": "folders/Sprites/tilesets/Racing Track.yy",
   },
   "resourceVersion": "1.0",
   "name": "WegSet6",

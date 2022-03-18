@@ -12,6 +12,7 @@ if(gamepad_is_connected(0)){
 	gamepad_LT = gamepad_button_check(0, gp_shoulderlb)//Brake
 	gamepad_LS = gamepad_button_check(0, gp_shoulderl)//Handbrake
 }
+
 //Sprites switching
 if(key_forward and !key_left and !key_right and !destroyed) {
 	image_index = 0	

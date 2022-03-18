@@ -10,12 +10,12 @@
   "bbox_left": 0,
   "bbox_right": 110,
   "bbox_top": 0,
-  "bbox_bottom": 50,
+  "bbox_bottom": 54,
   "HTile": false,
   "VTile": false,
   "For3D": false,
   "width": 111,
-  "height": 51,
+  "height": 55,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"a1bad0a9-f863-4305-aa14-292d813aee18","path":"sprites/s_bugatti/s_bugatti.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"a1bad0a9-f863-4305-aa14-292d813aee18","path":"sprites/s_bugatti/s_bugatti.yy",},"LayerId":{"name":"0088d712-696e-4cb0-8c8b-d1116d74d55f","path":"sprites/s_bugatti/s_bugatti.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"s_bugatti","path":"sprites/s_bugatti/s_bugatti.yy",},"resourceVersion":"1.0","name":"a1bad0a9-f863-4305-aa14-292d813aee18","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"51225e30-72a1-44ff-9ad3-4823738148fa","path":"sprites/s_bugatti/s_bugatti.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"51225e30-72a1-44ff-9ad3-4823738148fa","path":"sprites/s_bugatti/s_bugatti.yy",},"LayerId":{"name":"4329a010-4d7c-4ca6-8f44-1e55aab435ca","path":"sprites/s_bugatti/s_bugatti.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"s_bugatti","path":"sprites/s_bugatti/s_bugatti.yy",},"resourceVersion":"1.0","name":"51225e30-72a1-44ff-9ad3-4823738148fa","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"s_bugatti","path":"sprites/s_bugatti/s_bugatti.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"7d48aa2a-aae1-46b3-8cf6-54253e206043","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a1bad0a9-f863-4305-aa14-292d813aee18","path":"sprites/s_bugatti/s_bugatti.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"29b424e5-a612-49c4-ae0b-93545e81a79f","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"51225e30-72a1-44ff-9ad3-4823738148fa","path":"sprites/s_bugatti/s_bugatti.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -55,7 +55,7 @@
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
     "xorigin": 55,
-    "yorigin": 25,
+    "yorigin": 27,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_bugatti","path":"sprites/s_bugatti/s_bugatti.yy",},
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"0088d712-696e-4cb0-8c8b-d1116d74d55f","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"4329a010-4d7c-4ca6-8f44-1e55aab435ca","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {

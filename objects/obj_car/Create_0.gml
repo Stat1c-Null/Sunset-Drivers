@@ -4,6 +4,8 @@ center_to_front = 45//Number of pixels from your cars center to it's front wheel
 
 richting = 0
 
+flash = false
+
 image_index = 0
 //Turn signal timer
 signal_timer = 0.35

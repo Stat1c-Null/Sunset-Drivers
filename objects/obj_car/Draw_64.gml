@@ -28,4 +28,5 @@ draw_text(200, 400, "$" + string(global.dollars))
 //Draw Time Clock
 draw_sprite(s_clockUI, 1, 2500, 418)
 draw_set_color(c_aqua)
-draw_text(2270, 400, string(global.army_time) + " HR")
+draw_text(2270, 370, "Day " + string(global.day))
+draw_text(2270, 430, string(global.army_time) + " HR")

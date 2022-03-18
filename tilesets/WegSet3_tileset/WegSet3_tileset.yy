@@ -36,8 +36,8 @@
     "TileSerialiseData": [],
   },
   "parent": {
-    "name": "Tile Sets",
-    "path": "folders/Tile Sets.yy",
+    "name": "Racing Track",
+    "path": "folders/Tile Sets/Racing Track.yy",
   },
   "resourceVersion": "1.0",
   "name": "WegSet3_tileset",

@@ -209,7 +209,7 @@
     "spriteId": {"name":"s_gasDestroyed","path":"sprites/s_gasDestroyed/s_gasDestroyed.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 50.0,
+    "playbackSpeed": 65.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,

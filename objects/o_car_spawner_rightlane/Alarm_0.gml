@@ -1,15 +1,23 @@
 
-//Create new car
 
-with(instance_create_layer(choose(845, 940), spawn_y, "GameObjects", o_car_ai))
-{
-		direction = point_direction(x,y,x, y + room_height)
-		image_angle = point_direction(x,y,x, y - room_height)
-		//var dir = point_direction(x,y,x, y + room_height)
-		//physics_apply_impulse(x,y, lengthdir_x(10, dir), lengthdir_y(10, dir))
+//Check if player is not near by
+var distToPlayer = distance_to_object(obj_car)
+moveTowardPlayer = (distToPlayer > min_dist)
+if(moveTowardPlayer){
+	//Create new car
+	chance = random_range(1, 100)
+	if(chance > 45)
+		with(instance_create_layer(x + offset, y, "RightLane", o_car_ai2))
+		{
+			phy_rotation = -90	
+		}
+	else
+		show_debug_message("Not created right lane")
+} else {
+	show_debug_message("Player too close")
 }
 
-
 alarm[0] = room_speed * timer_length
+
 
 

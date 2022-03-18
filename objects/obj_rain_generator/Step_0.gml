@@ -31,4 +31,4 @@ if(global.night == true) {
 		}
 	}
 }
-show_debug_message(num_of_drops)
+//show_debug_message(num_of_drops)

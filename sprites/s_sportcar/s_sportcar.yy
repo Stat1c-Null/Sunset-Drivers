@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 112,
+  "bbox_right": 101,
   "bbox_top": 0,
-  "bbox_bottom": 54,
+  "bbox_bottom": 49,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 113,
-  "height": 55,
+  "width": 102,
+  "height": 50,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"36b535cb-4ce7-43e1-afce-5e763c7edaa9","path":"sprites/s_sportcar/s_sportcar.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"36b535cb-4ce7-43e1-afce-5e763c7edaa9","path":"sprites/s_sportcar/s_sportcar.yy",},"LayerId":{"name":"7179a493-b266-43a3-a6f5-98c8503f855e","path":"sprites/s_sportcar/s_sportcar.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"s_sportcar","path":"sprites/s_sportcar/s_sportcar.yy",},"resourceVersion":"1.0","name":"36b535cb-4ce7-43e1-afce-5e763c7edaa9","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"69308b98-2b25-4c84-9903-39f9e921390f","path":"sprites/s_sportcar/s_sportcar.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"69308b98-2b25-4c84-9903-39f9e921390f","path":"sprites/s_sportcar/s_sportcar.yy",},"LayerId":{"name":"773fdf09-c25e-40bf-861a-427a4352adc6","path":"sprites/s_sportcar/s_sportcar.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"s_sportcar","path":"sprites/s_sportcar/s_sportcar.yy",},"resourceVersion":"1.0","name":"69308b98-2b25-4c84-9903-39f9e921390f","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"s_sportcar","path":"sprites/s_sportcar/s_sportcar.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"1abd98bc-16be-411a-a385-4e694818fd8e","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"36b535cb-4ce7-43e1-afce-5e763c7edaa9","path":"sprites/s_sportcar/s_sportcar.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"1fd89aa6-36a2-4203-a11a-e64f5713d15d","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"69308b98-2b25-4c84-9903-39f9e921390f","path":"sprites/s_sportcar/s_sportcar.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -54,8 +54,8 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 56,
-    "yorigin": 27,
+    "xorigin": 51,
+    "yorigin": 25,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_sportcar","path":"sprites/s_sportcar/s_sportcar.yy",},
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"7179a493-b266-43a3-a6f5-98c8503f855e","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"773fdf09-c25e-40bf-861a-427a4352adc6","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
