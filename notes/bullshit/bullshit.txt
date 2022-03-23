@@ -1,0 +1,7 @@
+else if(place_meeting(x,y, o_switch_dir) and hor == false){
+	direc += 1
+	hor = true
+} else if(place_meeting(x,y, o_switch_dir) and hor == true){
+	direc += 1
+	hor = false
+}

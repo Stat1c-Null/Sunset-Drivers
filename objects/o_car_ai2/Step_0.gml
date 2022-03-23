@@ -1,14 +1,19 @@
+
 //Destroy car on touch with destroyer 
 if(place_meeting(x,y, o_car_destroyer)){
 	instance_destroy(self)
-}
+} 
 
 // Have each dynamic instance run the following code
 with (o_car_ai2)
 {
 	if(hit == false){
 		// Put direction in front of the car
-		var dir = point_direction(x, y, x, y + decider);
+		if(hor == false){
+			var dir = point_direction(x, y, x, y + decider);	
+		} else {
+			var dir = point_direction(x, y, x + decider, y);
+		}
 		//keep rotation the same
 		phy_rotation = direc
 		// Apply the impulse to the position the dynamic instance occupies, using the previously calculated direction to set the force part of the vector

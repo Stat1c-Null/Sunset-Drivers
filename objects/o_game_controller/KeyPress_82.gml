@@ -1,0 +1,1 @@
+global.gasAmount = global.maxAmount

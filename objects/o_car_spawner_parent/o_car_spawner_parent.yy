@@ -23,8 +23,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Cars",
-    "path": "folders/Objects/Cars.yy",
+    "name": "Spawners",
+    "path": "folders/Objects/Cars/Spawners.yy",
   },
   "resourceVersion": "1.0",
   "name": "o_car_spawner_parent",

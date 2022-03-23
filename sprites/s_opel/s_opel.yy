@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Cars",
-    "path": "folders/Sprites/Cars.yy",
+    "name": "GarbageCars",
+    "path": "folders/Sprites/Cars/GarbageCars.yy",
   },
   "resourceVersion": "1.0",
   "name": "s_opel",
