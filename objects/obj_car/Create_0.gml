@@ -1,10 +1,9 @@
 friction_strength = 6
-acceleration_speed = 0.7
+acceleration_speed = 0.5
 center_to_front = 45//Number of pixels from your cars center to it's front wheels
 
 richting = 0
 
-flash = false
 
 image_index = 0
 //Turn signal timer
@@ -20,7 +19,9 @@ turn_limit = 45
 //Gas gas gas
 global.maxAmount = 100
 global.gasAmount = global.maxAmount
-global.maxSpeed = 285
+physics_speed = 0
+global.mphSpeed = 0
+global.maxSpeed = 320
 //Condition
 global.maxHealth = 100
 global.health = global.maxHealth

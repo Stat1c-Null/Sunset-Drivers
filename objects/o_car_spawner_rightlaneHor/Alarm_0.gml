@@ -6,7 +6,7 @@ moveTowardPlayer = (distToPlayer > min_dist)
 if(moveTowardPlayer){
 	//Create new car
 	chance = random_range(1, 100)
-	if(chance > 45)
+	if(chance > 0)
 		with(instance_create_layer(x + offset, y, "RightLaneHor", o_car_ai2))
 		{
 			phy_rotation = -180	

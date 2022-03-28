@@ -1,3 +1,5 @@
+//Update physics speed
+convert_speed(phy_speed)
 //Keys
 var key_forward = keyboard_check(ord("W")) or keyboard_check(vk_up)
 var key_brake = keyboard_check(ord("S")) or keyboard_check(vk_down)
@@ -31,17 +33,7 @@ if(key_forward and !key_left and !key_right and !destroyed) {
 	image_index = 0	
 }
 //Switch score position depending on number of numbers
-if (player_score > 9 and player_score < 99) {
-	score_y_pos = 1261	
-} else if(player_score > 99 and player_score < 999) {
-	score_y_pos = 1250
-} else if(player_score > 999 and player_score < 9999) {
-	score_y_pos = 1236
-} else if(player_score > 9999 and player_score < 99999) {
-	score_y_pos = 1223
-} else if(player_score > 99999 and player_score < 9999999) {
-	score_y_pos = 1208
-}
+calculate_score(player_score, score_y_pos)
 
 //Movement
 Vvoorx = Xvoor - Xvooroud

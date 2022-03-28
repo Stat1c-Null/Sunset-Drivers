@@ -3,6 +3,24 @@
 if(place_meeting(x,y, o_car_destroyer)){
 	instance_destroy(self)
 } 
+//Turning right from right lane
+if(place_meeting(x,y, o_switch_dir_right) and hor == true and turning == false){
+	turning = true
+}
+if(turning == true and hor == true and direc < -90 and rightLane == true){
+	direc += 2
+}else if(turning == true and hor == true and direc > -120 and rightLane == true){
+	hor = false
+} else if(direc >= -90 and turning == true and hor == false and rightLane == true){
+	direc = -90
+	turning = false
+	hor = false
+}
+
+if(place_meeting(x,y, o_switch_dir_right))
+{
+	show_debug_message(phy_speed)	
+}
 
 // Have each dynamic instance run the following code
 with (o_car_ai2)
