@@ -12,7 +12,7 @@ s_lights = shader_get_sampler_index(shader, "lights")
 tex_lights = -1
 srf_lights = -1
 global.time = 0.00//What time in the world is it
-global.army_time = "00:00"
+global.army_time = "AM 12:00"
 global.night = false
 global.day = 1
 //Ideal time changer 0.0042
