@@ -1,3 +1,4 @@
+/// Draw player gui
 //VHS PLAY
 draw_set_color(c_ltgray)
 draw_set_font(f_vhs)

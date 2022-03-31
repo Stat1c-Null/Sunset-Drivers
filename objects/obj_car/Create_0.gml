@@ -19,7 +19,6 @@ turn_limit = 45
 //Gas gas gas
 global.maxAmount = 100
 global.gasAmount = global.maxAmount
-physics_speed = 0
 global.mphSpeed = 0
 global.maxSpeed = 320
 //Condition
