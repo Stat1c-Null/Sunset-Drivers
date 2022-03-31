@@ -1,4 +1,5 @@
-
+//Set speed
+current_speed = phy_speed
 //Destroy car on touch with destroyer 
 if(place_meeting(x,y, o_car_destroyer)){
 	instance_destroy(self)
@@ -17,10 +18,14 @@ if(turning == true and hor == true and direc < -90 and rightLane == true){
 	hor = false
 }
 
-if(place_meeting(x,y, o_switch_dir_right))
+//Slow down on turns
+if(place_meeting(x,y, o_switch_dir_right) and current_speed > 5)
 {
-	show_debug_message(phy_speed)	
+	show_debug_message(phy_speed)
+	phy_speed_x += lengthdir_x(-brake_power, -phy_rotation)
+	//phy_speed_y += lengthdir_y(-brake_power, -phy_rotation)
 }
+
 
 // Have each dynamic instance run the following code
 with (o_car_ai2)
@@ -34,8 +39,11 @@ with (o_car_ai2)
 		}
 		//keep rotation the same
 		phy_rotation = direc
-		// Apply the impulse to the position the dynamic instance occupies, using the previously calculated direction to set the force part of the vector
-		physics_apply_impulse(x, y, lengthdir_x(speed_var/2.5, dir), lengthdir_y(speed_var/2.5, dir));
+		//Dont let car drive too fast
+		if(current_speed < max_speed){
+			// Apply the impulse to the position the dynamic instance occupies, using the previously calculated direction to set the force part of the vector
+			physics_apply_impulse(x, y, lengthdir_x(speed_var/2.5, dir), lengthdir_y(speed_var/2.5, dir));
+		} 
 	}
 }
 

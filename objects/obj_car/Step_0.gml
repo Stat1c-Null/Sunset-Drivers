@@ -1,5 +1,6 @@
 //Update physics speed
 convert_speed(phy_speed)
+global.phySpeed = phy_speed
 //Keys
 var key_forward = keyboard_check(ord("W")) or keyboard_check(vk_up)
 var key_brake = keyboard_check(ord("S")) or keyboard_check(vk_down)

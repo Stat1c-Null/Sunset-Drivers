@@ -31,10 +31,13 @@ else if(layer_id == "LeftLaneHor"){
 	leftLane = true
 }
 //Car movement
-speed_var = choose(0.7, 0.45, 0.6, 0.4, 0.5, 0.55, 0.65) 
+speed_var = choose(0.45, 0.42, 0.4, 0.5, 0.55) 
 hit = false
 hp = 3
 collision_damage = 20
+current_speed = 0//Physics speed
+brake_power = 0.6
+max_speed = choose(10, 12, 14, 16, 18, 20, 22, 24, 26)
 speed_previous = 0
 angular_speed_previous = 0
 

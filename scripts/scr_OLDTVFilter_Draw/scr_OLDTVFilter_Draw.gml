@@ -227,7 +227,7 @@ function scr_OLDTVFilter_Draw() {
 	draw_sprite(s_condition_back, 1, 2210, 200)
 
 	//Speeeeeed
-	draw_text(100, 550, "MPH: " + string(round(global.mphSpeed)))
+	draw_text(100, 550, "MPH: " + string(round(global.mphSpeed)) + "/" + string(round(global.phySpeed)))
 	//Score
 	//draw_set_font(f_debug)
 	draw_set_color(c_yellow)

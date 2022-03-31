@@ -20,7 +20,7 @@ turn_limit = 45
 global.maxAmount = 100
 global.gasAmount = global.maxAmount
 global.mphSpeed = 0
-global.maxSpeed = 320
+global.phySpeed = 0
 //Condition
 global.maxHealth = 100
 global.health = global.maxHealth
