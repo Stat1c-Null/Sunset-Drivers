@@ -1,5 +1,5 @@
 //set drawing data
-draw_set_color(c_gray);
+draw_set_color(c_white);
 draw_set_alpha(.6);
 
 var length; //length of drop
