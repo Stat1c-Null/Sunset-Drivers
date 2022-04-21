@@ -31,7 +31,7 @@ else if(layer_id == "LeftLaneHor"){
 	leftLane = true
 }
 //Car movement
-speed_var = choose(0.45, 0.42, 0.4, 0.5, 0.55) 
+speed_var = choose(0.75, 0.65, 0.6, 0.5, 0.55) 
 hit = false
 hp = 3
 collision_damage = 20
