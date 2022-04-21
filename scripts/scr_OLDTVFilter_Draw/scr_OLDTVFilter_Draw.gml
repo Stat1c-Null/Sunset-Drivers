@@ -223,18 +223,19 @@ function scr_OLDTVFilter_Draw() {
 	draw_sprite(UIBack, 1, 100, 200)
 
 	//Condition
-	draw_sprite_ext(s_condition_front, 1, 2256, 200, max(0, global.health/global.maxHealth), 1, 0, c_white, 1)
-	draw_sprite(s_condition_back, 1, 2210, 200)
+	draw_sprite_ext(s_condition_front, 1, 1656, 200, max(0, global.health/global.maxHealth), 1, 0, c_white, 1)
+	draw_sprite(s_condition_back, 1, 1610, 200)
 
 	//Speeeeeed
 	draw_text(100, 550, "MPH: " + string(round(global.mphSpeed)) + "/" + string(round(global.phySpeed)))
 	//Score
 	//draw_set_font(f_debug)
 	draw_set_color(c_yellow)
-	draw_text(1217, 100, "SCORE")
-	draw_text(1215, 105, "_____")
+	draw_text(907, 100, "SCORE")
+	draw_text(905, 105, "_____")
 	draw_set_color(c_orange)
-	draw_text(obj_car.score_y_pos, 180, string(round(obj_car.player_score)))
+	calculate_score(obj_car.player_score, obj_car.score_y_pos)
+	draw_text(930, 180, string(round(obj_car.player_score)))
 	draw_sprite(s_dollar_bill_ui, 1, 160, 425)
 	if(global.not_enough_money){
 		global.not_enough_money = false
@@ -246,7 +247,7 @@ function scr_OLDTVFilter_Draw() {
 	draw_text(260, 400, "$" + string(global.dollars))
 	//Draw Time Clock
 	draw_set_color(c_ltgray)
-	draw_text(2160, 1200, string(global.army_time))
-	draw_text(2060, 1260, "MAR.0" + string(global.day) + ".1997")
+	draw_text(1600, 900, string(global.army_time))
+	draw_text(1600, 960, "MAR.0" + string(global.day) + ".1997")
 
 }
