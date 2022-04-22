@@ -24,7 +24,7 @@ global.phySpeed = 0
 //Condition
 global.maxHealth = 100
 global.health = global.maxHealth
-standing_consume = 0.01
+standing_consume = 0.02
 //Score
 player_score = 0
 score_y_pos = 1265

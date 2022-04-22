@@ -3,4 +3,4 @@ timer_length = 4//seconds
 offset = 10
 alarm[0] = room_speed * timer_length
 chance = 0
-min_dist = 20
+min_dist = 800

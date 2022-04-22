@@ -12,9 +12,9 @@ if(moveTowardPlayer){
 			phy_rotation = -90	
 		}
 	else
-		show_debug_message("Not created right lane")
+		show_debug_message("")//Not created right lane
 } else {
-	show_debug_message("Player too close")
+	show_debug_message("")//Player too close
 }
 
 alarm[0] = room_speed * timer_length

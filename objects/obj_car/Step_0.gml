@@ -49,8 +49,8 @@ Xachteroud = Xachter
 Vachtery = Yachter - Yachteroud
 Yachteroud = Yachter
 
-gasConsume = random_range(0.01, 0.07)
-backGasConsume = random_range(0.01, 0.04)
+gasConsume = random_range(0.02, 0.1)
+backGasConsume = random_range(0.01, 0.08)
 
 if(global.gasAmount > 0) {
 	//Reduce gas when car is just standing

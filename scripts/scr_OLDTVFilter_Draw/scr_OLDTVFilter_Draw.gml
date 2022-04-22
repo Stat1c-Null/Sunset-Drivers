@@ -227,7 +227,7 @@ function scr_OLDTVFilter_Draw() {
 	draw_sprite(s_condition_back, 1, 1610, 200)
 
 	//Speeeeeed
-	draw_text(100, 550, "MPH: " + string(round(global.mphSpeed)) + "/" + string(round(global.phySpeed)))
+	draw_text(1600, 400, "MPH: " + string(round(global.mphSpeed)) + "/" + string(round(global.phySpeed)))
 	//Score
 	//draw_set_font(f_debug)
 	draw_set_color(c_yellow)
@@ -249,5 +249,8 @@ function scr_OLDTVFilter_Draw() {
 	draw_set_color(c_ltgray)
 	draw_text(1600, 900, string(global.army_time))
 	draw_text(1600, 960, "MAR.0" + string(global.day) + ".1997")
+	//Draw Police Timer
+	draw_text(100,900, "Police Arrives")
+	draw_text(100, 960, "in " + string(floor(global.timer)) + " seconds")
 
 }
