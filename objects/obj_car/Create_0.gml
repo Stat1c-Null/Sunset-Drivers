@@ -37,6 +37,10 @@ money_timer = 4
 //Keys
 var key_left = keyboard_check(ord("A"))
 var key_right = keyboard_check(ord("D"))
+//Saved 
+global.saved_speed_x = 0
+global.saved_speed_y = 0
+global.saved_rotation = 0
 gamepad_RT = gamepad_button_check(0, gp_shoulderrb)
 gamepad_LT = gamepad_button_check(0, gp_shoulderlb)
 gamepad_LS = gamepad_button_check(0, gp_shoulderl)//Handbrake

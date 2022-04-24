@@ -1,6 +1,13 @@
 //Update physics speed
 convert_speed(phy_speed)
 global.phySpeed = phy_speed
+if(place_meeting(x,y,o_spawn))
+{
+	show_debug_message(phy_speed_y)
+	phy_speed_x = 0
+	phy_speed_y = global.saved_speed_y
+	phy_rotation = -90
+}
 //Keys
 var key_forward = keyboard_check(ord("W")) or keyboard_check(vk_up)
 var key_brake = keyboard_check(ord("S")) or keyboard_check(vk_down)
