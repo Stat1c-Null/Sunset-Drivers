@@ -247,10 +247,10 @@ function scr_OLDTVFilter_Draw() {
 	draw_text(260, 400, "$" + string(global.dollars))
 	//Draw Time Clock
 	draw_set_color(c_ltgray)
-	draw_text(1600, 900, string(global.army_time))
-	draw_text(1600, 960, "MAR.0" + string(global.day) + ".1997")
+	draw_text(1600, 1000, string(global.army_time))
+	draw_text(1600, 1060, "MAR.0" + string(global.day) + ".1997")
 	//Draw Police Timer
-	draw_text(100,900, "Police Arrives")
-	draw_text(100, 960, "in " + string(floor(global.timer)) + " seconds")
+	draw_text(100,1000, "Police Arrives")
+	draw_text(100, 1060, "in " + string(floor(global.timer)) + " seconds")
 
 }

@@ -32,8 +32,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Buildings",
-    "path": "folders/Objects/StaticObjects/Buildings.yy",
+    "name": "ImportantBuildings",
+    "path": "folders/Objects/StaticObjects/ImportantBuildings.yy",
   },
   "resourceVersion": "1.0",
   "name": "o_repairShop",

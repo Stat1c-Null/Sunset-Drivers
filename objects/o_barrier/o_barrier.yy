@@ -4,7 +4,7 @@
     "path": "sprites/s_barrier/s_barrier.yy",
   },
   "solid": false,
-  "visible": true,
+  "visible": false,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
