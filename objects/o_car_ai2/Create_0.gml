@@ -34,7 +34,7 @@ else if(layer_id == "LeftLaneHor"){
 speed_var = choose(0.85, 0.8, 0.75, 0.7, 0.65) 
 hit = false
 hp = 3
-collision_damage = 20
+collision_damage = 10
 current_speed = 0//Physics speed
 brake_power = 0.6
 max_speed = choose(10, 12, 14, 16, 18, 20, 22, 24, 26)
