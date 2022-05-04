@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_b7",
-    "path": "sprites/s_b7/s_b7.yy",
+    "name": "s_b3",
+    "path": "sprites/s_b3/s_b3.yy",
   },
   "solid": false,
   "visible": true,
@@ -23,10 +23,10 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [
-    {"x":81.0,"y":141.0,},
-    {"x":246.0,"y":141.0,},
-    {"x":246.0,"y":248.0,},
-    {"x":81.0,"y":248.0,},
+    {"x":78.0,"y":220.0,},
+    {"x":258.0,"y":220.0,},
+    {"x":258.0,"y":428.0,},
+    {"x":78.0,"y":428.0,},
   ],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
@@ -34,11 +34,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "StaticBuildings",
-    "path": "folders/Objects/StaticObjects/StaticBuildings.yy",
+    "name": "Skyscraper",
+    "path": "folders/Objects/StaticObjects/Skyscraper.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_shop2",
+  "name": "o_skY3",
   "tags": [],
   "resourceType": "GMObject",
 }

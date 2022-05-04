@@ -1,11 +1,12 @@
 friction_strength = 6
-acceleration_speed = 0.5
+acceleration_speed = 0.6
 center_to_front = 45//Number of pixels from your cars center to it's front wheels
 
 richting = 0
 
 
 image_index = 0
+min_speed = 4
 //Turn signal timer
 signal_timer = 0.35
 turn_left = false
@@ -15,7 +16,7 @@ reverse_count = 0
 reverse_detect = 13
 reverse_mult = 0.3
 turn_multi = 2
-turn_limit = 45
+turn_limit = 60
 //Gas gas gas
 global.maxAmount = 100
 global.gasAmount = global.maxAmount

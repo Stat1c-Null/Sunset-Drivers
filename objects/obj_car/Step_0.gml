@@ -78,9 +78,14 @@ if(global.gasAmount > 0) {
 	if ((key_brake or gamepad_LT) and !destroyed) {
 	global.gasAmount -= backGasConsume
 	inc_speed -= 0.2
-	phy_speed_x += lengthdir_x(-acceleration_speed/2,-phy_rotation)
-	phy_speed_y += lengthdir_y(-acceleration_speed/2,-phy_rotation)} 
+	phy_speed_x += lengthdir_x(-acceleration_speed/1.7,-phy_rotation)
+	phy_speed_y += lengthdir_y(-acceleration_speed/1.7,-phy_rotation)} 
 	//show_debug_message(inc_speed)
+}
+if(global.phySpeed < min_speed and not key_forward)
+{
+	phy_speed_x += lengthdir_x(acceleration_speed/2.7,-phy_rotation)
+	phy_speed_y += lengthdir_y(acceleration_speed/2.7,-phy_rotation)
 }
 //Reduce score if player's speed is not high enough
 if(inc_speed > min_speed) {

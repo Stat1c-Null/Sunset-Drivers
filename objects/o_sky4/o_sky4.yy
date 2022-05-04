@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_b7",
-    "path": "sprites/s_b7/s_b7.yy",
+    "name": "s_b2",
+    "path": "sprites/s_b2/s_b2.yy",
   },
   "solid": false,
   "visible": true,
@@ -13,7 +13,7 @@
   },
   "physicsObject": true,
   "physicsSensor": false,
-  "physicsShape": 1,
+  "physicsShape": 2,
   "physicsGroup": 1,
   "physicsDensity": 0.0,
   "physicsRestitution": 0.1,
@@ -23,10 +23,12 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [
-    {"x":81.0,"y":141.0,},
-    {"x":246.0,"y":141.0,},
-    {"x":246.0,"y":248.0,},
-    {"x":81.0,"y":248.0,},
+    {"x":140.918381,"y":708.7143,},
+    {"x":102.142868,"y":667.897949,},
+    {"x":98.06123,"y":331.5102,},
+    {"x":401.122467,"y":347.836731,},
+    {"x":404.1837,"y":669.1224,},
+    {"x":364.367371,"y":702.7959,},
   ],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
@@ -34,11 +36,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "StaticBuildings",
-    "path": "folders/Objects/StaticObjects/StaticBuildings.yy",
+    "name": "Skyscraper",
+    "path": "folders/Objects/StaticObjects/Skyscraper.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_shop2",
+  "name": "o_sky4",
   "tags": [],
   "resourceType": "GMObject",
 }
