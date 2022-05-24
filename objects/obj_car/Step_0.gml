@@ -56,8 +56,9 @@ Xachteroud = Xachter
 Vachtery = Yachter - Yachteroud
 Yachteroud = Yachter
 
-gasConsume = random_range(0.02, 0.1)
-backGasConsume = random_range(0.01, 0.08)
+//GAS CONSUMPTION VARIABLES
+gasConsume = random_range(0.01, 0.06)
+backGasConsume = random_range(0.01, 0.03)
 
 if(global.gasAmount > 0) {
 	//Reduce gas when car is just standing
@@ -82,11 +83,11 @@ if(global.gasAmount > 0) {
 	phy_speed_y += lengthdir_y(-acceleration_speed/1.7,-phy_rotation)} 
 	//show_debug_message(inc_speed)
 }
-if(global.phySpeed < min_speed and not key_forward)
-{
-	phy_speed_x += lengthdir_x(acceleration_speed/2.7,-phy_rotation)
-	phy_speed_y += lengthdir_y(acceleration_speed/2.7,-phy_rotation)
-}
+//if(global.phySpeed < min_speed and not key_forward)
+//{
+//	phy_speed_x += lengthdir_x(acceleration_speed/2.7,-phy_rotation)
+//	phy_speed_y += lengthdir_y(acceleration_speed/2.7,-phy_rotation)
+//}
 //Reduce score if player's speed is not high enough
 if(inc_speed > min_speed) {
 	player_score += 0.3	
