@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_stand1",
-    "path": "sprites/s_stand1/s_stand1.yy",
+    "name": "s_stand2",
+    "path": "sprites/s_stand2/s_stand2.yy",
   },
   "solid": false,
   "visible": true,
@@ -23,10 +23,10 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [
-    {"x":109.0,"y":311.0,},
-    {"x":148.0,"y":311.0,},
-    {"x":148.0,"y":331.0,},
-    {"x":109.0,"y":331.0,},
+    {"x":120.0,"y":313.0,},
+    {"x":155.0,"y":313.0,},
+    {"x":155.0,"y":338.0,},
+    {"x":120.0,"y":338.0,},
   ],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
@@ -38,7 +38,7 @@
     "path": "folders/Objects/StaticObjects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_stand1",
+  "name": "o_stand2",
   "tags": [],
   "resourceType": "GMObject",
 }
