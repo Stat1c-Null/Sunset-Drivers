@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_mailbox",
-    "path": "sprites/s_mailbox/s_mailbox.yy",
+    "name": "s_trashcan2",
+    "path": "sprites/s_trashcan2/s_trashcan2.yy",
   },
   "solid": false,
   "visible": true,
@@ -42,7 +42,7 @@
     "path": "folders/Objects/DynamicObjects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_mailbox",
+  "name": "o_trashcan1",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_mailbox",
-    "path": "sprites/s_mailbox/s_mailbox.yy",
+    "name": "s_stone1",
+    "path": "sprites/s_stone1/s_stone1.yy",
   },
   "solid": false,
   "visible": true,
@@ -15,18 +15,18 @@
   "physicsSensor": false,
   "physicsShape": 1,
   "physicsGroup": 0,
-  "physicsDensity": 0.6,
-  "physicsRestitution": 0.3,
+  "physicsDensity": 0.1,
+  "physicsRestitution": 0.1,
   "physicsLinearDamping": 2.0,
   "physicsAngularDamping": 2.0,
   "physicsFriction": 0.2,
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [
-    {"x":7.0,"y":18.0,},
-    {"x":41.0,"y":18.0,},
-    {"x":41.0,"y":48.0,},
-    {"x":7.0,"y":48.0,},
+    {"x":1.0,"y":10.0,},
+    {"x":26.0,"y":10.0,},
+    {"x":26.0,"y":26.0,},
+    {"x":1.0,"y":26.0,},
   ],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
@@ -42,7 +42,7 @@
     "path": "folders/Objects/DynamicObjects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_mailbox",
+  "name": "o_stone",
   "tags": [],
   "resourceType": "GMObject",
 }
