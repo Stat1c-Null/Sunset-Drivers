@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_roadblock3",
-    "path": "sprites/s_roadblock3/s_roadblock3.yy",
+    "name": "s_traffic_block3",
+    "path": "sprites/s_traffic_block3/s_traffic_block3.yy",
   },
   "solid": false,
   "visible": true,
@@ -15,7 +15,7 @@
   "physicsSensor": false,
   "physicsShape": 1,
   "physicsGroup": 0,
-  "physicsDensity": 0.3,
+  "physicsDensity": 0.5,
   "physicsRestitution": 0.1,
   "physicsLinearDamping": 2.0,
   "physicsAngularDamping": 2.0,

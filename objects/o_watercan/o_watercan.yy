@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_vending",
-    "path": "sprites/s_vending/s_vending.yy",
+    "name": "s_watercan",
+    "path": "sprites/s_watercan/s_watercan.yy",
   },
   "solid": false,
   "visible": true,
@@ -15,7 +15,7 @@
   "physicsSensor": false,
   "physicsShape": 1,
   "physicsGroup": 0,
-  "physicsDensity": 1.3,
+  "physicsDensity": 0.7,
   "physicsRestitution": 0.3,
   "physicsLinearDamping": 2.0,
   "physicsAngularDamping": 2.0,
@@ -23,10 +23,10 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [
-    {"x":7.0,"y":36.0,},
-    {"x":88.0,"y":36.0,},
-    {"x":88.0,"y":112.0,},
-    {"x":7.0,"y":112.0,},
+    {"x":10.0,"y":13.0,},
+    {"x":35.0,"y":13.0,},
+    {"x":35.0,"y":47.0,},
+    {"x":10.0,"y":47.0,},
   ],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
