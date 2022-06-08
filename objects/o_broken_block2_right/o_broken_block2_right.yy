@@ -1,10 +1,11 @@
 {
   "spriteId": {
-    "name": "s_traffic_block1_brokenright",
-    "path": "sprites/s_traffic_block1_brokenright/s_traffic_block1_brokenright.yy",
+    "name": "s_traffic_block2_brokenright",
+    "path": "sprites/s_traffic_block2_brokenright/s_traffic_block2_brokenright.yy",
   },
   "solid": false,
   "visible": true,
+  "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
