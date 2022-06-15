@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Player",
-    "path": "folders/Scripts/Player.yy",
+    "name": "Level",
+    "path": "folders/Scripts/Level.yy",
   },
   "resourceVersion": "1.0",
-  "name": "GamepadControls",
+  "name": "scr_transitions",
   "tags": [],
   "resourceType": "GMScript",
 }
