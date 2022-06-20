@@ -26,6 +26,9 @@ function TransitionStart(roomTarget, styleOut, styleIn)
 function TransitionChangeRoom()
 {
 	room_goto(global.roomTarget)	
+	obj_car.x = 1100
+	obj_car.y = 12000
+
 }
 
 function TransitionFinished()
