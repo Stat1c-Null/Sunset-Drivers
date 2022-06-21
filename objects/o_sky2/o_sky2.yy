@@ -5,6 +5,7 @@
   },
   "solid": false,
   "visible": true,
+  "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
@@ -23,10 +24,10 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [
-    {"x":135.095535,"y":696.018433,},
+    {"x":135.09554,"y":696.01843,},
     {"x":99.51271,"y":658.5951,},
-    {"x":100.7397,"y":309.478546,},
-    {"x":398.2857,"y":308.251526,},
+    {"x":100.7397,"y":309.47855,},
+    {"x":398.2857,"y":308.25153,},
     {"x":398.8992,"y":667.4166,},
     {"x":365.7704,"y":696.8645,},
   ],

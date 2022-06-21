@@ -5,6 +5,7 @@
   },
   "solid": false,
   "visible": true,
+  "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
@@ -25,9 +26,9 @@
   "physicsShapePoints": [
     {"x":84.32199,"y":576.5,},
     {"x":79.32199,"y":341.5,},
-    {"x":413.072021,"y":337.750031,},
-    {"x":488.072021,"y":339.000031,},
-    {"x":485.572021,"y":581.938232,},
+    {"x":413.07202,"y":337.75003,},
+    {"x":488.07202,"y":339.00003,},
+    {"x":485.57202,"y":581.93823,},
   ],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},

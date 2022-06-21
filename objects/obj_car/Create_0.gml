@@ -4,9 +4,10 @@ center_to_front = 45//Number of pixels from your cars center to it's front wheel
 
 richting = 0
 
-
+phy_rotation = 270
 image_index = 0
 min_speed = 4
+global.teleport_collision = false //Turn on when colliding with teleport so skid mark will get destroyed
 //Turn signal timer
 signal_timer = 0.35
 turn_left = false

@@ -25,15 +25,15 @@ function TransitionStart(roomTarget, styleOut, styleIn)
 
 function TransitionChangeRoom()
 {
-	room_goto(global.roomTarget)	
+	room_goto(global.roomTarget)
 	obj_car.x = 1100
-	obj_car.y = 12000
-
+	obj_car.y = 12860
 }
 
 function TransitionFinished()
 {
 	layer_sequence_destroy(self.elementID)
 	global.midTransition = false
+	global.teleport_collision = false
 }
 
