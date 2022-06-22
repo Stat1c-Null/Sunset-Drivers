@@ -25,9 +25,13 @@ function TransitionStart(roomTarget, styleOut, styleIn)
 
 function TransitionChangeRoom()
 {
-	room_goto(global.roomTarget)
+	//COMMENT OUT THE POSITION CHANGE TO ENABLE FADE IN EFFECT
 	obj_car.x = 1100
 	obj_car.y = 12860
+	obj_car.phy_rotation = 270
+	obj_car.phy_speed_x = 0
+	obj_car.phy_speed_y = 0
+	room_goto(global.roomTarget)
 }
 
 function TransitionFinished()

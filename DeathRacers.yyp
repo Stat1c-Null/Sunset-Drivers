@@ -32,6 +32,7 @@
     {"id":{"name":"o_box1","path":"objects/o_box1/o_box1.yy",},"order":8,},
     {"id":{"name":"s_table_part","path":"sprites/s_table_part/s_table_part.yy",},"order":6,},
     {"id":{"name":"o_smallstand","path":"objects/o_smallstand/o_smallstand.yy",},"order":19,},
+    {"id":{"name":"rm_endless_gr","path":"rooms/rm_endless_gr/rm_endless_gr.yy",},"order":2,},
     {"id":{"name":"o_parked_car","path":"objects/o_parked_car/o_parked_car.yy",},"order":0,},
     {"id":{"name":"f_vhs","path":"fonts/f_vhs/f_vhs.yy",},"order":2,},
     {"id":{"name":"s_oldMers","path":"sprites/s_oldMers/s_oldMers.yy",},"order":2,},
@@ -324,6 +325,7 @@
     {"roomId":{"name":"rm_endless","path":"rooms/rm_endless/rm_endless.yy",},},
     {"roomId":{"name":"rm_OLDTVFilter_Sample","path":"rooms/rm_OLDTVFilter_Sample/rm_OLDTVFilter_Sample.yy",},},
     {"roomId":{"name":"rm_endless_rg","path":"rooms/rm_endless_rg/rm_endless_rg.yy",},},
+    {"roomId":{"name":"rm_endless_gr","path":"rooms/rm_endless_gr/rm_endless_gr.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
