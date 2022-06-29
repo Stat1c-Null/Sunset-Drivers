@@ -286,6 +286,7 @@
     {"id":{"name":"s_light_stand2","path":"sprites/s_light_stand2/s_light_stand2.yy",},"order":7,},
     {"id":{"name":"obj_day_and_night_overlay","path":"objects/obj_day_and_night_overlay/obj_day_and_night_overlay.yy",},"order":1,},
     {"id":{"name":"s_clockUI","path":"sprites/s_clockUI/s_clockUI.yy",},"order":5,},
+    {"id":{"name":"rm_endless_none","path":"rooms/rm_endless_none/rm_endless_none.yy",},"order":3,},
     {"id":{"name":"s_switch_direction_left","path":"sprites/s_switch_direction_left/s_switch_direction_left.yy",},"order":9,},
     {"id":{"name":"s_jaguar3","path":"sprites/s_jaguar3/s_jaguar3.yy",},"order":7,},
     {"id":{"name":"o_ai_car_og","path":"objects/o_ai_car_og/o_ai_car_og.yy",},"order":0,},
@@ -326,6 +327,7 @@
     {"roomId":{"name":"rm_OLDTVFilter_Sample","path":"rooms/rm_OLDTVFilter_Sample/rm_OLDTVFilter_Sample.yy",},},
     {"roomId":{"name":"rm_endless_rg","path":"rooms/rm_endless_rg/rm_endless_rg.yy",},},
     {"roomId":{"name":"rm_endless_gr","path":"rooms/rm_endless_gr/rm_endless_gr.yy",},},
+    {"roomId":{"name":"rm_endless_none","path":"rooms/rm_endless_none/rm_endless_none.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
