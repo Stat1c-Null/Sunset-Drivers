@@ -51,6 +51,7 @@
     {"id":{"name":"o_repairTool","path":"objects/o_repairTool/o_repairTool.yy",},"order":1,},
     {"id":{"name":"s_oldFerrari","path":"sprites/s_oldFerrari/s_oldFerrari.yy",},"order":4,},
     {"id":{"name":"s_b6","path":"sprites/s_b6/s_b6.yy",},"order":5,},
+    {"id":{"name":"rm_endless_g1","path":"rooms/rm_endless_g1/rm_endless_g1.yy",},"order":4,},
     {"id":{"name":"s_fordGT","path":"sprites/s_fordGT/s_fordGT.yy",},"order":1,},
     {"id":{"name":"spr_ball_piece3","path":"sprites/spr_ball_piece3/spr_ball_piece3.yy",},"order":3,},
     {"id":{"name":"s_cabrioletPorshe","path":"sprites/s_cabrioletPorshe/s_cabrioletPorshe.yy",},"order":8,},
@@ -328,6 +329,7 @@
     {"roomId":{"name":"rm_endless_rg","path":"rooms/rm_endless_rg/rm_endless_rg.yy",},},
     {"roomId":{"name":"rm_endless_gr","path":"rooms/rm_endless_gr/rm_endless_gr.yy",},},
     {"roomId":{"name":"rm_endless_none","path":"rooms/rm_endless_none/rm_endless_none.yy",},},
+    {"roomId":{"name":"rm_endless_g1","path":"rooms/rm_endless_g1/rm_endless_g1.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
