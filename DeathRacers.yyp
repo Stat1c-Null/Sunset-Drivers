@@ -37,6 +37,7 @@
     {"id":{"name":"o_parked_car","path":"objects/o_parked_car/o_parked_car.yy",},"order":0,},
     {"id":{"name":"f_vhs","path":"fonts/f_vhs/f_vhs.yy",},"order":2,},
     {"id":{"name":"s_oldMers","path":"sprites/s_oldMers/s_oldMers.yy",},"order":2,},
+    {"id":{"name":"rm_endless_r2","path":"rooms/rm_endless_r2/rm_endless_r2.yy",},"order":7,},
     {"id":{"name":"spr_ball","path":"sprites/spr_ball/spr_ball.yy",},"order":0,},
     {"id":{"name":"o_parked_car2","path":"objects/o_parked_car2/o_parked_car2.yy",},"order":1,},
     {"id":{"name":"s_b3","path":"sprites/s_b3/s_b3.yy",},"order":2,},
@@ -334,6 +335,7 @@
     {"roomId":{"name":"rm_endless_g1","path":"rooms/rm_endless_g1/rm_endless_g1.yy",},},
     {"roomId":{"name":"rm_endless_r1","path":"rooms/rm_endless_r1/rm_endless_r1.yy",},},
     {"roomId":{"name":"rm_endless_g2","path":"rooms/rm_endless_g2/rm_endless_g2.yy",},},
+    {"roomId":{"name":"rm_endless_r2","path":"rooms/rm_endless_r2/rm_endless_r2.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
