@@ -7,6 +7,7 @@ if(global.time < 1) {
 	global.time += time_changer / room_speed // Actual use
 } else {
 	global.time = 0.00	
+	global.day += 1
 }
 //Calculate display time
 scr_calculate_time()

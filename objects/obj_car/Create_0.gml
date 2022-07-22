@@ -18,6 +18,11 @@ reverse_detect = 13
 reverse_mult = 0.3
 turn_multi = 2
 turn_limit = 60
+//Time
+global.time = 0.00//What time in the world is it
+global.army_time = "AM 12:00"
+global.night = false
+global.day = 1
 //Gas gas gas
 global.maxAmount = 100
 global.gasAmount = global.maxAmount

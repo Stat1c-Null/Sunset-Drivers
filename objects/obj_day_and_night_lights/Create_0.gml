@@ -11,10 +11,7 @@ u_con_sat_brt = shader_get_uniform(shader, "con_sat_brt")
 s_lights = shader_get_sampler_index(shader, "lights")
 tex_lights = -1
 srf_lights = -1
-global.time = 0.00//What time in the world is it
-global.army_time = "AM 12:00"
-global.night = false
-global.day = 1
+
 //Ideal time changer 0.0042
 time_changer = 0.0042
 // COLOR VARS:
