@@ -68,6 +68,7 @@
     {"id":{"name":"s_sportcar","path":"sprites/s_sportcar/s_sportcar.yy",},"order":15,},
     {"id":{"name":"o_repairShop","path":"objects/o_repairShop/o_repairShop.yy",},"order":1,},
     {"id":{"name":"s_repairTool","path":"sprites/s_repairTool/s_repairTool.yy",},"order":0,},
+    {"id":{"name":"s_tree_particle","path":"sprites/s_tree_particle/s_tree_particle.yy",},"order":0,},
     {"id":{"name":"rm_endless","path":"rooms/rm_endless/rm_endless.yy",},"order":0,},
     {"id":{"name":"back_gras","path":"sprites/back_gras/back_gras.yy",},"order":0,},
     {"id":{"name":"o_stone2","path":"objects/o_stone2/o_stone2.yy",},"order":13,},
@@ -405,6 +406,7 @@
     {"folderPath":"folders/Objects/StaticObjects/StaticBuildings.yy","order":3,"resourceVersion":"1.0","name":"StaticBuildings","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/WorldObjects/Objects.yy","order":8,"resourceVersion":"1.0","name":"Objects","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Scripts/Level.yy","order":6,"resourceVersion":"1.0","name":"Level","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/Particles.yy","order":9,"resourceVersion":"1.0","name":"Particles","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
