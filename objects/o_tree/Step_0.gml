@@ -4,3 +4,4 @@ if(global.night == false)
 } else {
 	image_index = 1	
 }
+
