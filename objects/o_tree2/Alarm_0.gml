@@ -5,8 +5,8 @@ repeat(amount) {
 	var length = 10
 
 	var angleRand = random_range(-15, 15)
-	var xRand = random_range(x - 50, x + 50)
-	var yRand = random_range(y - 120, y + 50)
+	var xRand = random_range(x - 30, x + 30)
+	var yRand = random_range(y - 60, y + 30)
 	var xRand = xRand + lengthdir_x(length, direction - 180 + angleRand)
 	var yRand = yRand + lengthdir_y(length, direction - 180 + angleRand)
 

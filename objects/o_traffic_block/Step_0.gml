@@ -9,6 +9,7 @@ global.health -= collision_damage
 action_kill_object();
 action_create_object(o_broken_block_left, -15, 0);
 action_create_object(o_broken_block_right, 15, 0);
+action_create_object(o_block_particle, 0, 0)
 }
 }
 action_set_relative(0);
