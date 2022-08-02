@@ -13,9 +13,11 @@ signal_timer = 0.35
 turn_left = false
 turn_right = false
 destroyed = false
+//Reverse
 reverse_count = 0
 reverse_detect = 13
 reverse_mult = 0.3
+global.reverse = false//Determine whether player is reversing right now or no
 turn_multi = 2
 turn_limit = 60
 //Time
@@ -35,8 +37,8 @@ standing_consume = 0.02
 //Score
 player_score = 0
 score_y_pos = 1265
-min_speed = 10
-good_speed = 25
+min_speed = 5
+good_speed = 15
 inc_speed = 0
 //Money
 global.dollars = 0

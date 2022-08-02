@@ -1,6 +1,8 @@
 global.not_enough_money = false
-global.timer = 900//Seconds
-room_speed = 60
-global.police_timer = room_speed * 1
+distance_betw = 0
+global.final_dist = 100
+death_distance = 60
+
+
 
 

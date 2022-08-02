@@ -23,15 +23,18 @@ if(key_forward and !key_left and !key_right and !destroyed) {
 	reverse_count = 0
 	turn_left = false
 	turn_right = false
+	global.reverse = false
 } else if(key_brake and reverse_count < reverse_detect and !destroyed) {
 	image_index = 1	
 	reverse_count += reverse_mult
 } else if(key_brake and reverse_count >= reverse_detect and !destroyed){
 	image_index = 2
+	global.reverse = true
 } else if(!key_forward and !key_left and !key_right and !key_brake and !destroyed) {
 	turn_left = false
 	turn_right = false
 	reverse_count = 0
+	global.reverse = false
 	image_index = 0	
 }
 //Switch score position depending on number of numbers

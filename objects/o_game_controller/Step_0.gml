@@ -1,10 +1,14 @@
 /// @description 
-global.police_timer -= 1
-if (global.police_timer <= 0) {
-	global.timer -=1
-	global.police_timer = room_speed * 1
-}
-if(global.timer <= 0){
+if(global.final_dist <= death_distance){
 	global.health = 0	
 }
 
+//Calculate if police came close enough to the player
+var player_x = instance_nearest(x,y,obj_car).x
+var player_y = instance_nearest(x,y,obj_car).y
+var police_x = instance_nearest(x,y,o_police_car).x
+var police_y = instance_nearest(x,y,o_police_car).y
+
+distance_betw = point_distance(player_x, player_y, police_x, police_y)
+
+global.final_dist = distance_betw / 10

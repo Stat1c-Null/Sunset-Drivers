@@ -38,5 +38,6 @@ draw_text(1600, 1000, string(global.army_time))
 draw_text(1600, 1060, "MAR.0" + string(global.day) + ".1997")
 draw_text(1600, 1060, "MAR.0" + string(global.day) + ".1997")
 //Draw Police Timer
-draw_text(100,1000, "Police Arrives")
-draw_text(100, 1060, "in " + string(floor(global.timer)) + " seconds")
+draw_text(100, 1000, "Distance to Police: ")
+draw_set_color(c_aqua)
+draw_text(200, 1060, string(floor(global.final_dist)) + " feet")
