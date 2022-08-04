@@ -1,6 +1,7 @@
 /// @description 
 if(global.final_dist <= death_distance){
 	global.health = 0	
+	global.busted = true
 }
 
 //Calculate if police came close enough to the player

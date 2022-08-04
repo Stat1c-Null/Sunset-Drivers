@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_spawn",
-    "path": "sprites/s_spawn/s_spawn.yy",
+    "name": "s_challenger_police",
+    "path": "sprites/s_challenger_police/s_challenger_police.yy",
   },
   "solid": false,
   "visible": true,

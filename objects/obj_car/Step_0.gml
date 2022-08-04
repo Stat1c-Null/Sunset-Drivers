@@ -40,6 +40,9 @@ if(key_forward and !key_left and !key_right and !destroyed) {
 //Switch score position depending on number of numbers
 calculate_score(player_score, score_y_pos)
 
+//Calculate speedometer
+arrow_rot = 360 - global.mphSpeed
+
 //Movement
 Vvoorx = Xvoor - Xvooroud
 Xvooroud = Xvoor

@@ -14,7 +14,9 @@ draw_sprite_ext(s_condition_front, 1, 1656, 200, max(0, global.health/global.max
 draw_sprite(s_condition_back, 1, 1610, 200)
 
 //Speeeeeed
-draw_text(1600, 400, "MPH: " + string(round(global.mphSpeed)) + "/" + string(round(global.phySpeed)))
+draw_text(1600, 270, "MPH: " + string(round(global.mphSpeed)) + "/" + string(round(global.phySpeed)))
+draw_sprite(s_speedometer, 1, 1780, 500)
+draw_sprite_ext(s_speed_arrow, 1, 1780, 500, image_xscale, image_yscale,arrow_rot, image_blend, image_alpha)
 //Score
 //draw_set_font(f_debug)
 draw_set_color(c_yellow)
@@ -39,5 +41,5 @@ draw_text(1600, 1060, "MAR.0" + string(global.day) + ".1997")
 draw_text(1600, 1060, "MAR.0" + string(global.day) + ".1997")
 //Draw Police Timer
 draw_text(100, 1000, "Distance to Police: ")
-draw_set_color(c_aqua)
-draw_text(200, 1060, string(floor(global.final_dist)) + " feet")
+draw_set_color(c_fuchsia)
+draw_text(550, 1000, string(floor(global.final_dist)) + " feet")

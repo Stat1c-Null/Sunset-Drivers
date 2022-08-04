@@ -40,6 +40,8 @@ score_y_pos = 1265
 min_speed = 5
 good_speed = 15
 inc_speed = 0
+arrow_rot = 360//Control in which direction speedometer arrow is turned
+over_zero = false
 //Money
 global.dollars = 0
 money_timer = 4
