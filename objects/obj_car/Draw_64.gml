@@ -14,9 +14,14 @@ draw_sprite_ext(s_condition_front, 1, 1656, 200, max(0, global.health/global.max
 draw_sprite(s_condition_back, 1, 1610, 200)
 
 //Speeeeeed
-draw_text(1600, 270, "MPH: " + string(round(global.mphSpeed)) + "/" + string(round(global.phySpeed)))
-draw_sprite(s_speedometer, 1, 1780, 500)
-draw_sprite_ext(s_speed_arrow, 1, 1780, 500, image_xscale, image_yscale,arrow_rot, image_blend, image_alpha)
+//draw_text(1600, 270, "MPH: " + string(round(global.mphSpeed)) + "/" + string(round(global.phySpeed)))
+draw_sprite(s_speedometer, 1, 1710, 500)
+draw_sprite_ext(s_speed_arrow, 1, 1710, 500, image_xscale, image_yscale, arrow_rot, image_blend, image_alpha)
+draw_set_color(c_green)
+draw_text(1750, 630, round(global.mphSpeed))
+draw_set_color(c_red)
+draw_text(1775, 585, global.gear)
+draw_sprite(s_gear_m, 1,1855, 630)
 //Score
 //draw_set_font(f_debug)
 draw_set_color(c_yellow)
@@ -28,7 +33,7 @@ draw_text(930, 180, string(round(obj_car.player_score)))
 draw_sprite(s_dollar_bill_ui, 1, 160, 425)
 if(global.not_enough_money){
 	global.not_enough_money = false
-	draw_set_color(c_red)
+	draw_set_color(c_red) 
 	alarm[2] = room_speed * obj_car.money_timer
 } else {
 	draw_set_color(c_lime)

@@ -30,6 +30,7 @@ if(key_forward and !key_left and !key_right and !destroyed) {
 } else if(key_brake and reverse_count >= reverse_detect and !destroyed){
 	image_index = 2
 	global.reverse = true
+	global.gear = "R"
 } else if(!key_forward and !key_left and !key_right and !key_brake and !destroyed) {
 	turn_left = false
 	turn_right = false

@@ -212,6 +212,7 @@ function scr_OLDTVFilter_Draw() {
 	}
 
 	/// DRAW PLAYER GUI
+	/// DRAW PLAYER GUI
 	//VHS PLAY
 	draw_set_color(c_ltgray)
 	draw_set_font(f_vhs)
@@ -227,7 +228,15 @@ function scr_OLDTVFilter_Draw() {
 	draw_sprite(s_condition_back, 1, 1610, 200)
 
 	//Speeeeeed
-	draw_text(1600, 400, "MPH: " + string(round(global.mphSpeed)) + "/" + string(round(global.phySpeed)))
+	//draw_text(1600, 270, "MPH: " + string(round(global.mphSpeed)) + "/" + string(round(global.phySpeed)))
+	draw_sprite(s_speedometer, 1, 1710, 500)
+	var arrow_rot = 360 - global.mphSpeed
+	draw_sprite_ext(s_speed_arrow, 1, 1710, 500, image_xscale, image_yscale, arrow_rot, image_blend, image_alpha)
+	draw_set_color(c_green)
+	draw_text(1750, 630, round(global.mphSpeed))
+	draw_set_color(c_red)
+	draw_text(1775, 585, global.gear)
+	draw_sprite(s_gear_m, 1,1855, 630)
 	//Score
 	//draw_set_font(f_debug)
 	draw_set_color(c_yellow)
@@ -239,7 +248,7 @@ function scr_OLDTVFilter_Draw() {
 	draw_sprite(s_dollar_bill_ui, 1, 160, 425)
 	if(global.not_enough_money){
 		global.not_enough_money = false
-		draw_set_color(c_red)
+		draw_set_color(c_red) 
 		alarm[2] = room_speed * obj_car.money_timer
 	} else {
 		draw_set_color(c_lime)
@@ -248,9 +257,12 @@ function scr_OLDTVFilter_Draw() {
 	//Draw Time Clock
 	draw_set_color(c_ltgray)
 	draw_text(1600, 1000, string(global.army_time))
-	draw_text(1600, 1060, "MAR.0" + string(global.day) + ".1997")
+	draw_text(1600, 1000, "MAR.0" + string(global.day) + ".1997")
+	draw_text(1600, 1000, "MAR.0" + string(global.day) + ".1997")
 	//Draw Police Timer
-	draw_text(100,1000, "Police Arrives")
-	draw_text(100, 1060, "in " + string(floor(global.timer)) + " seconds")
+	draw_text(100, 1000, "Distance to Police: ")
+	draw_set_color(c_fuchsia)
+	draw_text(550, 1000, string(floor(global.final_dist)) + " feet")
+
 
 }

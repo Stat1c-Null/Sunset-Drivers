@@ -1,5 +1,5 @@
 friction_strength = 6
-acceleration_speed = 0.6
+acceleration_speed = 0.8
 center_to_front = 45//Number of pixels from your cars center to it's front wheels
 
 richting = 0
@@ -30,6 +30,7 @@ global.maxAmount = 100
 global.gasAmount = global.maxAmount
 global.mphSpeed = 0
 global.phySpeed = 0
+global.gear = 1
 //Condition
 global.maxHealth = 100
 global.health = global.maxHealth
@@ -41,7 +42,7 @@ min_speed = 5
 good_speed = 15
 inc_speed = 0
 arrow_rot = 360//Control in which direction speedometer arrow is turned
-over_zero = false
+
 //Money
 global.dollars = 0
 money_timer = 4

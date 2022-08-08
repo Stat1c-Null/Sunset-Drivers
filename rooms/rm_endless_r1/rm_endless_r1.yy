@@ -482,6 +482,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"o_dollarBill","path":"objects/o_dollarBill/o_dollarBill.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":881.0,"y":480.99402,"resourceVersion":"1.0","name":"inst_2B5A7F39_1","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"o_dollarBill","path":"objects/o_dollarBill/o_dollarBill.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":881.0,"y":295.99402,"resourceVersion":"1.0","name":"inst_4FD96AAF_1","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"o_box1","path":"objects/o_box1/o_box1.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1291.0,"y":9619.0,"resourceVersion":"1.0","name":"inst_4B760C75_1_2_1","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"o_police_car","path":"objects/o_police_car/o_police_car.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":89.531555,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1056.0,"y":13440.0,"resourceVersion":"1.0","name":"inst_47C4EEC","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":600,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"GameObjects","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"o_repairShop","path":"objects/o_repairShop/o_repairShop.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":-90.27256,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1678.0,"y":9933.0,"resourceVersion":"1.0","name":"inst_4D97C902","tags":[],"resourceType":"GMRInstance",},
@@ -1810,6 +1811,7 @@
     {"name":"inst_36F0FD1D","path":"rooms/rm_endless_r1/rm_endless_r1.yy",},
     {"name":"inst_1D4646E4","path":"rooms/rm_endless_r1/rm_endless_r1.yy",},
     {"name":"inst_27CBD6F4","path":"rooms/rm_endless_r1/rm_endless_r1.yy",},
+    {"name":"inst_47C4EEC","path":"rooms/rm_endless_r1/rm_endless_r1.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

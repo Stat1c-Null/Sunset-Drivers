@@ -480,6 +480,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"o_bench1","path":"objects/o_bench1/o_bench1.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":-90.01433,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1294.0,"y":9788.0,"resourceVersion":"1.0","name":"inst_3282C9DD","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"o_vending","path":"objects/o_vending/o_vending.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":270.4796,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1420.5,"y":10614.975,"resourceVersion":"1.0","name":"inst_5E845547","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"o_smallstand","path":"objects/o_smallstand/o_smallstand.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1401.0,"y":10882.0,"resourceVersion":"1.0","name":"inst_11040388","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"o_police_car","path":"objects/o_police_car/o_police_car.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":90.07617,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1056.0,"y":13344.0,"resourceVersion":"1.0","name":"inst_21543CA1","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":600,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"GameObjects","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"o_gasstation","path":"objects/o_gasstation/o_gasstation.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":-269.99484,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":508.94873,"y":8268.0,"resourceVersion":"1.0","name":"inst_24C22831_2_1_1","tags":[],"resourceType":"GMRInstance",},
@@ -1806,6 +1807,7 @@
     {"name":"inst_79DA15F5","path":"rooms/rm_endless_g2/rm_endless_g2.yy",},
     {"name":"inst_2A8183C8","path":"rooms/rm_endless_g2/rm_endless_g2.yy",},
     {"name":"inst_48279156","path":"rooms/rm_endless_g2/rm_endless_g2.yy",},
+    {"name":"inst_21543CA1","path":"rooms/rm_endless_g2/rm_endless_g2.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
