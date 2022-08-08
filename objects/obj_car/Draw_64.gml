@@ -1,6 +1,6 @@
-
+///@description DRAW HUD
 //Draw text unless player is busted
-if(global.busted == false or global.wasted == false) {
+if(global.busted == false and global.wasted == false) {
 	//Gas Gas Gas i am gonna step on the gas tonight we'll fly
 	draw_sprite_ext(GasUI, 1, 146, 200, max(0, global.gasAmount/global.maxAmount), 1, 0, c_white, 1)
 	draw_sprite(UIBack, 1, 100, 200)
@@ -22,8 +22,8 @@ if(global.busted == false or global.wasted == false) {
 	draw_text(907, 100, "SCORE")
 	draw_text(905, 105, "_____")
 	draw_set_color(c_orange)
-	calculate_score(obj_car.player_score, obj_car.score_y_pos)
-	draw_text(930, 180, string(round(obj_car.player_score)))
+	//calculate_score(obj_car.player_score, obj_car.score_x_pos)
+	draw_text(score_x_pos, 180, string(round(obj_car.player_score)))
 	draw_sprite(s_dollar_bill_ui, 1, 160, 425)
 	if(global.not_enough_money){
 		global.not_enough_money = false

@@ -41,7 +41,7 @@
     "spriteId": {"name":"s_challenger_police","path":"sprites/s_challenger_police/s_challenger_police.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 12.0,
+    "playbackSpeed": 10.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,

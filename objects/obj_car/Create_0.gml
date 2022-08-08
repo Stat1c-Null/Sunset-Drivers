@@ -1,5 +1,5 @@
 friction_strength = 6
-acceleration_speed = 0.8
+acceleration_speed = 0.6
 center_to_front = 45//Number of pixels from your cars center to it's front wheels
 
 richting = 0
@@ -37,9 +37,8 @@ global.health = global.maxHealth
 standing_consume = 0.02
 //Score
 player_score = 0
-score_y_pos = 1265
-min_speed = 5
-good_speed = 15
+score_x_pos = 950//Score position on the screen, it changes depending on how big score is
+speeds = [10, 30, 50, 70, 90]
 inc_speed = 0
 arrow_rot = 360//Control in which direction speedometer arrow is turned
 

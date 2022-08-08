@@ -27,7 +27,7 @@ if(key_forward and !key_left and !key_right and !destroyed) {
 	image_index = 0	
 }
 //Switch score position depending on number of numbers
-calculate_score(player_score, score_y_pos)
+calculate_score(player_score)
 
 //Calculate speedometer
 arrow_rot = 360 - global.mphSpeed
@@ -72,24 +72,19 @@ if(global.gasAmount > 0) {
 	phy_speed_y += lengthdir_y(-acceleration_speed/1.7,-phy_rotation)} 
 	//show_debug_message(inc_speed)
 }
-//if(global.phySpeed < min_speed and not key_forward)
-//{
-//	phy_speed_x += lengthdir_x(acceleration_speed/2.7,-phy_rotation)
-//	phy_speed_y += lengthdir_y(acceleration_speed/2.7,-phy_rotation)
-//}
-//Reduce score if player's speed is not high enough
-if(inc_speed > min_speed) {
-	player_score += 0.3	
-} else if(inc_speed > good_speed) {
-	player_score += 0.6	
-}
 
-if(inc_speed > 60) {
-	inc_speed = 60
-}
-else if(inc_speed <= 0) {
-	inc_speed = 0	
-}
+//Reduce score if player's speed is not high enough
+if(global.mphSpeed > speeds[0]) {
+	player_score += 0.5
+} else if(global.mphSpeed > speeds[1]) {
+	player_score += 1	
+}  else if(global.mphSpeed > speeds[2]) {
+	player_score += 1.5
+} else if(global.mphSpeed > speeds[3]) {
+	player_score += 2
+} else if(global.mphSpeed > speeds[4]) {
+	player_score += 2.5
+} 
 
 //Handbrake Drift
 if((key_handbrake or gamepad_LS) and !destroyed){
@@ -122,6 +117,12 @@ if not key_right {
 if not key_left and not key_right {
 	if abs(richting) <= turn_multi {richting = 0}}
 	
+//Wasted
+if(global.health <= 0)
+{
+	global.wasted = true	
+}
+	
 //Destroy car if there is no health
 if(global.health <= 0 or global.busted == true)
 {
@@ -130,13 +131,13 @@ if(global.health <= 0 or global.busted == true)
 	turn_right = false
 	phy_speed_x = 0
 	phy_speed_y = 0
-	global.wasted = true
 	//Create copy of car so old GUI will get destroyed
 	with(instance_create_layer(x, y, "Player", o_busted_car)) {	
 		phy_rotation = obj_car.phy_rotation
 	}
 	instance_destroy(self)
 }
+
 //Car Physics
 Xvoor = x+lengthdir_x(center_to_front,-phy_rotation)
 Yvoor = y+lengthdir_y(center_to_front,-phy_rotation)

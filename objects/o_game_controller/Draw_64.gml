@@ -1,14 +1,25 @@
 
+
+
+//Game over GUI
 if(global.wasted) {
 	draw_set_font(f_vhs_big)
-	draw_set_color(c_red)
-	draw_text(win_width/2-170, 200, "WASTED")
-	draw_sprite(s_vignett,1, room_width/2, 600)
+	if(TextColor == false){
+		draw_set_color(c_olive)
+		draw_text(win_width/2-250, 330, "WASTED")
+	} else {
+		draw_set_color(c_orange)
+		draw_text(win_width/2-250, 330, "WASTED")	
+	}
 } else if(global.busted) {
 	draw_set_font(f_vhs_big)
-	draw_set_color(c_maroon)
-	draw_text(win_width/2-170, 200, "BUSTED")	
-	draw_sprite(s_vignett,1, room_width/2, 600)
+	if(TextColor == false){
+		draw_set_color(c_aqua)
+		draw_text(win_width/2-250, 330, "BUSTED")
+	} else {
+		draw_set_color(c_red)
+		draw_text(win_width/2-250, 330, "BUSTED")	
+	}
 }
 
 /// DRAW PLAYER GUI

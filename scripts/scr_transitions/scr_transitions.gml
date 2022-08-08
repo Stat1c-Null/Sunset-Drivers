@@ -5,8 +5,15 @@ global.roomTarget = -1
 function TransitionPlaceSeq(style){
 	if (layer_exists("transition"))layer_destroy("transition")//Destroy if old one exists
 	var lay = layer_create(-9999, "transition")//create transition above everything else -9999 depth
-	layer_sequence_create(lay, 0,0,style)
+	layer_sequence_create(lay,0,0,style)
 }
+//End transition
+function TransitionEndSeq(style){
+	if (layer_exists("transition"))layer_destroy("transition")//Destroy if old one exists
+	var lay = layer_create(-9999, "transition")//create transition above everything else -9999 depth
+	layer_sequence_create(lay,0,12000,style)
+}
+
 //Transition template
 function TransitionStart(roomTarget, styleOut, styleIn)
 {
@@ -16,7 +23,7 @@ function TransitionStart(roomTarget, styleOut, styleIn)
 		global.roomTarget = roomTarget
 		TransitionPlaceSeq(styleOut)
 		layer_set_target_room(roomTarget)
-		TransitionPlaceSeq(styleIn)
+		TransitionEndSeq(styleIn)
 		layer_reset_target_room()
 		return true
 	}
