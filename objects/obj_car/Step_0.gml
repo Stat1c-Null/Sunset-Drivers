@@ -3,19 +3,7 @@ convert_speed(phy_speed)
 global.phySpeed = phy_speed
 
 //Keys
-var key_forward = keyboard_check(ord("W")) or keyboard_check(vk_up)
-var key_brake = keyboard_check(ord("S")) or keyboard_check(vk_down)
-var key_left = keyboard_check(ord("A")) or keyboard_check(vk_left)
-var key_right = keyboard_check(ord("D")) or keyboard_check(vk_right)
-var key_handbrake = keyboard_check(vk_space)
-
-//Gamepad gas and break
-if(gamepad_is_connected(0)){
-	//Do actions with controller
-	gamepad_RT = gamepad_button_check(0, gp_shoulderrb)//Gas
-	gamepad_LT = gamepad_button_check(0, gp_shoulderlb)//Brake
-	gamepad_LS = gamepad_button_check(0, gp_shoulderl)//Handbrake
-}
+Controls()
 
 //Sprites switching
 if(key_forward and !key_left and !key_right and !destroyed) {
@@ -135,19 +123,21 @@ if not key_left and not key_right {
 	if abs(richting) <= turn_multi {richting = 0}}
 	
 //Destroy car if there is no health
-if(global.health <= 0)
+if(global.health <= 0 or global.busted == true)
 {
 	destroyed = true
 	turn_left = false
 	turn_right = false
-	if(alarm[1] == 0) {
-		alarm[1] = signal_timer * room_speed
-	}
 	phy_speed_x = 0
 	phy_speed_y = 0
+	global.wasted = true
+	//Create copy of car so old GUI will get destroyed
+	with(instance_create_layer(x, y, "Player", o_busted_car)) {	
+		phy_rotation = obj_car.phy_rotation
+	}
+	instance_destroy(self)
 }
 //Car Physics
-    
 Xvoor = x+lengthdir_x(center_to_front,-phy_rotation)
 Yvoor = y+lengthdir_y(center_to_front,-phy_rotation)
 
