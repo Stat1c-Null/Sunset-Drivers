@@ -6,7 +6,6 @@ richting = 0
 
 phy_rotation = 270
 image_index = 0
-min_speed = 4
 global.teleport_collision = false //Turn on when colliding with teleport so skid mark will get destroyed
 //Turn signal timer
 signal_timer = 0.35
@@ -25,6 +24,9 @@ global.time = 0.00//What time in the world is it
 global.army_time = "AM 12:00"
 global.night = false
 global.day = 1
+global.minutes_survived = 0
+global.seconds_survived = 0
+alarm[3] = 1 * room_speed
 //Gas gas gas
 global.maxAmount = 100
 global.gasAmount = global.maxAmount
@@ -38,7 +40,7 @@ standing_consume = 0.02
 //Score
 player_score = 0
 score_x_pos = 950//Score position on the screen, it changes depending on how big score is
-speeds = [10, 30, 50, 70, 90]
+speeds = [10, 30, 50, 70, 90]//Different speeds depending on which score will increase. The faster the speed bigger your pen.... score
 inc_speed = 0
 arrow_rot = 360//Control in which direction speedometer arrow is turned
 
