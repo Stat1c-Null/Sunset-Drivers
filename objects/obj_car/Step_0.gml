@@ -26,6 +26,9 @@ if(key_forward and !key_left and !key_right and !destroyed) {
 	global.reverse = false
 	image_index = 0	
 }
+
+
+
 //Switch score position depending on number of numbers
 calculate_score(player_score)
 

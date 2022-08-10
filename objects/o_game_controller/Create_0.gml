@@ -15,6 +15,7 @@ global.wasted = false
 global.gameover = false//Final game over to show score and stats
 global.last_y = 0 //Get players last Y position before they died or got busted
 vigOn = false
+rep = 3//Times vignette will be created
 room_speed = 30
 alarm[0] = 10
 TextColor = false//Determine whether to show busted text in blue or red

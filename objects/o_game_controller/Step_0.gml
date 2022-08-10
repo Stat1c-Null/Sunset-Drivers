@@ -42,7 +42,6 @@ if((global.busted or global.wasted) and vigOn == false)
 {
 	//Create object to show vig just ones
 	//Create 3 objects so that vignette seems darker
-	var rep = 3
 	for (var i = 0; i <= rep; i++;) {
 		instance_create_layer(x,y,"Invisible", o_vig_show)
 	}
