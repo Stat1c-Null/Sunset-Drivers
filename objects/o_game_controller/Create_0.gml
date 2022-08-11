@@ -20,6 +20,13 @@ room_speed = 30
 alarm[0] = 10
 TextColor = false//Determine whether to show busted text in blue or red
 win_width = room_width
-buttons_created = false
+buttons_created = false//Determine if game over menu buttons were made
+
+//Determine which room player is located in and set according game state
+var roomname = room_get_name(room)
+if(roomname == "rm_mainmenu") 
+	global.game_state = "menu"
+else
+	global.game_state = "game"
 
 
