@@ -50,13 +50,13 @@ if(global.game_state == "game") {
 	draw_text(100, 1230, "SP")
 	//Draw Time Clock
 	draw_set_color(c_ltgray)
-	draw_text(1600, 1000, string(global.army_time))
-	draw_text(1600, 1060, "MAR.0" + string(global.day) + ".1997")
-	draw_text(1600, 1060, "MAR.0" + string(global.day) + ".1997")
+	draw_text(2200, 1170, string(global.army_time))
+	draw_text(2200, 1230, "MAR.0" + string(global.day) + ".1997")
+	draw_text(2200, 1230, "MAR.0" + string(global.day) + ".1997")
 	//Draw Police Timer
-	draw_text(100, 1000, "Distance to Police: ")
+	draw_text(100, 1170, "Distance to Police: ")
 	draw_set_color(c_fuchsia)
-	draw_text(550, 1000, string(floor(global.final_dist)) + " feet")
+	draw_text(550, 1170, string(floor(global.final_dist)) + " feet")
 } else if(global.game_state == "menu") {
 	draw_set_color(c_ltgray)
 	draw_set_font(f_vhs)

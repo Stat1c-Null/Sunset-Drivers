@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "s_dollarbill_anim",
   "bboxMode": 2,
   "collisionKind": 1,
   "type": 0,
@@ -24,99 +27,41 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"c31748a5-3676-4a12-b2e4-47ea792d222f","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"c31748a5-3676-4a12-b2e4-47ea792d222f","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"LayerId":{"name":"e878f3e7-fa01-4db3-b95d-e2f34f42d856","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"s_dollarbill_anim","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"resourceVersion":"1.0","name":"c31748a5-3676-4a12-b2e4-47ea792d222f","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"dd9a5a3b-8fd9-41ed-867f-934b54957ae1","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"dd9a5a3b-8fd9-41ed-867f-934b54957ae1","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"LayerId":{"name":"e878f3e7-fa01-4db3-b95d-e2f34f42d856","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"s_dollarbill_anim","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"resourceVersion":"1.0","name":"dd9a5a3b-8fd9-41ed-867f-934b54957ae1","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"efdfc6fb-7466-4486-8610-af53a9db2b20","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"efdfc6fb-7466-4486-8610-af53a9db2b20","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"LayerId":{"name":"e878f3e7-fa01-4db3-b95d-e2f34f42d856","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"s_dollarbill_anim","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"resourceVersion":"1.0","name":"efdfc6fb-7466-4486-8610-af53a9db2b20","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"1712cc1e-69aa-46be-8442-d98c3bfc9d21","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"1712cc1e-69aa-46be-8442-d98c3bfc9d21","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"LayerId":{"name":"e878f3e7-fa01-4db3-b95d-e2f34f42d856","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"s_dollarbill_anim","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"resourceVersion":"1.0","name":"1712cc1e-69aa-46be-8442-d98c3bfc9d21","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"3627c13d-5a93-41e0-9dbf-e28c5cf397b2","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"3627c13d-5a93-41e0-9dbf-e28c5cf397b2","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"LayerId":{"name":"e878f3e7-fa01-4db3-b95d-e2f34f42d856","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"s_dollarbill_anim","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"resourceVersion":"1.0","name":"3627c13d-5a93-41e0-9dbf-e28c5cf397b2","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"7533388d-6de9-4d73-b980-645084541e00","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"7533388d-6de9-4d73-b980-645084541e00","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"LayerId":{"name":"e878f3e7-fa01-4db3-b95d-e2f34f42d856","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"s_dollarbill_anim","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"resourceVersion":"1.0","name":"7533388d-6de9-4d73-b980-645084541e00","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"e731f8d5-a4e0-42da-9ebe-1799d1e31ff2","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"e731f8d5-a4e0-42da-9ebe-1799d1e31ff2","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"LayerId":{"name":"e878f3e7-fa01-4db3-b95d-e2f34f42d856","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"s_dollarbill_anim","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"resourceVersion":"1.0","name":"e731f8d5-a4e0-42da-9ebe-1799d1e31ff2","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"15c651d6-3442-4813-ac1d-977812ef4e26","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"15c651d6-3442-4813-ac1d-977812ef4e26","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"LayerId":{"name":"e878f3e7-fa01-4db3-b95d-e2f34f42d856","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"s_dollarbill_anim","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"resourceVersion":"1.0","name":"15c651d6-3442-4813-ac1d-977812ef4e26","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"3826d9b0-ef7e-4dca-977d-b0e223afa222","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"3826d9b0-ef7e-4dca-977d-b0e223afa222","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"LayerId":{"name":"e878f3e7-fa01-4db3-b95d-e2f34f42d856","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"s_dollarbill_anim","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"resourceVersion":"1.0","name":"3826d9b0-ef7e-4dca-977d-b0e223afa222","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"fae0715b-c28f-4305-8db3-b8117c6c4e3e","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"fae0715b-c28f-4305-8db3-b8117c6c4e3e","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"LayerId":{"name":"e878f3e7-fa01-4db3-b95d-e2f34f42d856","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"s_dollarbill_anim","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"resourceVersion":"1.0","name":"fae0715b-c28f-4305-8db3-b8117c6c4e3e","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"bf0236ed-8952-4c9c-ae34-436ca0b27e67","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"bf0236ed-8952-4c9c-ae34-436ca0b27e67","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"LayerId":{"name":"e878f3e7-fa01-4db3-b95d-e2f34f42d856","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"s_dollarbill_anim","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"resourceVersion":"1.0","name":"bf0236ed-8952-4c9c-ae34-436ca0b27e67","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"28907c7b-a995-460c-918d-20499a297240","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"28907c7b-a995-460c-918d-20499a297240","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"LayerId":{"name":"e878f3e7-fa01-4db3-b95d-e2f34f42d856","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"s_dollarbill_anim","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"resourceVersion":"1.0","name":"28907c7b-a995-460c-918d-20499a297240","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"128d1d8b-5ed4-4922-91f1-8cc3a9fdfe44","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"128d1d8b-5ed4-4922-91f1-8cc3a9fdfe44","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"LayerId":{"name":"e878f3e7-fa01-4db3-b95d-e2f34f42d856","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"s_dollarbill_anim","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"resourceVersion":"1.0","name":"128d1d8b-5ed4-4922-91f1-8cc3a9fdfe44","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"5b1c32a7-08af-4d48-b85c-4e78303038e3","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"5b1c32a7-08af-4d48-b85c-4e78303038e3","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"LayerId":{"name":"e878f3e7-fa01-4db3-b95d-e2f34f42d856","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"s_dollarbill_anim","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"resourceVersion":"1.0","name":"5b1c32a7-08af-4d48-b85c-4e78303038e3","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"99a9d746-7cad-4fb1-95c9-b5a404d72c31","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"99a9d746-7cad-4fb1-95c9-b5a404d72c31","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"LayerId":{"name":"e878f3e7-fa01-4db3-b95d-e2f34f42d856","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"s_dollarbill_anim","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"resourceVersion":"1.0","name":"99a9d746-7cad-4fb1-95c9-b5a404d72c31","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"7d7b3365-4459-4b20-88c0-1c8c350ea5d7","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"7d7b3365-4459-4b20-88c0-1c8c350ea5d7","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"LayerId":{"name":"e878f3e7-fa01-4db3-b95d-e2f34f42d856","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"s_dollarbill_anim","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"resourceVersion":"1.0","name":"7d7b3365-4459-4b20-88c0-1c8c350ea5d7","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"fe9881da-98fe-497f-9844-2890c56fbfa1","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"fe9881da-98fe-497f-9844-2890c56fbfa1","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"LayerId":{"name":"e878f3e7-fa01-4db3-b95d-e2f34f42d856","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"s_dollarbill_anim","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"resourceVersion":"1.0","name":"fe9881da-98fe-497f-9844-2890c56fbfa1","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"73f509f0-956f-4fea-a543-365bec849662","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"73f509f0-956f-4fea-a543-365bec849662","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"LayerId":{"name":"e878f3e7-fa01-4db3-b95d-e2f34f42d856","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"s_dollarbill_anim","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"resourceVersion":"1.0","name":"73f509f0-956f-4fea-a543-365bec849662","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"75c25920-6a07-4cbb-87d1-d14afb60c56c","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"75c25920-6a07-4cbb-87d1-d14afb60c56c","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"LayerId":{"name":"e878f3e7-fa01-4db3-b95d-e2f34f42d856","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"s_dollarbill_anim","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"resourceVersion":"1.0","name":"75c25920-6a07-4cbb-87d1-d14afb60c56c","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"84f93234-9596-4f64-966a-c4de7f6266e3","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"84f93234-9596-4f64-966a-c4de7f6266e3","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"LayerId":{"name":"e878f3e7-fa01-4db3-b95d-e2f34f42d856","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"s_dollarbill_anim","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"resourceVersion":"1.0","name":"84f93234-9596-4f64-966a-c4de7f6266e3","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"3056b483-1531-4fd1-a3d3-c49f18cf2860","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"3056b483-1531-4fd1-a3d3-c49f18cf2860","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"LayerId":{"name":"e878f3e7-fa01-4db3-b95d-e2f34f42d856","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"s_dollarbill_anim","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"resourceVersion":"1.0","name":"3056b483-1531-4fd1-a3d3-c49f18cf2860","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"2ce1cb1b-be2f-4ce1-b2dd-451dd1c92f1a","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"2ce1cb1b-be2f-4ce1-b2dd-451dd1c92f1a","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"LayerId":{"name":"e878f3e7-fa01-4db3-b95d-e2f34f42d856","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"s_dollarbill_anim","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"resourceVersion":"1.0","name":"2ce1cb1b-be2f-4ce1-b2dd-451dd1c92f1a","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"ca872bbf-9b14-4d42-b372-103cea96455e","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"ca872bbf-9b14-4d42-b372-103cea96455e","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"LayerId":{"name":"e878f3e7-fa01-4db3-b95d-e2f34f42d856","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"s_dollarbill_anim","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"resourceVersion":"1.0","name":"ca872bbf-9b14-4d42-b372-103cea96455e","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"d0cb97c8-cf61-4998-89a7-9a1e0ee6477e","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"d0cb97c8-cf61-4998-89a7-9a1e0ee6477e","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"LayerId":{"name":"e878f3e7-fa01-4db3-b95d-e2f34f42d856","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"s_dollarbill_anim","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"resourceVersion":"1.0","name":"d0cb97c8-cf61-4998-89a7-9a1e0ee6477e","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"ab4f410c-cddb-4ac2-b96e-8d37da2893b1","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"ab4f410c-cddb-4ac2-b96e-8d37da2893b1","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"LayerId":{"name":"e878f3e7-fa01-4db3-b95d-e2f34f42d856","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"s_dollarbill_anim","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"resourceVersion":"1.0","name":"ab4f410c-cddb-4ac2-b96e-8d37da2893b1","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"047ff4a1-4fd0-4813-99d1-0f5cd1582c2c","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"047ff4a1-4fd0-4813-99d1-0f5cd1582c2c","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"LayerId":{"name":"e878f3e7-fa01-4db3-b95d-e2f34f42d856","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"s_dollarbill_anim","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"resourceVersion":"1.0","name":"047ff4a1-4fd0-4813-99d1-0f5cd1582c2c","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"a7770506-ff15-4e6b-8a68-573d976be0cd","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"a7770506-ff15-4e6b-8a68-573d976be0cd","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"LayerId":{"name":"e878f3e7-fa01-4db3-b95d-e2f34f42d856","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"s_dollarbill_anim","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"resourceVersion":"1.0","name":"a7770506-ff15-4e6b-8a68-573d976be0cd","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"f9f9ff0a-5030-4bfc-b146-fc7720ceb941","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"f9f9ff0a-5030-4bfc-b146-fc7720ceb941","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"LayerId":{"name":"e878f3e7-fa01-4db3-b95d-e2f34f42d856","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"s_dollarbill_anim","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"resourceVersion":"1.0","name":"f9f9ff0a-5030-4bfc-b146-fc7720ceb941","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"2442c304-a1d2-43e4-8bf1-8686a779efdb","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"2442c304-a1d2-43e4-8bf1-8686a779efdb","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"LayerId":{"name":"e878f3e7-fa01-4db3-b95d-e2f34f42d856","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"s_dollarbill_anim","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"resourceVersion":"1.0","name":"2442c304-a1d2-43e4-8bf1-8686a779efdb","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"7c85102e-083b-4122-b756-a246890f2d34","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"7c85102e-083b-4122-b756-a246890f2d34","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"LayerId":{"name":"e878f3e7-fa01-4db3-b95d-e2f34f42d856","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"s_dollarbill_anim","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"resourceVersion":"1.0","name":"7c85102e-083b-4122-b756-a246890f2d34","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c31748a5-3676-4a12-b2e4-47ea792d222f",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"dd9a5a3b-8fd9-41ed-867f-934b54957ae1",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"efdfc6fb-7466-4486-8610-af53a9db2b20",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1712cc1e-69aa-46be-8442-d98c3bfc9d21",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3627c13d-5a93-41e0-9dbf-e28c5cf397b2",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"7533388d-6de9-4d73-b980-645084541e00",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e731f8d5-a4e0-42da-9ebe-1799d1e31ff2",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"15c651d6-3442-4813-ac1d-977812ef4e26",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3826d9b0-ef7e-4dca-977d-b0e223afa222",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"fae0715b-c28f-4305-8db3-b8117c6c4e3e",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"bf0236ed-8952-4c9c-ae34-436ca0b27e67",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"28907c7b-a995-460c-918d-20499a297240",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"128d1d8b-5ed4-4922-91f1-8cc3a9fdfe44",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"5b1c32a7-08af-4d48-b85c-4e78303038e3",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"99a9d746-7cad-4fb1-95c9-b5a404d72c31",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"7d7b3365-4459-4b20-88c0-1c8c350ea5d7",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"fe9881da-98fe-497f-9844-2890c56fbfa1",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"73f509f0-956f-4fea-a543-365bec849662",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"75c25920-6a07-4cbb-87d1-d14afb60c56c",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"84f93234-9596-4f64-966a-c4de7f6266e3",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3056b483-1531-4fd1-a3d3-c49f18cf2860",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"2ce1cb1b-be2f-4ce1-b2dd-451dd1c92f1a",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ca872bbf-9b14-4d42-b372-103cea96455e",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d0cb97c8-cf61-4998-89a7-9a1e0ee6477e",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ab4f410c-cddb-4ac2-b96e-8d37da2893b1",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"047ff4a1-4fd0-4813-99d1-0f5cd1582c2c",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a7770506-ff15-4e6b-8a68-573d976be0cd",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f9f9ff0a-5030-4bfc-b146-fc7720ceb941",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"2442c304-a1d2-43e4-8bf1-8686a779efdb",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"7c85102e-083b-4122-b756-a246890f2d34",},
   ],
   "sequence": {
-    "spriteId": {"name":"s_dollarbill_anim","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "s_dollarbill_anim",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 35.0,
@@ -127,7 +72,7 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"94e8286c-0ae5-4c34-bd5b-7fa20b74ace9","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c31748a5-3676-4a12-b2e4-47ea792d222f","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"260f2881-9363-4019-8025-6c2c3c70e206","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"dd9a5a3b-8fd9-41ed-867f-934b54957ae1","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"5ac1cdb1-6c6e-48ad-b179-ca977c1ac255","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"efdfc6fb-7466-4486-8610-af53a9db2b20","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
@@ -158,7 +103,7 @@
             {"id":"a95f0e1e-8048-415c-ba74-38b83883e6da","Key":27.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f9f9ff0a-5030-4bfc-b146-fc7720ceb941","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"d46d2ab8-471a-4f45-8dd9-c3803514b3c6","Key":28.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2442c304-a1d2-43e4-8bf1-8686a779efdb","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"7f36388e-e349-4594-9b95-226834a4430d","Key":29.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7c85102e-083b-4122-b756-a246890f2d34","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -174,22 +119,13 @@
     "yorigin": 25,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"s_dollarbill_anim","path":"sprites/s_dollarbill_anim/s_dollarbill_anim.yy",},
-    "resourceVersion": "1.4",
-    "name": "s_dollarbill_anim",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"e878f3e7-fa01-4db3-b95d-e2f34f42d856","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"e878f3e7-fa01-4db3-b95d-e2f34f42d856","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Money",
     "path": "folders/Sprites/GameObjects/Money.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "s_dollarbill_anim",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

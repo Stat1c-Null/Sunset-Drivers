@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "s_repairTool",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,15 +27,13 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"9de41088-98fc-4e49-a647-a3b6239a20e1","path":"sprites/s_repairTool/s_repairTool.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"9de41088-98fc-4e49-a647-a3b6239a20e1","path":"sprites/s_repairTool/s_repairTool.yy",},"LayerId":{"name":"f875bbea-a46f-4d18-95f1-9d07e7e0f453","path":"sprites/s_repairTool/s_repairTool.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"s_repairTool","path":"sprites/s_repairTool/s_repairTool.yy",},"resourceVersion":"1.0","name":"9de41088-98fc-4e49-a647-a3b6239a20e1","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"95e5ab76-ea62-4f3d-a9ea-1d88d3321b11","path":"sprites/s_repairTool/s_repairTool.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"95e5ab76-ea62-4f3d-a9ea-1d88d3321b11","path":"sprites/s_repairTool/s_repairTool.yy",},"LayerId":{"name":"f875bbea-a46f-4d18-95f1-9d07e7e0f453","path":"sprites/s_repairTool/s_repairTool.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"s_repairTool","path":"sprites/s_repairTool/s_repairTool.yy",},"resourceVersion":"1.0","name":"95e5ab76-ea62-4f3d-a9ea-1d88d3321b11","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9de41088-98fc-4e49-a647-a3b6239a20e1",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"95e5ab76-ea62-4f3d-a9ea-1d88d3321b11",},
   ],
   "sequence": {
-    "spriteId": {"name":"s_repairTool","path":"sprites/s_repairTool/s_repairTool.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "s_repairTool",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 0.0,
@@ -43,10 +44,10 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"4a662198-f1d7-42d5-b561-ce6f9b193581","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9de41088-98fc-4e49-a647-a3b6239a20e1","path":"sprites/s_repairTool/s_repairTool.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"51483172-0ab8-4c00-add7-0417b02e0fdc","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"95e5ab76-ea62-4f3d-a9ea-1d88d3321b11","path":"sprites/s_repairTool/s_repairTool.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,22 +63,13 @@
     "yorigin": 25,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"s_repairTool","path":"sprites/s_repairTool/s_repairTool.yy",},
-    "resourceVersion": "1.4",
-    "name": "s_repairTool",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"f875bbea-a46f-4d18-95f1-9d07e7e0f453","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"f875bbea-a46f-4d18-95f1-9d07e7e0f453","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "RepairTool",
     "path": "folders/Sprites/GameObjects/RepairTool.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "s_repairTool",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

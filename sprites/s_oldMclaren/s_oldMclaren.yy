@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "s_oldMclaren",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,12 +27,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"876bc349-8f2a-40d2-905b-71f5ff1bc0de","path":"sprites/s_oldMclaren/s_oldMclaren.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"876bc349-8f2a-40d2-905b-71f5ff1bc0de","path":"sprites/s_oldMclaren/s_oldMclaren.yy",},"LayerId":{"name":"96fc7af8-9578-48dc-9f3b-d0984eb7e8b7","path":"sprites/s_oldMclaren/s_oldMclaren.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"s_oldMclaren","path":"sprites/s_oldMclaren/s_oldMclaren.yy",},"resourceVersion":"1.0","name":"876bc349-8f2a-40d2-905b-71f5ff1bc0de","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"876bc349-8f2a-40d2-905b-71f5ff1bc0de",},
   ],
   "sequence": {
-    "spriteId": {"name":"s_oldMclaren","path":"sprites/s_oldMclaren/s_oldMclaren.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "s_oldMclaren",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -40,9 +43,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"ad0477d9-873c-4fe3-aa21-8d154c1d6b6d","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"876bc349-8f2a-40d2-905b-71f5ff1bc0de","path":"sprites/s_oldMclaren/s_oldMclaren.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,22 +61,13 @@
     "yorigin": 37,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"s_oldMclaren","path":"sprites/s_oldMclaren/s_oldMclaren.yy",},
-    "resourceVersion": "1.4",
-    "name": "s_oldMclaren",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"96fc7af8-9578-48dc-9f3b-d0984eb7e8b7","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"96fc7af8-9578-48dc-9f3b-d0984eb7e8b7","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "ModernCars",
     "path": "folders/Sprites/Cars/ModernCars.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "s_oldMclaren",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

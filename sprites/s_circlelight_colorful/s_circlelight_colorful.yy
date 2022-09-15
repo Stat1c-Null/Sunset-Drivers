@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "s_circlelight_colorful",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,12 +27,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"3eb09e4b-08ab-4d57-afb2-aa668fe34a9a","path":"sprites/s_circlelight_colorful/s_circlelight_colorful.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"3eb09e4b-08ab-4d57-afb2-aa668fe34a9a","path":"sprites/s_circlelight_colorful/s_circlelight_colorful.yy",},"LayerId":{"name":"42137bf8-3290-4cf9-ad4f-ad57498f17a4","path":"sprites/s_circlelight_colorful/s_circlelight_colorful.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"s_circlelight_colorful","path":"sprites/s_circlelight_colorful/s_circlelight_colorful.yy",},"resourceVersion":"1.0","name":"3eb09e4b-08ab-4d57-afb2-aa668fe34a9a","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3eb09e4b-08ab-4d57-afb2-aa668fe34a9a",},
   ],
   "sequence": {
-    "spriteId": {"name":"s_circlelight_colorful","path":"sprites/s_circlelight_colorful/s_circlelight_colorful.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "s_circlelight_colorful",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -40,9 +43,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"4868bf7b-dcea-4edd-9683-e04c045be6f2","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3eb09e4b-08ab-4d57-afb2-aa668fe34a9a","path":"sprites/s_circlelight_colorful/s_circlelight_colorful.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,22 +61,13 @@
     "yorigin": 128,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"s_circlelight_colorful","path":"sprites/s_circlelight_colorful/s_circlelight_colorful.yy",},
-    "resourceVersion": "1.4",
-    "name": "s_circlelight_colorful",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"42137bf8-3290-4cf9-ad4f-ad57498f17a4","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"42137bf8-3290-4cf9-ad4f-ad57498f17a4","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "GameObjects",
     "path": "folders/Sprites/GameObjects.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "s_circlelight_colorful",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "s_mailbox",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,15 +27,13 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"bf9d0899-07af-4edb-8860-12125136ccd2","path":"sprites/s_mailbox/s_mailbox.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"bf9d0899-07af-4edb-8860-12125136ccd2","path":"sprites/s_mailbox/s_mailbox.yy",},"LayerId":{"name":"8fdf161e-e4fc-4dc1-a624-29c541f03367","path":"sprites/s_mailbox/s_mailbox.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"s_mailbox","path":"sprites/s_mailbox/s_mailbox.yy",},"resourceVersion":"1.0","name":"bf9d0899-07af-4edb-8860-12125136ccd2","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"9ea85562-c566-4b5c-96d5-8537c545fb38","path":"sprites/s_mailbox/s_mailbox.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"9ea85562-c566-4b5c-96d5-8537c545fb38","path":"sprites/s_mailbox/s_mailbox.yy",},"LayerId":{"name":"8fdf161e-e4fc-4dc1-a624-29c541f03367","path":"sprites/s_mailbox/s_mailbox.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"s_mailbox","path":"sprites/s_mailbox/s_mailbox.yy",},"resourceVersion":"1.0","name":"9ea85562-c566-4b5c-96d5-8537c545fb38","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"bf9d0899-07af-4edb-8860-12125136ccd2",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9ea85562-c566-4b5c-96d5-8537c545fb38",},
   ],
   "sequence": {
-    "spriteId": {"name":"s_mailbox","path":"sprites/s_mailbox/s_mailbox.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "s_mailbox",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -43,10 +44,10 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"d5cd348f-029c-4ace-8352-fc77d0e6bbd6","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"bf9d0899-07af-4edb-8860-12125136ccd2","path":"sprites/s_mailbox/s_mailbox.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"69a6b1ae-ba26-412c-8028-3602548e405f","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9ea85562-c566-4b5c-96d5-8537c545fb38","path":"sprites/s_mailbox/s_mailbox.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,22 +63,13 @@
     "yorigin": 24,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"s_mailbox","path":"sprites/s_mailbox/s_mailbox.yy",},
-    "resourceVersion": "1.4",
-    "name": "s_mailbox",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"8fdf161e-e4fc-4dc1-a624-29c541f03367","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"8fdf161e-e4fc-4dc1-a624-29c541f03367","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Objects",
     "path": "folders/Sprites/WorldObjects/Objects.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "s_mailbox",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

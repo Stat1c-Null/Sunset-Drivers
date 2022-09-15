@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "s_gasCanister",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,15 +27,13 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"e72a9f5d-f7c7-4a42-881b-ce654d2a9dd1","path":"sprites/s_gasCanister/s_gasCanister.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"e72a9f5d-f7c7-4a42-881b-ce654d2a9dd1","path":"sprites/s_gasCanister/s_gasCanister.yy",},"LayerId":{"name":"ce55d621-a685-4752-9f1c-c0c9eae41fc8","path":"sprites/s_gasCanister/s_gasCanister.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"s_gasCanister","path":"sprites/s_gasCanister/s_gasCanister.yy",},"resourceVersion":"1.0","name":"e72a9f5d-f7c7-4a42-881b-ce654d2a9dd1","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"ed01fecb-bbf8-41ad-b7b3-91d7b7509478","path":"sprites/s_gasCanister/s_gasCanister.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"ed01fecb-bbf8-41ad-b7b3-91d7b7509478","path":"sprites/s_gasCanister/s_gasCanister.yy",},"LayerId":{"name":"ce55d621-a685-4752-9f1c-c0c9eae41fc8","path":"sprites/s_gasCanister/s_gasCanister.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"s_gasCanister","path":"sprites/s_gasCanister/s_gasCanister.yy",},"resourceVersion":"1.0","name":"ed01fecb-bbf8-41ad-b7b3-91d7b7509478","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e72a9f5d-f7c7-4a42-881b-ce654d2a9dd1",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ed01fecb-bbf8-41ad-b7b3-91d7b7509478",},
   ],
   "sequence": {
-    "spriteId": {"name":"s_gasCanister","path":"sprites/s_gasCanister/s_gasCanister.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "s_gasCanister",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -43,10 +44,10 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"57a63f2f-67f0-459e-92f2-3024a9fe1e94","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e72a9f5d-f7c7-4a42-881b-ce654d2a9dd1","path":"sprites/s_gasCanister/s_gasCanister.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"4ace4c61-eefc-4265-98ce-fc50e3e52c08","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ed01fecb-bbf8-41ad-b7b3-91d7b7509478","path":"sprites/s_gasCanister/s_gasCanister.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,22 +63,13 @@
     "yorigin": 25,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"s_gasCanister","path":"sprites/s_gasCanister/s_gasCanister.yy",},
-    "resourceVersion": "1.4",
-    "name": "s_gasCanister",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"ce55d621-a685-4752-9f1c-c0c9eae41fc8","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"ce55d621-a685-4752-9f1c-c0c9eae41fc8","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "GasCanister",
     "path": "folders/Sprites/GameObjects/GasCanister.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "s_gasCanister",
-  "tags": [],
-  "resourceType": "GMSprite",
 }
