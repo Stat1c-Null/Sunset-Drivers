@@ -19,12 +19,12 @@ if(global.busted == false and global.wasted == false) {
 	draw_sprite(s_gear_m, 1,2515, 735)
 	//Score
 	draw_set_color(c_yellow)
-	draw_text(1233, 100, "SCORE")
-	draw_text(1225, 115, "______")
+	draw_text(1227, 100, "SCORE")
+	draw_text(1220, 115, "______")
 	draw_set_color(c_orange)
 	//calculate_score(obj_car.player_score, obj_car.score_x_pos)
 	//put score_x_pos instead of 1220
-	draw_text(1250, 180, string(round(obj_car.player_score)))
+	draw_text(score_x_pos, 180, string(round(obj_car.player_score)))
 	draw_sprite(s_dollar_bill_ui, 1, 170, 667)
 	if(global.not_enough_money){
 		global.not_enough_money = false

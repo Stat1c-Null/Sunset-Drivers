@@ -35,8 +35,8 @@ switch(global.game_state) {
 			var vy = camera_get_view_y(view_camera[0])
 			var v_width = camera_get_view_width(view_camera[0])/2
 			var v_height = camera_get_view_height(view_camera[0])/2
-			instance_create_layer(vx + v_width, vy + v_height + 250, "Particles", o_restart_button)
-			instance_create_layer(vx + v_width, vy + v_height + 350, "Particles", o_home_button)
+			instance_create_layer(vx + v_width, vy + v_height + 100, "Particles", o_restart_button)
+			instance_create_layer(vx + v_width, vy + v_height + 200, "Particles", o_home_button)
 			buttons_created = true
 		}
 

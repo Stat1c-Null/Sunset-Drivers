@@ -39,7 +39,7 @@ global.health = global.maxHealth
 standing_consume = 0.02
 //Score
 player_score = 0
-score_x_pos = 950//Score position on the screen, it changes depending on how big score is
+score_x_pos = 1270//Score position on the screen, it changes depending on how big score is
 speeds = [10, 30, 50, 70, 90]//Different speeds depending on which score will increase. The faster the speed bigger your pen.... score
 inc_speed = 0
 arrow_rot = 360//Control in which direction speedometer arrow is turned
