@@ -132,6 +132,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_613B565F","properties":[],"isDnd":false,"objectId":{"name":"o_mailbox","path":"objects/o_mailbox/o_mailbox.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":788.0,"y":10416.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5658AF70","properties":[],"isDnd":false,"objectId":{"name":"o_barrier","path":"objects/o_barrier/o_barrier.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":9.859375,"scaleY":0.359375,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1691.5,"y":18.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_72BDBAB2","properties":[],"isDnd":false,"objectId":{"name":"o_bg_music","path":"objects/o_bg_music/o_bg_music.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":32.0,"y":64.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_654AB6AE","properties":[],"isDnd":false,"objectId":{"name":"o_camera","path":"objects/o_camera/o_camera.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":64.0,"y":64.0,},
       ],"visible":true,"depth":300,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Lights","instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_666EDFEB","properties":[],"isDnd":false,"objectId":{"name":"obj_OLDTVFilter_SVideo","path":"objects/obj_OLDTVFilter_SVideo/obj_OLDTVFilter_SVideo.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":true,"inheritItemSettings":false,"x":15.0,"y":61.0,},
@@ -1190,6 +1191,7 @@
     {"name":"inst_2946358E","path":"rooms/rm_tutorial/rm_tutorial.yy",},
     {"name":"inst_5DE577A1","path":"rooms/rm_tutorial/rm_tutorial.yy",},
     {"name":"inst_72BDBAB2","path":"rooms/rm_tutorial/rm_tutorial.yy",},
+    {"name":"inst_654AB6AE","path":"rooms/rm_tutorial/rm_tutorial.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
