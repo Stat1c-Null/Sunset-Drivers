@@ -2,7 +2,7 @@
 #macro RES_W 2560
 #macro RES_H 1440 
 #macro RES_SCALE 1
-#macro CAM_SMOOTH 0.8 //Lower the number to make camera smoother, increase to make it snapier
+#macro CAM_SMOOTH 0.7 //Lower the number to make camera smoother, increase to make it snapier
 
 //Enable Views
 view_enabled = true
@@ -30,5 +30,10 @@ window_set_position(display_width/2 - window_width/2, display_height/2 - window_
 mouse_x_previous = device_mouse_x_to_gui(0)
 mouse_y_previous = device_mouse_y_to_gui(0)
 
-zoom_speed = 0.03
+zoom_speed = 0.01
 object_following = obj_car
+
+//Screen Shake
+shakePower = 5
+shakeValue = 0
+shakeAngle = 0.15

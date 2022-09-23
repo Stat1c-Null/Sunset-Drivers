@@ -47,6 +47,9 @@ arrow_rot = 360//Control in which direction speedometer arrow is turned
 //Money
 global.dollars = 0
 money_timer = 4
+
+//Music
+global.music_on = false
 //Keys
 var key_left = keyboard_check(ord("A"))
 var key_right = keyboard_check(ord("D"))

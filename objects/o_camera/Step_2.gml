@@ -16,25 +16,27 @@ if(camW > zoom_out_w_max or camH > zoom_out_h_max) {
 }
 
 //Panning
-if (mouse_check_button(mb_middle)) {
-	var move_x = device_mouse_x_to_gui(0) - mouse_x_previous
-	var move_y = device_mouse_y_to_gui(0) - mouse_y_previous
+if(instance_exists(object_following)) {
+	if (mouse_check_button(mb_middle)) {
+		var move_x = device_mouse_x_to_gui(0) - mouse_x_previous
+		var move_y = device_mouse_y_to_gui(0) - mouse_y_previous
 	
-	camX -= move_x
-	camY -= move_y
-} else {
-	//Follow the player 
-	//Set the target camera position
-	var targetX = object_following.x - camW/2
-	var targetY = object_following.y - camH/2
+		camX -= move_x
+		camY -= move_y
+	} else {
+		//Follow the player 
+		//Set the target camera position
+		var targetX = object_following.x - camW/2
+		var targetY = object_following.y - camH/2
 	
-	//Clamp the target to room bounds
-	targetX = clamp(targetX, 0, room_width - camW)
-	targetY = clamp(targetY, 0, room_height - camH)
+		//Clamp the target to room bounds
+		targetX = clamp(targetX, 0, room_width - camW)
+		targetY = clamp(targetY, 0, room_height - camH)
 	
-	//Smoothly move the camera to the target position
-	camX = lerp(camX, targetX, CAM_SMOOTH)
-	camY = lerp(camY, targetY, CAM_SMOOTH)
+		//Smoothly move the camera to the target position
+		camX = lerp(camX, targetX, CAM_SMOOTH)
+		camY = lerp(camY, targetY, CAM_SMOOTH)
+	}
 }
 
 //Zooming
@@ -48,7 +50,7 @@ if (wheel != 0){
 	var addH = camH * wheel
 	
 	//Max Zoom Out
-	if (camW <= zoom_out_w_max and camH <= zoom_out_h_max) {
+	if (camW < zoom_out_w_max and camH < zoom_out_h_max) {
 		camW += addW
 		camH += addH
 	} else {
@@ -57,7 +59,7 @@ if (wheel != 0){
 	}
 	
 	//Max Zoom In
-	if (camW >= zoom_in_w_max and camH >= zoom_in_h_max) {
+	if (camW > zoom_in_w_max and camH > zoom_in_h_max) {
 		camW += addW
 		camH += addH
 	} else {
@@ -70,9 +72,19 @@ if (wheel != 0){
 	camY -= addH / 2
 }
 
+//Apply shake
+var shake = power(shakeValue, 2) * shakePower
+camX += random_range(-shake, shake)
+camY += random_range(-shake, shake)
+
 //Apply camera position
 camera_set_view_pos(camera, camX, camY)
 camera_set_view_size(camera, camW, camH)
+camera_set_view_angle(camera, random_range(-shake, shake) * shakeAngle)
+
 //Store previous position
 mouse_x_previous = device_mouse_x_to_gui(0)
 mouse_y_previous = device_mouse_y_to_gui(0)
+
+//Reduce shake
+if (shakeValue > 0) shakeValue -= 0.1

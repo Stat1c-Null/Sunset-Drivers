@@ -24,6 +24,7 @@ buttons_created = false//Determine if game over menu buttons were made
 
 global.filter = "day_night"
 
+
 //Determine which room player is located in and set according game state
 var roomname = room_get_name(room)
 if(roomname == "rm_mainmenu") 
