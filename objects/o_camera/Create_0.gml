@@ -37,3 +37,8 @@ object_following = obj_car
 shakePower = 5
 shakeValue = 0
 shakeAngle = 0.15
+//Control shake alarm
+cameraShaking = false
+cameraAlarmOn = false
+collisionWithStatic = false
+collisionWithDynamic = false

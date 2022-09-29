@@ -27,7 +27,13 @@ if(key_forward and !key_left and !key_right and !destroyed) {
 	image_index = 0	
 }
 
-
+//Reset camera shake collision vars
+if(not place_meeting(x, y, o_staticParent) or not place_meeting(x, y, obj_parent_physics)) {
+	o_camera.collisionWithDynamic = false
+	o_camera.collisionWithStatic = false
+	o_camera.cameraShaking = false
+	o_camera.cameraAlarmOn = false
+}
 
 //Switch score position depending on number of numbers
 calculate_score(player_score)
