@@ -42,3 +42,4 @@ cameraShaking = false
 cameraAlarmOn = false
 collisionWithStatic = false
 collisionWithDynamic = false
+collisionWithCar = false

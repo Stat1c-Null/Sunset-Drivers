@@ -5,5 +5,5 @@ if(o_camera.cameraShaking == false) {
 if(o_camera.cameraShaking and o_camera.cameraAlarmOn == false) {
 	o_camera.cameraAlarmOn = true
 	o_camera.collisionWithStatic = true
-	alarm[4] = 2
+	alarm[4] = 1
 }

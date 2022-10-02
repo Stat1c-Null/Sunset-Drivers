@@ -47,7 +47,7 @@ switch(global.game_state) {
 			//Create object to show vig just ones
 			//Create 3 objects so that vignette seems darker
 			for (var i = 0; i <= rep; i++;) {
-				instance_create_layer(x,y,"Invisible", o_vig_show)
+				instance_create_layer(x,y,"Particles", o_vig_show)
 			}
 			room_speed = 20//Slow mow the game when player gets busted
 			vigOn = true
