@@ -27,7 +27,7 @@ if(instance_exists(object_following)) {
 		//Follow the player 
 		//Set the target camera position
 		var targetX = object_following.x - camW/2
-		var targetY = object_following.y - camH/2
+		var targetY = object_following.y - camH/1.3
 	
 		//Clamp the target to room bounds
 		targetX = clamp(targetX, 0, room_width - camW)
@@ -74,8 +74,10 @@ if (wheel != 0){
 
 //Apply shake
 var shake = power(shakeValue, 2) * shakePower
-camX += random_range(-shake, shake)
-camY += random_range(-shake, shake)
+if(global.gameover == false){ 
+	camX += random_range(-shake, shake)
+	camY += random_range(-shake, shake)
+}
 
 //Apply camera position
 camera_set_view_pos(camera, camX, camY)
