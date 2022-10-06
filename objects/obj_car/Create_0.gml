@@ -1,3 +1,5 @@
+//Clear effects
+
 friction_strength = 6
 acceleration_speed = 0.6
 center_to_front = 45//Number of pixels from your cars center to it's front wheels

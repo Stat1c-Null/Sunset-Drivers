@@ -162,19 +162,28 @@ Dvoor = angle_difference((-phy_rotation + richting + 90)+180, point_direction(0,
 Vvoorh = cos((Dvoor/180)*pi)*Lvoor 
 
 if abs(Vvoorh) > 0 {
-physics_apply_force(Xvoor,Yvoor,lengthdir_x(-Vvoorh*friction_strength,point_direction(0,0,Vvoorx,Vvoory) + Dvoor),lengthdir_y(-Vvoorh*friction_strength,point_direction(0,0,Vvoorx,Vvoory) + Dvoor))
+	physics_apply_force(Xvoor,Yvoor,lengthdir_x(-Vvoorh*friction_strength,point_direction(0,0,Vvoorx,Vvoory) + Dvoor),lengthdir_y(-Vvoorh*friction_strength,point_direction(0,0,Vvoorx,Vvoory) + Dvoor))
 
-if abs(Vvoorh) > 3 {
-i = instance_create(Xvoor+lengthdir_x(center_to_front/2-center_to_front/10,-phy_rotation+90),Yvoor+lengthdir_y(center_to_front/2-center_to_front/10,-phy_rotation+90),obj_skid_mark)
-i.image_alpha = Vvoorh/60
-i.previd = previd[1]
-previd[1] = i
-alarm[0] = 2
-i = instance_create(Xvoor+lengthdir_x(center_to_front/2-center_to_front/10,-phy_rotation-90),Yvoor+lengthdir_y(center_to_front/2-center_to_front/10,-phy_rotation-90),obj_skid_mark)
-i.image_alpha = Vvoorh/60
-i.previd = previd[2]
-previd[2] = i
-alarm[0] = 2}
+	if abs(Vvoorh) > 5 {
+		
+		i = instance_create(Xvoor+lengthdir_x(center_to_front/2-center_to_front/10,-phy_rotation+90),Yvoor+lengthdir_y(center_to_front/2-center_to_front/10,-phy_rotation+90),obj_skid_mark)
+		i.image_alpha = Vvoorh/60
+		i.previd = previd[1]
+		previd[1] = i
+		alarm[0] = 2
+		
+		i = instance_create(Xvoor+lengthdir_x(center_to_front/2-center_to_front/10,-phy_rotation-90),Yvoor+lengthdir_y(center_to_front/2-center_to_front/10,-phy_rotation-90),obj_skid_mark)
+		i.image_alpha = Vvoorh/60
+		i.previd = previd[2]
+		previd[2] = i
+		alarm[0] = 2
+	}
+	
+	if abs(Vvoorh) > 8 {
+		//Create tire smoke
+		part_particles_create(global.partSystemCar,Xvoor+lengthdir_x(center_to_front/2-center_to_front/10,-phy_rotation+90),Yvoor+lengthdir_y(center_to_front/2-center_to_front/10,-phy_rotation+90), global.ptBasic, 1)
+		part_particles_create(global.partSystemCar, Xvoor+lengthdir_x(center_to_front/2-center_to_front/10,-phy_rotation-90),Yvoor+lengthdir_y(center_to_front/2-center_to_front/10,-phy_rotation-90), global.ptBasic, 1)
+	}
 }
 
 

@@ -10,3 +10,4 @@ if(o_camera.collisionWithDynamic) {
 	alarm[5] = 1
 }
 
+

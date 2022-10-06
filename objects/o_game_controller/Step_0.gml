@@ -1,5 +1,7 @@
 /// @description 
+Controls()
 
+//Switch Game States
 switch(global.game_state) {
 	
 	//IN CASE THE GAME IS ON
