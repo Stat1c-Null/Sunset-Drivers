@@ -166,13 +166,13 @@ if abs(Vvoorh) > 0 {
 
 	if abs(Vvoorh) > 5 {
 		
-		i = instance_create(Xvoor+lengthdir_x(center_to_front/2-center_to_front/10,-phy_rotation+90),Yvoor+lengthdir_y(center_to_front/2-center_to_front/10,-phy_rotation+90),obj_skid_mark)
+		i = instance_create_layer(Xvoor+lengthdir_x(center_to_front/2-center_to_front/10,-phy_rotation+90),Yvoor+lengthdir_y(center_to_front/2-center_to_front/10,-phy_rotation+90),"UnderPlayer",obj_skid_mark)
 		i.image_alpha = Vvoorh/60
 		i.previd = previd[1]
 		previd[1] = i
 		alarm[0] = 2
-		
-		i = instance_create(Xvoor+lengthdir_x(center_to_front/2-center_to_front/10,-phy_rotation-90),Yvoor+lengthdir_y(center_to_front/2-center_to_front/10,-phy_rotation-90),obj_skid_mark)
+	
+		i = instance_create_layer(Xvoor+lengthdir_x(center_to_front/2-center_to_front/10,-phy_rotation-90),Yvoor+lengthdir_y(center_to_front/2-center_to_front/10,-phy_rotation-90),"UnderPlayer",obj_skid_mark)
 		i.image_alpha = Vvoorh/60
 		i.previd = previd[2]
 		previd[2] = i
@@ -202,18 +202,19 @@ Dachter = angle_difference((-phy_rotation + 90)+180, point_direction(0,0,Vachter
 Vachterh = cos((Dachter/180)*pi)*Lachter 
 
 if abs(Vachterh) > 0 {
-physics_apply_force(Xachter,Yachter,lengthdir_x(-Vachterh*friction_strength,point_direction(0,0,Vachterx,Vachtery) + Dachter),lengthdir_y(-Vachterh*friction_strength,point_direction(0,0,Vachterx,Vachtery) + Dachter))
+	physics_apply_force(Xachter,Yachter,lengthdir_x(-Vachterh*friction_strength,point_direction(0,0,Vachterx,Vachtery) + Dachter),lengthdir_y(-Vachterh*friction_strength,point_direction(0,0,Vachterx,Vachtery) + Dachter))
 
-if abs(Vachterh) > 3 {
-i = instance_create(Xachter+lengthdir_x(20,-phy_rotation)+lengthdir_x(center_to_front/2-center_to_front/10,-phy_rotation+90),Yachter+lengthdir_y(20,-phy_rotation)+lengthdir_y(center_to_front/2-center_to_front/10,-phy_rotation+90),obj_skid_mark)
-i.image_alpha = Vachterh/60
-i.previd = previd[3]
-previd[3] = i
-alarm[0] = 2
-i = instance_create(Xachter+lengthdir_x(20,-phy_rotation)+lengthdir_x(center_to_front/2-center_to_front/10,-phy_rotation-90),Yachter+lengthdir_y(20,-phy_rotation)+lengthdir_y(center_to_front/2-center_to_front/10,-phy_rotation-90),obj_skid_mark)
-i.image_alpha = Vachterh/60
-i.previd = previd[4]
-previd[4] = i
-alarm[0] = 2}
+	if abs(Vachterh) > 3 {
+		i = instance_create(Xachter+lengthdir_x(20,-phy_rotation)+lengthdir_x(center_to_front/2-center_to_front/10,-phy_rotation+90),Yachter+lengthdir_y(20,-phy_rotation)+lengthdir_y(center_to_front/2-center_to_front/10,-phy_rotation+90),obj_skid_mark)
+		i.image_alpha = Vachterh/60
+		i.previd = previd[3]
+		previd[3] = i
+		alarm[0] = 2
+		i = instance_create(Xachter+lengthdir_x(20,-phy_rotation)+lengthdir_x(center_to_front/2-center_to_front/10,-phy_rotation-90),Yachter+lengthdir_y(20,-phy_rotation)+lengthdir_y(center_to_front/2-center_to_front/10,-phy_rotation-90),obj_skid_mark)
+		i.image_alpha = Vachterh/60
+		i.previd = previd[4]
+		previd[4] = i
+		alarm[0] = 2
+	}
 }
 

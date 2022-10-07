@@ -8,7 +8,7 @@ global.final_seconds = 0
 //Cop setting
 distance_betw = 0
 global.final_dist = 100
-death_distance = 20
+death_distance = 10
 //Game over settings
 global.busted = false
 global.wasted = false
