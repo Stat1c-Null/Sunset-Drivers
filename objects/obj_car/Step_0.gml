@@ -125,7 +125,11 @@ if not key_right {
 
 if not key_left and not key_right {
 	if abs(richting) <= turn_multi {richting = 0}}
-	
+
+//As player loses health, his screen will turn more and more gray
+fx_set_parameter(blackwhiteFilter, "g_Intensity", (global.maxHealth - global.health) * 0.01)
+layer_set_fx("DeathFilter", blackwhiteFilter)
+
 //Wasted
 if(global.health <= 0)
 {
@@ -135,6 +139,9 @@ if(global.health <= 0)
 //Destroy car if there is no health
 if(global.health <= 0 or global.busted == true)
 {
+	//Black and white filter for game ove
+	fx_set_parameter(blackwhiteFilter, "g_Intensity", 1)
+	layer_set_fx("DeathFilter", blackwhiteFilter)
 	destroyed = true
 	turn_left = false
 	turn_right = false

@@ -38,6 +38,10 @@ global.gear = 1
 //Condition
 global.maxHealth = 100
 global.health = global.maxHealth
+//Black and white filter for health. The lower the health the greater the fitler 
+blackwhiteFilter = fx_create("_filter_greyscale")
+fx_set_parameter(blackwhiteFilter, "g_Intensity", 0)
+layer_set_fx("DeathFilter", blackwhiteFilter)
 standing_consume = 0.02
 //Score
 player_score = 0

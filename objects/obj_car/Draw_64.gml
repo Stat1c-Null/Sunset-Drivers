@@ -5,10 +5,6 @@ if(global.busted == false and global.wasted == false) {
 	draw_sprite_ext(GasUI, 1, 146, 300, max(0, global.gasAmount/global.maxAmount), 1, 0, c_white, 1)
 	draw_sprite(UIBack, 1, 100, 300)
 
-	//Condition
-	draw_sprite_ext(s_condition_front, 1, 2336, 300, max(0, global.health/global.maxHealth), 1, 0, c_white, 1)
-	draw_sprite(s_condition_back, 1, 2290, 300)
-
 	//Speeeeeed
 	draw_sprite(s_speedometer, 1, 2390, 600)
 	draw_sprite_ext(s_speed_arrow, 1, 2390, 600, image_xscale, image_yscale, arrow_rot, image_blend, image_alpha)

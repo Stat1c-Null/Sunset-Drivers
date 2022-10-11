@@ -337,6 +337,7 @@
     {"id":{"name":"s_tree2","path":"sprites/s_tree2/s_tree2.yy",},"order":22,},
     {"id":{"name":"s_collision","path":"sprites/s_collision/s_collision.yy",},"order":0,},
     {"id":{"name":"rm_endless_r1","path":"rooms/rm_endless_r1/rm_endless_r1.yy",},"order":5,},
+    {"id":{"name":"s","path":"sprites/s/s.yy",},"order":10,},
     {"id":{"name":"s_cabrioletPorsche2","path":"sprites/s_cabrioletPorsche2/s_cabrioletPorsche2.yy",},"order":7,},
     {"id":{"name":"s_aston","path":"sprites/s_aston/s_aston.yy",},"order":11,},
     {"id":{"name":"f_debug","path":"fonts/f_debug/f_debug.yy",},"order":0,},

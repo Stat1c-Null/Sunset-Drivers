@@ -51,10 +51,6 @@ switch(global.game_state) {
 			for (var i = 0; i <= rep; i++;) {
 				instance_create_layer(x,y,"Particles", o_vig_show)
 			}
-			//Black and white filter 
-			var blackwhiteFilter = fx_create("_filter_greyscale")
-			fx_set_parameter(blackwhiteFilter, "g_Intensity", 1)
-			layer_set_fx("DeathFilter", blackwhiteFilter)
 			room_speed = 20//Slow mow the game when player gets busted
 			vigOn = true
 		}
