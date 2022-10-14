@@ -32,6 +32,7 @@ alarm[3] = 1 * room_speed
 //Gas gas gas
 global.maxAmount = 100
 global.gasAmount = global.maxAmount
+gasFrame = 0
 global.mphSpeed = 0
 global.phySpeed = 0
 global.gear = 1

@@ -61,4 +61,6 @@ if(hit == false) {
 	}
 	}
 	action_set_relative(0);
+} else if(hit == true) {
+	part_particles_create(global.partSystemCar,x,y,global.ptSmoke,3)
 }

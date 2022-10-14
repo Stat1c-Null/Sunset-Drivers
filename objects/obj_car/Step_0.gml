@@ -188,8 +188,8 @@ if abs(Vvoorh) > 0 {
 	
 	if abs(Vvoorh) > 8 {
 		//Create tire smoke
-		part_particles_create(global.partSystemCar,Xvoor+lengthdir_x(center_to_front/2-center_to_front/10,-phy_rotation+90),Yvoor+lengthdir_y(center_to_front/2-center_to_front/10,-phy_rotation+90), global.ptBasic, 1)
-		part_particles_create(global.partSystemCar, Xvoor+lengthdir_x(center_to_front/2-center_to_front/10,-phy_rotation-90),Yvoor+lengthdir_y(center_to_front/2-center_to_front/10,-phy_rotation-90), global.ptBasic, 1)
+		part_particles_create(global.partSystemCar,Xvoor+lengthdir_x(center_to_front/2-center_to_front/10,-phy_rotation+90),Yvoor+lengthdir_y(center_to_front/2-center_to_front/10,-phy_rotation+90), global.ptSmoke, 2)
+		part_particles_create(global.partSystemCar, Xvoor+lengthdir_x(center_to_front/2-center_to_front/10,-phy_rotation-90),Yvoor+lengthdir_y(center_to_front/2-center_to_front/10,-phy_rotation-90), global.ptSmoke, 2)
 	}
 }
 

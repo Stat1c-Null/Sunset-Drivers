@@ -10,8 +10,8 @@ if __b__
 	action_create_object(o_broken_bench2_left, -15, 0);
 	action_create_object(o_broken_bench2_right, 15, 0);
 	//Create particles from collision
-	action_create_object(o_block_particle, 0, 0)
-	with(o_block_particle) {
+	action_create_object(o_wood_particle, 0, 0)
+	with(o_wood_particle) {
 		if(global.reverse == false) {
 			direction = -obj_car.phy_rotation
 		} else {

@@ -13,7 +13,7 @@ part_type_size(_p, 0.2, 0.3, 0.03, 0)
 part_type_speed(_p, 1, 3, 0, 0)
 part_type_direction(_p, 0, 360, 2, 0)
 
-global.ptBasic = _p;
+global.ptSmoke = _p;
 
 #endregion
 

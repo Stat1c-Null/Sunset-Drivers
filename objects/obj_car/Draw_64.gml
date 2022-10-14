@@ -2,7 +2,15 @@
 //Draw text unless player is busted
 if(global.busted == false and global.wasted == false) {
 	//Gas Gas Gas i am gonna step on the gas tonight we'll fly
-	draw_sprite_ext(s_VerticalGasUI, 1, 170, 880, 1, max(0, global.gasAmount/global.maxAmount), 0, c_white, 1)
+	//Animate gas fluid
+	if gasFrame < 29 {
+		draw_sprite_ext(s_VerticalGasUI, gasFrame, 170, 880, 1, max(0, global.gasAmount/global.maxAmount), 0, c_white, 1)
+		gasFrame++
+	} else { 
+		draw_sprite_ext(s_VerticalGasUI, gasFrame, 170, 880, 1, max(0, global.gasAmount/global.maxAmount), 0, c_white, 1)
+		gasFrame = 0	
+	}
+	
 	draw_sprite(s_VerticalGasUIBorder, 1, 170, 900)
 	//Speeeeeed
 	draw_sprite(s_speedometer, 1, 2390, 600)
