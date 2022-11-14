@@ -24,8 +24,8 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [
-    {"x":34.0,"y":91.0,},
-    {"x":100.0,"y":91.0,},
+    {"x":34.0,"y":108.0,},
+    {"x":100.0,"y":108.0,},
     {"x":100.0,"y":144.0,},
     {"x":34.0,"y":144.0,},
   ],

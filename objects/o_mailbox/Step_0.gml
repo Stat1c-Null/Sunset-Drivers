@@ -6,8 +6,7 @@ if __b__
 {
 //Reduce cars health if barrel broke
 global.health -= collision_damage
-action_kill_object();
-action_create_object(o_table_piece1, 0, 0);
+action_create_object(o_mail_particle, 0, 0);
 }
 }
 action_set_relative(0);
