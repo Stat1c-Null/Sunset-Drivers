@@ -16,7 +16,7 @@
     {"inherit":false,"visible":false,"xview":0,"yview":0,"wview":1366,"hview":768,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
   ],
   "layers": [
-    {"resourceType":"GMREffectLayer","resourceVersion":"1.0","name":"TVNoiseFilter","visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":"_filter_whitenoise","properties":[
+    {"resourceType":"GMREffectLayer","resourceVersion":"1.0","name":"TVNoiseFilter","visible":false,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":"_filter_whitenoise","properties":[
         {"type":0,"name":"g_WhiteNoiseIntensity","value":"0.15",},
         {"type":0,"name":"g_WhiteNoiseAnimation","value":"0.075",},
         {"type":2,"name":"g_WhiteNoiseTexture","value":"_filter_whitenoise_noise",},

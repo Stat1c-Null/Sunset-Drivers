@@ -12,6 +12,7 @@ if __b__
 	//Create particles from collision
 	action_create_object(o_wood_particle, 0, 0)
 	with(o_wood_particle) {
+		//If i am not forgetting global.reverse is for when car is driving back
 		if(global.reverse == false) {
 			direction = -obj_car.phy_rotation
 		} else {

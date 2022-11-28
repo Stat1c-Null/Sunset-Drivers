@@ -68,7 +68,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Racing Track",
-    "path": "folders/Sprites/tilesets/Racing Track.yy",
+    "name": "WorldObjects",
+    "path": "folders/Sprites/WorldObjects.yy",
   },
 }
