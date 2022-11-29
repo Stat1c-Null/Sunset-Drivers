@@ -10,7 +10,7 @@ particle_syst = part_system_create_layer("Particles", 0)
 
 particle_trail = part_type_create()
 
-part_type_sprite(particle_trail, s_mail_particle, 0, 1, 1)
+part_type_sprite(particle_trail, s_trash_particles, 0, 1, 1)
 part_type_life(particle_trail, min_life, max_life)
 part_type_orientation(particle_trail, 0, 359, 30, 40, 0)
 //part_type_alpha3(particle_trail, 1, 1, 0)
