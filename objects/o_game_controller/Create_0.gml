@@ -23,6 +23,13 @@ win_width = room_width
 buttons_created = false//Determine if game over menu buttons were made
 
 global.filter = "day_night"
+if(global.filter == "day_night") {
+	instance_activate_object(obj_day_and_night_lights)
+	instance_deactivate_object(obj_OLDTVFilter_SVideo)
+} else if(global.filter == "tv_filter") {
+	instance_activate_object(obj_OLDTVFilter_SVideo)
+	instance_deactivate_object(obj_day_and_night_lights)	
+}
 
 //Determine which room player is located in and set according game state
 var roomname = room_get_name(room)

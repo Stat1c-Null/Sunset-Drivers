@@ -213,36 +213,113 @@ function scr_OLDTVFilter_Draw() {
 
 	/// DRAW PLAYER GUI
 	//Gas Gas Gas i am gonna step on the gas tonight we'll fly
-	draw_sprite_ext(GasUI, 1, 146, 300, max(0, global.gasAmount/global.maxAmount), 1, 0, c_white, 1)
-	draw_sprite(UIBack, 1, 100, 300)
-
-	//Condition
-	draw_sprite_ext(s_condition_front, 1, 2336, 300, max(0, global.health/global.maxHealth), 1, 0, c_white, 1)
-	draw_sprite(s_condition_back, 1, 2290, 300)
-
-	//Speeeeeed
-	draw_sprite(s_speedometer, 1, 2390, 600)
-	draw_sprite_ext(s_speed_arrow, 1, 2390, 600, image_xscale, image_yscale, arrow_rot, image_blend, image_alpha)
-	draw_set_color(c_green)
-	draw_text(2435, 735, round(global.mphSpeed))
-	draw_set_color(c_red)
-	draw_text(2435, 690, global.gear)
-	draw_sprite(s_gear_m, 1,2515, 735)
-	//Score
-	draw_set_color(c_yellow)
-	draw_text(1227, 100, "SCORE")
-	draw_text(1220, 115, "______")
-	draw_set_color(c_orange)
-	//calculate_score(obj_car.player_score, obj_car.score_x_pos)
-	//put score_x_pos instead of 1220
-	draw_text(1250, 180, string(round(obj_car.player_score)))
-	draw_sprite(s_dollar_bill_ui, 1, 170, 667)
-	if(global.not_enough_money){
-		global.not_enough_money = false
-		draw_set_color(c_red) 
-		alarm[2] = room_speed * obj_car.money_timer
-	} else {
-		draw_set_color(c_lime)
+	//Animate gas fluid
+	var gasFrame = 0
+	var arrow_rot = 360
+	var score_x_pos = 1270
+	if(instance_exists(obj_car)) {
+		if gasFrame < 29 {
+			draw_sprite_ext(s_VerticalGasUI, gasFrame, 170, 880, 1, max(0, global.gasAmount/global.maxAmount), 0, c_white, 1)
+			gasFrame++
+		} else { 
+			draw_sprite_ext(s_VerticalGasUI, gasFrame, 170, 880, 1, max(0, global.gasAmount/global.maxAmount), 0, c_white, 1)
+			gasFrame = 0	
+		}
+	
+		draw_sprite(s_VerticalGasUIBorder, 1, 170, 900)
+		//Speeeeeed
+		draw_sprite(s_speedometer, 1, 2390, 600)
+		draw_sprite_ext(s_speed_arrow, 1, 2390, 600, image_xscale, image_yscale, arrow_rot, image_blend, image_alpha)
+		draw_set_color(c_green)
+		draw_text(2435, 735, round(global.mphSpeed))
+		draw_set_color(c_red)
+		draw_text(2435, 690, global.gear)
+		draw_sprite(s_gear_m, 1,2515, 735)
+		//Score
+		draw_set_color(c_yellow)
+		draw_text(1227, 100, "SCORE")
+		draw_text(1220, 115, "______")
+		draw_set_color(c_orange)
+		//calculate_score(obj_car.player_score, obj_car.score_x_pos)
+		//put score_x_pos instead of 1220
+		draw_text(score_x_pos, 180, string(round(obj_car.player_score)))
+		draw_sprite(s_dollar_bill_ui, 1, 2460, 150)
+		if(global.not_enough_money){
+			global.not_enough_money = false
+			draw_set_color(c_red) 
+			alarm[2] = room_speed * obj_car.money_timer
+		} else {
+			draw_set_color(c_lime)
+		}
+		draw_text(2400, 200, "$" + string(global.dollars))
 	}
-	draw_text(260, 650, "$" + string(global.dollars))
+	//DRAW GUI FOR THE REST OF THE GAME
+	
+	var result_offset = 30
+	var stats_icon_offset = -100
+	var TextColor = false
+	var win_width = room_width
+
+	//Game over GUI
+	if(global.wasted) {
+		draw_set_font(f_vhs_big)
+		if(TextColor == false){
+			draw_set_color(c_olive)
+			draw_text(win_width/2+result_offset, 200, "WASTED")
+		} else {
+			draw_set_color(c_orange)
+			draw_text(win_width/2+result_offset, 200, "WASTED")	
+		}
+	} else if(global.busted) {
+		draw_set_font(f_vhs_big)
+		if(TextColor == false){
+			draw_set_color(c_aqua)
+			draw_text(win_width/2 + result_offset, 200, "BUSTED")
+		} else {
+			draw_set_color(c_red)
+			draw_text(win_width/2 + result_offset, 200, "BUSTED")	
+		}
+	}
+
+	if (global.gameover){
+		draw_set_font(f_vhs_medium)
+		//Draw final score
+		draw_set_color(c_yellow)
+		draw_sprite(s_speedometer_half_smol, 1, win_width/2 + stats_icon_offset, 480)
+		draw_text(win_width/2, 450, "FINAL SCORE-" + string(round(global.final_score)))
+		//Draw final money
+		draw_set_color(c_lime)
+		draw_sprite(s_dollar_bill_ui, 1, win_width/2 + stats_icon_offset, 590)
+		draw_text(win_width/2, 550, "MONEY SAVED-$" + string(global.final_money))
+		//Draw final time
+		draw_set_color(c_fuchsia)
+		draw_sprite(s_clockUI, 1, win_width/2 + stats_icon_offset, 690)
+		if(global.final_seconds < 10)
+			draw_text(win_width/2, 650, "TIME SURVIVED-" + string(global.final_minutes) + ":0" + string(round(global.final_seconds)))
+		else
+			draw_text(win_width/2, 650, "TIME SURVIVED-" + string(global.final_minutes) + ":" + string(round(global.final_seconds)))
+	}
+
+	if(global.game_state == "game") {
+		/// DRAW GAME GUI
+		//VHS PLAY
+		draw_set_color(c_ltgray)
+		draw_set_font(f_vhs)
+		draw_text(100, 100, "PLAY >")
+		draw_text(100, 1230, "SP")
+		//Draw Time Clock
+		draw_set_color(c_ltgray)
+		draw_text(2200, 1170, string(global.army_time))
+		draw_text(2200, 1230, "MAR.0" + string(global.day) + ".1997")
+		draw_text(2200, 1230, "MAR.0" + string(global.day) + ".1997")
+		//Draw Police Timer
+		draw_text(100, 1170, "Distance to Police: ")
+		draw_set_color(c_fuchsia)
+		draw_text(550, 1170, string(floor(global.final_dist)) + " feet")
+	} else if(global.game_state == "menu") {
+		draw_set_color(c_ltgray)
+		draw_set_font(f_vhs)
+		draw_text(100, 100, "PLAY >")
+		draw_text(100, 1230, "SP")	
+	}
 }

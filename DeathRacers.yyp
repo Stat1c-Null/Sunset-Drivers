@@ -337,6 +337,7 @@
     {"id":{"name":"s_zaporozech","path":"sprites/s_zaporozech/s_zaporozech.yy",},"order":2,},
     {"id":{"name":"s_traffic_block1_brokenright","path":"sprites/s_traffic_block1_brokenright/s_traffic_block1_brokenright.yy",},"order":29,},
     {"id":{"name":"o_light_parent","path":"objects/o_light_parent/o_light_parent.yy",},"order":0,},
+    {"id":{"name":"o_filter_button","path":"objects/o_filter_button/o_filter_button.yy",},"order":10,},
     {"id":{"name":"s_tree","path":"sprites/s_tree/s_tree.yy",},"order":21,},
     {"id":{"name":"o_exit_button","path":"objects/o_exit_button/o_exit_button.yy",},"order":4,},
     {"id":{"name":"s_b4","path":"sprites/s_b4/s_b4.yy",},"order":3,},
@@ -381,12 +382,12 @@
     {"id":{"name":"o_collision","path":"objects/o_collision/o_collision.yy",},"order":2,},
   ],
   "Options": [
-    {"name":"Main","path":"options/main/options_main.yy",},
     {"name":"HTML5","path":"options/html5/options_html5.yy",},
     {"name":"Linux","path":"options/linux/options_linux.yy",},
     {"name":"macOS","path":"options/mac/options_mac.yy",},
     {"name":"Windows","path":"options/windows/options_windows.yy",},
     {"name":"operagx","path":"options/operagx/options_operagx.yy",},
+    {"name":"Main","path":"options/main/options_main.yy",},
   ],
   "defaultScriptType": 1,
   "isEcma": false,
@@ -493,6 +494,6 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2022.9.1.51",
+    "IDEVersion": "2022.11.0.54",
   },
 }
