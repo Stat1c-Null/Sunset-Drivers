@@ -141,8 +141,6 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_654AB6AE","properties":[],"isDnd":false,"objectId":{"name":"o_camera","path":"objects/o_camera/o_camera.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":64.0,"y":64.0,},
       ],"visible":true,"depth":500,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Lights","instances":[
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_666EDFEB","properties":[],"isDnd":false,"objectId":{"name":"obj_OLDTVFilter_SVideo","path":"objects/obj_OLDTVFilter_SVideo/obj_OLDTVFilter_SVideo.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":true,"inheritItemSettings":false,"x":15.0,"y":61.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7F98688","properties":[],"isDnd":false,"objectId":{"name":"obj_day_and_night_lights","path":"objects/obj_day_and_night_lights/obj_day_and_night_lights.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1919.0,"y":12959.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_37CC8631","properties":[],"isDnd":false,"objectId":{"name":"o_light_circle_pulsing","path":"objects/o_light_circle_pulsing/o_light_circle_pulsing.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":4.1093755,"scaleY":3.839844,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":455.00012,"y":8270.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_268979CA","properties":[],"isDnd":false,"objectId":{"name":"o_light_circle_pulsing","path":"objects/o_light_circle_pulsing/o_light_circle_pulsing.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":909.0,"y":11457.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2E286BDB","properties":[],"isDnd":false,"objectId":{"name":"o_light_circle_pulsing","path":"objects/o_light_circle_pulsing/o_light_circle_pulsing.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":909.0,"y":10579.078,},
@@ -730,7 +728,6 @@
   "instanceCreationOrder": [
     {"name":"inst_196B5AC0","path":"rooms/rm_tutorial/rm_tutorial.yy",},
     {"name":"inst_E90706","path":"rooms/rm_tutorial/rm_tutorial.yy",},
-    {"name":"inst_666EDFEB","path":"rooms/rm_tutorial/rm_tutorial.yy",},
     {"name":"inst_24C22831","path":"rooms/rm_tutorial/rm_tutorial.yy",},
     {"name":"inst_33EDEF0E","path":"rooms/rm_tutorial/rm_tutorial.yy",},
     {"name":"inst_26F3B08A","path":"rooms/rm_tutorial/rm_tutorial.yy",},
@@ -780,7 +777,6 @@
     {"name":"inst_2C63DF6","path":"rooms/rm_tutorial/rm_tutorial.yy",},
     {"name":"inst_2ADE3B83","path":"rooms/rm_tutorial/rm_tutorial.yy",},
     {"name":"inst_5AECFE89","path":"rooms/rm_tutorial/rm_tutorial.yy",},
-    {"name":"inst_7F98688","path":"rooms/rm_tutorial/rm_tutorial.yy",},
     {"name":"inst_37CC8631","path":"rooms/rm_tutorial/rm_tutorial.yy",},
     {"name":"inst_2012F633","path":"rooms/rm_tutorial/rm_tutorial.yy",},
     {"name":"inst_268979CA","path":"rooms/rm_tutorial/rm_tutorial.yy",},

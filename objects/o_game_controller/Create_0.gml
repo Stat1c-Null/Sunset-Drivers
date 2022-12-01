@@ -22,21 +22,25 @@ TextColor = false//Determine whether to show busted text in blue or red
 win_width = room_width
 buttons_created = false//Determine if game over menu buttons were made
 
-global.filter = "day_night"
-if(global.filter == "day_night") {
-	instance_activate_object(obj_day_and_night_lights)
-	instance_deactivate_object(obj_OLDTVFilter_SVideo)
-} else if(global.filter == "tv_filter") {
-	instance_activate_object(obj_OLDTVFilter_SVideo)
-	instance_deactivate_object(obj_day_and_night_lights)	
-}
-
 //Determine which room player is located in and set according game state
 var roomname = room_get_name(room)
 if(roomname == "rm_mainmenu") 
 	global.game_state = "menu"
 else
 	global.game_state = "game"
+	
+global.filter = "day_night"
+if(global.game_state == "game") {
+	if(global.filter == "day_night" and not instance_exists(obj_day_and_night_lights)) {
+		//instance_activate_object(obj_day_and_night_lights)
+		//instance_deactivate_object(obj_OLDTVFilter_SVideo)
+		instance_create_layer(x,y, "Lights", obj_day_and_night_lights)
+	} else if(global.filter == "tv_filter" and not instance_exists(obj_OLDTVFilter_SVideo)) {
+		//instance_activate_object(obj_OLDTVFilter_SVideo)
+		//instance_deactivate_object(obj_day_and_night_lights)	
+		instance_create_layer(x,y, "Lights", obj_OLDTVFilter_SVideo)
+	}
+}
 
 //Particle system for the car
 global.partSystemCar =  part_system_create_layer("Particles", 0)

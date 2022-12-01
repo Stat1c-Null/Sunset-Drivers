@@ -9,13 +9,14 @@ if(tv_filter == true)
 	image_index = 1	
 }
 
-if(meeting == 1 and mouse_check_button_pressed(mb_left) and tv_filter == false) 
+if(meeting == 1 and mouse_check_button_pressed(mb_left) and tv_filter == false and not instance_exists(obj_OLDTVFilter_SVideo)) 
 {
-	instance_activate_object(obj_OLDTVFilter_SVideo)
+	//instance_activate_object(obj_OLDTVFilter_SVideo)
+	instance_create_layer(x,y, "Lights", obj_OLDTVFilter_SVideo)
 	global.filter = "tv_filter"
 	tv_filter = true
 } else if(meeting == 1 and mouse_check_button_pressed(mb_left) and tv_filter == true)  {
-	instance_deactivate_object(obj_OLDTVFilter_SVideo)
+	//instance_deactivate_object(obj_OLDTVFilter_SVideo)
 	global.filter = "day_night"
 	tv_filter = false
 }
