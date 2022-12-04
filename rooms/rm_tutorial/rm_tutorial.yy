@@ -170,6 +170,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2A3608E8","properties":[],"isDnd":false,"objectId":{"name":"o_light_circle_pulsing","path":"objects/o_light_circle_pulsing/o_light_circle_pulsing.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1165.0,"y":7516.078,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1A765CE8","properties":[],"isDnd":false,"objectId":{"name":"o_light_circle_pulsing","path":"objects/o_light_circle_pulsing/o_light_circle_pulsing.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1165.0,"y":8452.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2946358E","properties":[],"isDnd":false,"objectId":{"name":"o_light_circle_pulsing","path":"objects/o_light_circle_pulsing/o_light_circle_pulsing.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1184.0,"y":1088.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_754C5D2C","properties":[],"isDnd":false,"objectId":{"name":"obj_day_and_night_lights","path":"objects/obj_day_and_night_lights/obj_day_and_night_lights.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":96.0,"y":64.0,},
       ],"visible":true,"depth":600,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Buildings","instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2012F633","properties":[],"isDnd":false,"objectId":{"name":"o_sky1","path":"objects/o_sky1/o_sky1.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":-90.06911,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1714.6882,"y":5583.0,},
@@ -1194,6 +1195,7 @@
     {"name":"inst_3ED7416","path":"rooms/rm_tutorial/rm_tutorial.yy",},
     {"name":"inst_3ADDB37","path":"rooms/rm_tutorial/rm_tutorial.yy",},
     {"name":"inst_3635BA87","path":"rooms/rm_tutorial/rm_tutorial.yy",},
+    {"name":"inst_754C5D2C","path":"rooms/rm_tutorial/rm_tutorial.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

@@ -1,2 +1,2 @@
 instance_destroy(o_fullscreen_button)
-//instance_destroy(o_filter_button)
+instance_destroy(o_resolution_button)
