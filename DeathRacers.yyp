@@ -38,6 +38,7 @@
     {"id":{"name":"s_civcar","path":"sprites/s_civcar/s_civcar.yy",},"order":1,},
     {"id":{"name":"o_water_splash","path":"objects/o_water_splash/o_water_splash.yy",},"order":2,},
     {"id":{"name":"o_bg_music","path":"objects/o_bg_music/o_bg_music.yy",},"order":7,},
+    {"id":{"name":"f_vhs_big_MENU","path":"fonts/f_vhs_big_MENU/f_vhs_big_MENU.yy",},"order":5,},
     {"id":{"name":"s_ferrari","path":"sprites/s_ferrari/s_ferrari.yy",},"order":3,},
     {"id":{"name":"o_play_button","path":"objects/o_play_button/o_play_button.yy",},"order":3,},
     {"id":{"name":"s_wood_particle","path":"sprites/s_wood_particle/s_wood_particle.yy",},"order":3,},
@@ -496,6 +497,6 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2022.11.0.54",
+    "IDEVersion": "2022.11.1.56",
   },
 }
