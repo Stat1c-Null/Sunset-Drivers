@@ -253,6 +253,7 @@
     {"id":{"name":"o_car_ai","path":"objects/o_car_ai/o_car_ai.yy",},"order":1,},
     {"id":{"name":"f_vhs_big","path":"fonts/f_vhs_big/f_vhs_big.yy",},"order":3,},
     {"id":{"name":"s_beam","path":"sprites/s_beam/s_beam.yy",},"order":7,},
+    {"id":{"name":"o_ui_back_settings","path":"objects/o_ui_back_settings/o_ui_back_settings.yy",},"order":12,},
     {"id":{"name":"s_stand2","path":"sprites/s_stand2/s_stand2.yy",},"order":13,},
     {"id":{"name":"object_get_depth","path":"scripts/object_get_depth/object_get_depth.yy",},"order":1,},
     {"id":{"name":"o_skY3","path":"objects/o_skY3/o_skY3.yy",},"order":2,},

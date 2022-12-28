@@ -17,10 +17,12 @@ if(meeting == 1 and mouse_check_button_pressed(mb_left) and res_changed == false
 	res_changed = true
 	window_set_size(res_w, res_h)
 	window_set_position(screen_w/2-res_w/2, screen_h/2-res_h/2)
-} else if(meeting == 1 and mouse_check_button_pressed(mb_left) and res_changed == true)  {
+} else if(meeting == 1 and mouse_check_button_pressed(mb_left) and res_changed == true and screen_w > 1930)  {
 	res_w = 2560
 	res_h = 1440
 	res_changed = false
 	window_set_size(res_w, res_h)
 	window_set_position(screen_w/2-res_w/2, screen_h/2-res_h/2)
 }
+
+
