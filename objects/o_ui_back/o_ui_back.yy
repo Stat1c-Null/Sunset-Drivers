@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "o_ui_back",
   "spriteId": {
     "name": "s_ui_back",
     "path": "sprites/s_ui_back/s_ui_back.yy",
@@ -28,8 +31,4 @@
     "name": "UI",
     "path": "folders/Objects/UI.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "o_ui_back",
-  "tags": [],
-  "resourceType": "GMObject",
 }

@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "o_ui_back_settings",
+  "name": "o_back_button",
   "spriteId": {
-    "name": "s_ui_back",
-    "path": "sprites/s_ui_back/s_ui_back.yy",
+    "name": "s_back_button",
+    "path": "sprites/s_back_button/s_back_button.yy",
   },
   "solid": false,
   "visible": true,
@@ -26,6 +26,8 @@
   "physicsShapePoints": [],
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
