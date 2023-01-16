@@ -13,5 +13,4 @@
 		settings_on = false
 	break
 }*/
-instance_create_layer(x, y, "SettingsBase", o_ui_back_settings)
-global.mode = "settings"
+instance_create_layer(x + 450, y,"BaseBack", o_ui_med)
