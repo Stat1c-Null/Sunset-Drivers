@@ -1,6 +1,13 @@
 /// @description 
 Controls()
 
+//Determine which room player is located in and set according game state
+var roomname = room_get_name(room)
+if(roomname == "rm_mainmenu") 
+	global.game_state = "menu"
+else
+	global.game_state = "game"
+
 //Switch Game States
 switch(global.game_state) {
 	
@@ -57,7 +64,9 @@ switch(global.game_state) {
 	break
 	//IN CASE PLAYER IS IN THE MENU
 	case "menu":
-	
+		global.gameover = false
+		global.busted = false
+		global.wasted = false
 	break
 
 }
