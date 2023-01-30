@@ -9,6 +9,8 @@ richting = 0
 phy_rotation = 270
 image_index = 0
 global.teleport_collision = false //Turn on when colliding with teleport so skid mark will get destroyed
+//Number of times player changed level, this way I can spawn more police cars
+levels_done = 0
 //Turn signal timer
 signal_timer = 0.35
 turn_left = false

@@ -57,7 +57,13 @@ if(global.game_state == "game") {
 	//Draw Police Timer
 	if(instance_exists(o_police_car)) {
 		draw_text(100, 1170, "Distance to Police: ")
-		draw_set_color(c_fuchsia)
+		if(global.final_dist < 200) {
+			draw_set_color(c_red)
+		} else if(global.final_dist > 200 and global.final_dist < 600) {
+			draw_set_color(c_yellow)	
+		} else if(global.final_dist > 600){
+			draw_set_color(c_fuchsia)
+		}
 		draw_text(550, 1170, string(floor(global.final_dist)) + " feet")	
 	}
 } else if(global.game_state == "menu") {
