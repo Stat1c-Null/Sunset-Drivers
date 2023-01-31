@@ -62,7 +62,7 @@ if(global.game_state == "game") {
 		} else if(global.final_dist > 200 and global.final_dist < 600) {
 			draw_set_color(c_yellow)	
 		} else if(global.final_dist > 600){
-			draw_set_color(c_fuchsia)
+			draw_set_color(c_green)
 		}
 		draw_text(550, 1170, string(floor(global.final_dist)) + " feet")	
 	}

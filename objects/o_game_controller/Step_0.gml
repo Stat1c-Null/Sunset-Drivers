@@ -13,11 +13,6 @@ switch(global.game_state) {
 	
 	//IN CASE THE GAME IS ON
 	case "game":
-		//Spawn more cops 
-		
-		if(obj_car.levels_done > 0 and instance_number(o_police_car) < obj_car.levels_done) {
-			instance_create_layer(900, 13100, "GameObjects", o_police_car)
-		}
 		//Calculate game over
 		if(global.final_dist <= death_distance){
 			global.busted = true
