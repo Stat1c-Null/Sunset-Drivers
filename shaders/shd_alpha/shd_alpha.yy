@@ -1,11 +1,10 @@
 {
-  "type": 1,
+  "resourceType": "GMShader",
+  "resourceVersion": "1.0",
+  "name": "shd_alpha",
   "parent": {
     "name": "Day&Night",
     "path": "folders/Shaders/Day&Night.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "shd_alpha",
-  "tags": [],
-  "resourceType": "GMShader",
+  "type": 1,
 }

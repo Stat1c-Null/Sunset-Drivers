@@ -21,7 +21,6 @@ if(turning == true and hor == true and direc < -90 and rightLane == true){
 //Slow down on turns
 if(place_meeting(x,y, o_switch_dir_right) and current_speed > 5)
 {
-	show_debug_message(phy_speed)
 	phy_speed_x += lengthdir_x(-brake_power, -phy_rotation)
 	//phy_speed_y += lengthdir_y(-brake_power, -phy_rotation)
 }

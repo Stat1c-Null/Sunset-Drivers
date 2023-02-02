@@ -1,11 +1,10 @@
 {
-  "type": 1,
+  "resourceType": "GMShader",
+  "resourceVersion": "1.0",
+  "name": "sh_OLDTVFilter_Bleeding",
   "parent": {
     "name": "OLD TV Filter Shaders",
     "path": "folders/Shaders/OLD TV Filter Shaders.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "sh_OLDTVFilter_Bleeding",
-  "tags": [],
-  "resourceType": "GMShader",
+  "type": 1,
 }

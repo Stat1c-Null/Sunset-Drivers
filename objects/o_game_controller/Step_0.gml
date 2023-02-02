@@ -2,7 +2,7 @@
 Controls()
 
 //Determine which room player is located in and set according game state
-var roomname = room_get_name(room)
+roomname = room_get_name(room)
 if(roomname == "rm_mainmenu") 
 	global.game_state = "menu"
 else
