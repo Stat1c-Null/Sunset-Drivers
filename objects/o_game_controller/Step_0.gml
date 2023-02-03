@@ -2,7 +2,7 @@
 Controls()
 
 //Determine which room player is located in and set according game state
-roomname = room_get_name(room)
+var roomname = room_get_name(room)
 if(roomname == "rm_mainmenu") 
 	global.game_state = "menu"
 else
@@ -50,6 +50,7 @@ switch(global.game_state) {
 			instance_create_layer(vx + v_width, vy + v_height + 100, "UI", o_restart_button)
 			instance_create_layer(vx + v_width, vy + v_height + 200, "UI", o_home_button)
 			buttons_created = true
+			levels_done = 0
 		}
 
 
@@ -70,6 +71,7 @@ switch(global.game_state) {
 		global.gameover = false
 		global.busted = false
 		global.wasted = false
+		levels_done = 0
 	break
 
 }

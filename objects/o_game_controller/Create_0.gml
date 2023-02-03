@@ -21,6 +21,8 @@ alarm[0] = 10
 TextColor = false//Determine whether to show busted text in blue or red
 win_width = room_width
 buttons_created = false//Determine if game over menu buttons were made
+//Number of times player changed level, this way I can spawn more police cars
+levels_done = 0
 
 //Determine which room player is located in and set according game state
 var roomname = room_get_name(room)
