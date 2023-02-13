@@ -283,6 +283,7 @@
     {"name":"rm_endless_rg_start","order":8,"path":"rooms/rm_endless_rg_start/rm_endless_rg_start.yy",},
     {"name":"sprScanline1","order":8,"path":"sprites/sprScanline1/sprScanline1.yy",},
     {"name":"s_menu_bg","order":1,"path":"sprites/s_menu_bg/s_menu_bg.yy",},
+    {"name":"o_pause","order":9,"path":"objects/o_pause/o_pause.yy",},
     {"name":"action_set_relative","order":7,"path":"scripts/action_set_relative/action_set_relative.yy",},
     {"name":"s_watercan","order":23,"path":"sprites/s_watercan/s_watercan.yy",},
     {"name":"s_light_stand_left","order":5,"path":"sprites/s_light_stand_left/s_light_stand_left.yy",},

@@ -339,6 +339,7 @@
     {"id":{"name":"rm_endless_rg_start","path":"rooms/rm_endless_rg_start/rm_endless_rg_start.yy",},"order":8,},
     {"id":{"name":"sprScanline1","path":"sprites/sprScanline1/sprScanline1.yy",},"order":8,},
     {"id":{"name":"s_menu_bg","path":"sprites/s_menu_bg/s_menu_bg.yy",},"order":1,},
+    {"id":{"name":"o_pause","path":"objects/o_pause/o_pause.yy",},"order":0,},
     {"id":{"name":"action_set_relative","path":"scripts/action_set_relative/action_set_relative.yy",},"order":7,},
     {"id":{"name":"s_watercan","path":"sprites/s_watercan/s_watercan.yy",},"order":23,},
     {"id":{"name":"s_light_stand_left","path":"sprites/s_light_stand_left/s_light_stand_left.yy",},"order":5,},

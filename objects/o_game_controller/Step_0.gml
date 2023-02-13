@@ -20,11 +20,13 @@ switch(global.game_state) {
 		} else if (global.wasted == true) {
 			global.gameover = true
 		} else {
-			global.last_y = obj_car.y
-			global.final_score = obj_car.player_score
-			global.final_money = global.dollars
-			global.final_minutes = global.minutes_survived
-			global.final_seconds = global.seconds_survived
+			if o_pause.pause == false {
+				global.last_y = obj_car.y
+				global.final_score = obj_car.player_score
+				global.final_money = global.dollars
+				global.final_minutes = global.minutes_survived
+				global.final_seconds = global.seconds_survived
+			}
 			//Calculate if police came close enough to the player
 			if(instance_exists(o_police_car)) {
 				var player_x = instance_nearest(x,y,obj_car).x
@@ -65,6 +67,24 @@ switch(global.game_state) {
 			room_speed = 20//Slow mow the game when player gets busted
 			vigOn = true
 		}
+		
+		//Pause game
+		/*if(keyboard_check_pressed(vk_escape)) {
+			paused_game = !paused_game
+			//Unpause game
+			if paused_game == false {
+				instance_activate_all()
+				surface_free(paused_surf)
+				paused_surf = -1
+			}
+		}
+		if paused_game == true {
+			alarm[1]++
+			alarm[2]++
+		}	
+		*/
+		
+		
 	break
 	//IN CASE PLAYER IS IN THE MENU
 	case "menu":
