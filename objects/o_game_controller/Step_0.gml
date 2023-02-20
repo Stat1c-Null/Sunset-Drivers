@@ -67,24 +67,6 @@ switch(global.game_state) {
 			room_speed = 20//Slow mow the game when player gets busted
 			vigOn = true
 		}
-		
-		//Pause game
-		/*if(keyboard_check_pressed(vk_escape)) {
-			paused_game = !paused_game
-			//Unpause game
-			if paused_game == false {
-				instance_activate_all()
-				surface_free(paused_surf)
-				paused_surf = -1
-			}
-		}
-		if paused_game == true {
-			alarm[1]++
-			alarm[2]++
-		}	
-		*/
-		
-		
 	break
 	//IN CASE PLAYER IS IN THE MENU
 	case "menu":
