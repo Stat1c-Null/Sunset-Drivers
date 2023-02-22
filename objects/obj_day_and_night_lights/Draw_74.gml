@@ -1,5 +1,7 @@
 /// @description draw appSrf
 //DRAW LIGHTING SURFACE
+
+
 if(!surface_exists(srf_lights))
 {
 	srf_lights = surface_create(surface_get_width(application_surface), surface_get_height(application_surface))	
