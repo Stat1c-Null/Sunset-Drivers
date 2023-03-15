@@ -32,7 +32,7 @@ else
 	global.game_state = "game"
 	
 global.filter = "day_night"
-if(global.game_state == "game") {
+/*if(global.game_state == "game") {
 	if(global.filter == "day_night" and not instance_exists(obj_day_and_night_lights)) {
 		instance_create_layer(x,y, "Lights", obj_day_and_night_lights)
 		
@@ -43,7 +43,7 @@ if(global.game_state == "game") {
 		//instance_create_layer(x,y, "Lights", obj_OLDTVFilter_SVideo)
 	}
 }
-
+*/
 //Particle system for the car
 global.partSystemCar =  part_system_create_layer("Particles", 0)
 part_system_depth(global.partSystemCar, 800)
