@@ -6,6 +6,7 @@ function Controls(){
 	key_right = keyboard_check(ord("D")) or keyboard_check(vk_right)
 	key_handbrake = keyboard_check(vk_space)
 	key_mb_left = mouse_check_button(mb_left)
+	key_pause = keyboard_check_pressed(vk_escape)
 	
 	//Gamepad gas and break
 	if(gamepad_is_connected(0)){

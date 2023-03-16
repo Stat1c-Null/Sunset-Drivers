@@ -18,7 +18,7 @@ if(roomname == "rm_endless_rg_start") {
 	
 //Spawn more cops OG Y is 13400
 if(instance_exists(obj_car) and levels_done > 0 and instance_number(o_police_car) < levels_done and roomname != "rm_endless_rg_start") {	
-	with(instance_create_layer(random_range(800, 1300), 12400, "GameObjects", o_police_car)) {
+	with(instance_create_layer(random_range(800, 1300), 12400, "LeftLane", o_police_car)) {
 		phy_rotation = -90
 	}
 }

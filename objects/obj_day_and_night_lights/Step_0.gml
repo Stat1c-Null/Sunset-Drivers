@@ -36,4 +36,3 @@ con_sat_brt_mix = [lerp(con_sat_brt[key_previous, 0], con_sat_brt[key_next, 0], 
 alpha = clamp(sin((2 * global.time + 0.4) * 3.14) * 1.3 + 0.3, 0, 1)
 
 
-

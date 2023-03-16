@@ -20,7 +20,7 @@ switch(global.game_state) {
 		} else if (global.wasted == true) {
 			global.gameover = true
 		} else {
-			if obj_day_and_night_lights.pause == false {
+			if o_pause_menu.pause == false {
 				global.last_y = obj_car.y
 				global.final_score = obj_car.player_score
 				global.final_money = global.dollars
