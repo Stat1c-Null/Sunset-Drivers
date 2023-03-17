@@ -7,6 +7,10 @@ instance_activate_layer("LightStands")
 instance_activate_layer("Lights")
 instance_activate_layer("UnderPlayer")
 instance_activate_layer("Invisible")
+instance_activate_layer("Player")
+instance_activate_layer("LeftLane")
+instance_activate_layer("RightLane")
+instance_activate_object(o_camera)
 audio_pause_all();
 //instance_activate_object( ... ); //Activate persistant objects like Cameras & Controllers!
 

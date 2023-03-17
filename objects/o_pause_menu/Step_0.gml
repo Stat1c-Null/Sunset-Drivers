@@ -8,7 +8,7 @@ var kPause		= keyboard_check_pressed( vk_escape );
 var kDown		= (mouse_wheel_down() || keyboard_check_pressed( vk_down )  );
 var kUp			= (mouse_wheel_up() || keyboard_check_pressed( vk_up ) );
 var kConfirm	= (mouse_check_button_pressed( mb_left ) || keyboard_check_pressed( vk_enter) );
-
+var roomname = room_get_name(room)
 
 screen_alpha	= Approach( screen_alpha, screen_alpha_set, .1 );
 
@@ -55,7 +55,7 @@ if ( pause ){
 	///		Button Pos		///
 	for( var i = 0; i< bc; i++; ){
 		var x_set		= cx;
-		var y_set		= cy- (bgap* ( b- i )); //align the vertical offset of the buttons
+		var y_set		= cy- (bgap* ( b- i )); //align the vertical offset of the buttons group on the screen
 		var xoff_set	= 0;
 		var yoff_set	= 0;
 		var sca_set		= 1;
@@ -66,7 +66,7 @@ if ( pause ){
 		///		Hovered Button		///
 		if ( b == i ){ 
 		//x_set		= cx+ bxoff[i]; 
-		sca_set		= 2.5;		 // scale
+		sca_set		= 3;		 // scale
 		alpha_set	= 1;		// alpha
 		col_set		= c_white; //color
 		xoff_set	= 15;	  // offset to the right
@@ -112,10 +112,16 @@ if ( pause ){
 				 alarm[0]	= room_speed* 0.1; //resume timer
 			break;
 			case 1: // Restart
-				room_goto(rm_endless_rg_start)
+				//alarm[0]	= room_speed* 0.1; //resume timer
+				if(roomname == "rm_endless_rg_start") {
+					room_restart()
+				} else {
+					room_goto(rm_endless_rg_start)
+				}
 			break;
 			case 2: // MainMenus
 				alarm[0]	= room_speed* 0.1; //resume timer
+				instance_deactivate_object(obj_car)
 				room_goto(rm_mainmenu) 
 			break;
 			case 3: // Exit

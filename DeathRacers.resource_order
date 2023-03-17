@@ -36,6 +36,7 @@
     {"name":"OLD TV Filter Scripts","order":5,"path":"folders/Scripts/OLD TV Filter Scripts.yy",},
     {"name":"Particles","order":7,"path":"folders/Scripts/Particles.yy",},
     {"name":"Player","order":3,"path":"folders/Scripts/Player.yy",},
+    {"name":"UI","order":8,"path":"folders/Scripts/UI.yy",},
     {"name":"Sequences","order":8,"path":"folders/Sequences.yy",},
     {"name":"Shaders","order":13,"path":"folders/Shaders.yy",},
     {"name":"Unused","order":2,"path":"folders/Shaders/Day&Night/Unused.yy",},
@@ -71,7 +72,6 @@
     {"name":"City","order":15,"path":"folders/Tile Sets/City.yy",},
     {"name":"Racing Track","order":14,"path":"folders/Tile Sets/Racing Track.yy",},
     {"name":"Timelines","order":7,"path":"folders/Timelines.yy",},
-    {"name":"UI","order":8,"path":"folders/Scripts/UI.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"o_traffic_block3","order":5,"path":"objects/o_traffic_block3/o_traffic_block3.yy",},

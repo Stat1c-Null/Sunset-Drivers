@@ -32,7 +32,7 @@ windowPrev	= true;
 
 b		= 1; //selected
 bc		= 0;
-bgap	= 40; //vertical spacing between buttons
+bgap	= 100; //vertical spacing between buttons
 
 
 var	n = 0;

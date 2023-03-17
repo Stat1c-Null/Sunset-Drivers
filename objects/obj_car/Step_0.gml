@@ -58,7 +58,7 @@ Yachteroud = Yachter
 gasConsume = random_range(0.01, 0.06)
 backGasConsume = random_range(0.01, 0.03)
 
-if(global.gasAmount > 0) {
+if(global.gasAmount > 0 and o_pause_menu.pause == false) {
 	//Reduce gas when car is just standing
 	if(!key_forward and !key_brake)
 	{
@@ -66,34 +66,44 @@ if(global.gasAmount > 0) {
 	}
 	//Drive forward
 	if ((key_forward or gamepad_RT) and !destroyed) {
-	global.gasAmount -= gasConsume
-	inc_speed += 0.1
-	phy_speed_x += lengthdir_x(acceleration_speed,-phy_rotation)
-	phy_speed_y += lengthdir_y(acceleration_speed,-phy_rotation)} else {
+		global.gasAmount -= gasConsume
+		inc_speed += 0.1
+		phy_speed_x += lengthdir_x(acceleration_speed,-phy_rotation)
+		phy_speed_y += lengthdir_y(acceleration_speed,-phy_rotation)
+	} else {
 		inc_speed -= 0.3
 	}
 	
 	//Stop
 	if ((key_brake or gamepad_LT) and !destroyed) {
-	global.gasAmount -= backGasConsume
-	inc_speed -= 0.2
-	phy_speed_x += lengthdir_x(-acceleration_speed/1.7,-phy_rotation)
-	phy_speed_y += lengthdir_y(-acceleration_speed/1.7,-phy_rotation)} 
-	//show_debug_message(inc_speed)
+		global.gasAmount -= backGasConsume
+		inc_speed -= 0.2
+		phy_speed_x += lengthdir_x(-acceleration_speed/1.7,-phy_rotation)
+		phy_speed_y += lengthdir_y(-acceleration_speed/1.7,-phy_rotation)
+	}
+}
+
+//Deactivate physics if the game is paused
+if o_pause_menu.pause == true {
+	phy_active = false
+} else {
+	phy_active = true	
 }
 
 //Reduce score if player's speed is not high enough
-if(global.mphSpeed > speeds[0]) {
-	player_score += 0.5
-} else if(global.mphSpeed > speeds[1]) {
-	player_score += 1	
-}  else if(global.mphSpeed > speeds[2]) {
-	player_score += 1.5
-} else if(global.mphSpeed > speeds[3]) {
-	player_score += 2
-} else if(global.mphSpeed > speeds[4]) {
-	player_score += 2.5
-} 
+if(o_pause_menu.pause == false) {
+	if(global.mphSpeed > speeds[0]) {
+		player_score += 0.5
+	} else if(global.mphSpeed > speeds[1]) {
+		player_score += 1	
+	}  else if(global.mphSpeed > speeds[2]) {
+		player_score += 1.5
+	} else if(global.mphSpeed > speeds[3]) {
+		player_score += 2
+	} else if(global.mphSpeed > speeds[4]) {
+		player_score += 2.5
+	} 
+}
 
 //Handbrake Drift
 if((key_handbrake or gamepad_LS) and !destroyed){

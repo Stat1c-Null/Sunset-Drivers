@@ -1,5 +1,12 @@
 //Set speed
 current_speed = phy_speed
+//Deactivate physics if the game is paused
+if o_pause_menu.pause == true {
+	phy_active = false
+} else {
+	phy_active = true	
+}
+
 //Destroy car on touch with destroyer 
 if(place_meeting(x,y, o_car_destroyer)){
 	instance_destroy(self)
