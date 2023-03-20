@@ -24,6 +24,13 @@ buttons_created = false//Determine if game over menu buttons were made
 //Number of times player changed level, this way I can spawn more police cars
 levels_done = 0
 
+//UI props
+fullscreen = false
+res_w = 1920
+res_h = 1080
+screen_w = display_get_width()
+screen_h = display_get_height()
+
 //Determine which room player is located in and set according game state
 var roomname = room_get_name(room)
 if(roomname == "rm_mainmenu") 

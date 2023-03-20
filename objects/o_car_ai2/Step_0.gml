@@ -46,7 +46,7 @@ with (o_car_ai2)
 		//keep rotation the same
 		phy_rotation = direc
 		//Dont let car drive too fast
-		if(current_speed < max_speed){
+		if(current_speed < max_speed and o_pause_menu.pause == false){
 			// Apply the impulse to the position the dynamic instance occupies, using the previously calculated direction to set the force part of the vector
 			physics_apply_impulse(x, y, lengthdir_x(speed_var/2.5, dir), lengthdir_y(speed_var/2.5, dir));
 		} 

@@ -3,7 +3,7 @@
 //Check if player is not near by
 var distToPlayer = distance_to_object(obj_car)
 moveTowardPlayer = (distToPlayer > min_dist)
-if(moveTowardPlayer){
+if(moveTowardPlayer and o_pause_menu.pause == false){
 	//Create new car
 	chance = random_range(1, 100)
 	if(chance > minChance)

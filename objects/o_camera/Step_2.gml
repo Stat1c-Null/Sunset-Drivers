@@ -42,7 +42,7 @@ if(instance_exists(object_following)) {
 //Zooming
 var wheel = mouse_wheel_down() - mouse_wheel_up()
 
-if (wheel != 0){
+if (wheel != 0 and o_pause_menu.pause == false){
 	wheel *= zoom_speed
 	
 	// Add to size

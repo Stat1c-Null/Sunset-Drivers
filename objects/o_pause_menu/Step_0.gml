@@ -36,7 +36,7 @@ if ( window != windowPrev ){
 
 
 ///		Trigger PauseMenu	///
-if ( kPause ){
+if ( kPause and roomname != "rm_mainmenu"){
 	if ( pause ){
 		alarm[0]	= 2; //Resume
 	} else {
@@ -112,7 +112,18 @@ if ( pause ){
 				 alarm[0]	= room_speed* 0.1; //resume timer
 			break;
 			case 1: // Restart
-				//alarm[0]	= room_speed* 0.1; //resume timer
+				alarm[0]	= room_speed* 0.1; //resume timer
+				//Set car to start position and start values after restart
+				obj_car.x = obj_car.og_pos_x
+				obj_car.y = obj_car.og_pos_y
+				obj_car.player_score = 0
+				global.dollars = 0
+				global.gasAmount = 100
+				global.health = 100
+				global.time = 0.00//What time in the world is it
+				global.army_time = "AM 12:00"
+				global.day = 1
+				audio_stop_sound(a_ChroniclesOfThePit)
 				if(roomname == "rm_endless_rg_start") {
 					room_restart()
 				} else {
@@ -122,6 +133,7 @@ if ( pause ){
 			case 2: // MainMenus
 				alarm[0]	= room_speed* 0.1; //resume timer
 				instance_deactivate_object(obj_car)
+				audio_stop_sound(a_ChroniclesOfThePit)
 				room_goto(rm_mainmenu) 
 			break;
 			case 3: // Exit

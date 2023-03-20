@@ -38,7 +38,7 @@ bgap	= 100; //vertical spacing between buttons
 var	n = 0;
 bstring[ n ]	= " RESUME "; n++;
 bstring[ n ]	= " RESTART "; n++;
-bstring[ n ]	= " MAINMENU "; n++;
+bstring[ n ]	= " MENU "; n++;
 bstring[ n ]	= " EXIT "; n++;
 bc		= n; //total button count;
 

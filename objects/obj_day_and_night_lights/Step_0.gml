@@ -2,10 +2,10 @@
 
 
 // Set up time calculations
-if(global.time < 1) {
+if(global.time < 1 and o_pause_menu.pause == false) {
 	//global.time += time_changer //Faster day and night Testing
 	global.time += time_changer / room_speed // Actual use
-} else {
+} else if(global.time >= 1 and o_pause_menu.pause == false) {
 	global.time = 0.00	
 	global.day += 1
 }
