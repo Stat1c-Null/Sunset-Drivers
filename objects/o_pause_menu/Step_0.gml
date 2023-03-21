@@ -36,7 +36,7 @@ if ( window != windowPrev ){
 
 
 ///		Trigger PauseMenu	///
-if ( kPause and roomname != "rm_mainmenu"){
+if ( kPause and roomname != "rm_mainmenu" and global.wasted == false and global.busted == false){
 	if ( pause ){
 		alarm[0]	= 2; //Resume
 	} else {
