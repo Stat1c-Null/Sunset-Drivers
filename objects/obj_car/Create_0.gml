@@ -53,6 +53,8 @@ score_x_pos = 1270//Score position on the screen, it changes depending on how bi
 speeds = [10, 30, 50, 70, 90]//Different speeds depending on which score will increase. The faster the speed bigger your pen.... score
 inc_speed = 0
 arrow_rot = 360//Control in which direction speedometer arrow is turned
+//Bust distance
+bust_dist = 15
 
 //Money
 global.dollars = 0

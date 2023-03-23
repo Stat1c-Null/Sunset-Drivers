@@ -83,6 +83,10 @@ if(global.gasAmount > 0 and o_pause_menu.pause == false) {
 	}
 }
 
+if(global.gasAmount < 0 and global.final_dist < bust_dist) { 
+	global.busted = true	
+}
+
 //Deactivate physics if the game is paused
 if o_pause_menu.pause == true {
 	phy_active = false
@@ -141,9 +145,11 @@ fx_set_parameter(blackwhiteFilter, "g_Intensity", (global.maxHealth - global.hea
 layer_set_fx("DeathFilter", blackwhiteFilter)
 
 //Wasted
-if(global.health <= 0)
+if(global.health <= 0 and global.final_dist < bust_dist)
 {
-	global.wasted = true	
+	global.busted = true	
+}else if(global.health <= 0 and global.final_dist > bust_dist) {
+	global.wasted = true
 }
 	
 //Destroy car if there is no health

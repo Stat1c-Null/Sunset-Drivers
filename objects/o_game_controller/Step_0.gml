@@ -14,8 +14,7 @@ switch(global.game_state) {
 	//IN CASE THE GAME IS ON
 	case "game":
 		//Calculate game over
-		if(global.final_dist <= death_distance){
-			global.busted = true
+		if(global.busted == true){
 			global.gameover = true
 		} else if (global.wasted == true) {
 			global.gameover = true
@@ -37,6 +36,7 @@ switch(global.game_state) {
 				distance_betw = point_distance(player_x, player_y, police_x, police_y)
 
 				global.final_dist = distance_betw / 10
+				
 			}
 
 			win_width = room_width	
