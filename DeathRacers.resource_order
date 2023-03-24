@@ -43,6 +43,7 @@
     {"name":"OLD TV Filter Shaders","order":3,"path":"folders/Shaders/OLD TV Filter Shaders.yy",},
     {"name":"Sounds","order":3,"path":"folders/Sounds.yy",},
     {"name":"Music","order":1,"path":"folders/Sounds/Music.yy",},
+    {"name":"Sounds","order":2,"path":"folders/Sounds/Sounds.yy",},
     {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
     {"name":"Backgrounds","order":10,"path":"folders/Sprites/Backgrounds.yy",},
     {"name":"Cars","order":3,"path":"folders/Sprites/Cars.yy",},

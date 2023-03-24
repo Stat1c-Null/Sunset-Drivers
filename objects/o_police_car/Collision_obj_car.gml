@@ -1,4 +1,4 @@
-///@description STOP if got into heavy collision with another car
+///@description Deal damage to yourself and player
 if(hit_reset == false and hp > 0) {
 	if abs(speed_previous - phy_speed) > 1 {
 	    hp -= (abs(speed_previous - phy_speed))/2

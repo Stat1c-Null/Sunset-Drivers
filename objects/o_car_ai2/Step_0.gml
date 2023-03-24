@@ -61,7 +61,7 @@ if(hit == false) {
 	if __b__
 	{
 	{
-	//Reduce cars health 
+	//Reduce cars health
 	global.health -= collision_damage
 	hit = true
 	}
