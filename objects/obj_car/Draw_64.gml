@@ -28,7 +28,18 @@ if(global.busted == false and global.wasted == false) {
 	//calculate_score(obj_car.player_score, obj_car.score_x_pos)
 	//put score_x_pos instead of 1220
 	draw_text(score_x_pos, 180, string(round(obj_car.player_score)))
+	//Draw Low hp warning
+	if global.health < lowHP and playerLowHp == false and global.gameover == false{
+		draw_set_color(c_red)
+		draw_set_font(f_vhs_medium)
+		draw_text(525, 1250, "YOU ARE BADLY DAMAGED, LOOK FOR REPAIR SHOP")
+		if alarmSet == false {
+			alarmSet = true
+			alarm[6] = 5 * room_speed
+		}
+	}
 	draw_sprite(s_dollar_bill_ui, 1, 2460, 150)
+	draw_set_font(f_vhs)
 	if(global.not_enough_money){
 		global.not_enough_money = false
 		draw_set_color(c_red) 

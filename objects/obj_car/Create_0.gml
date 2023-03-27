@@ -23,7 +23,7 @@ reverse_detect = 13
 reverse_mult = 0.3
 global.reverse = false//Determine whether player is reversing right now or no
 turn_multi = 2
-turn_limit = 60
+turn_limit = 100
 //Time
 global.time = 0.00//What time in the world is it
 global.army_time = "AM 12:00"
@@ -42,6 +42,9 @@ global.gear = 1
 //Condition
 global.maxHealth = 100
 global.health = global.maxHealth
+playerLowHp = false
+alarmSet = false
+lowHP = 35
 //Black and white filter for health. The lower the health the greater the fitler 
 blackwhiteFilter = fx_create("_filter_greyscale")
 fx_set_parameter(blackwhiteFilter, "g_Intensity", 0)

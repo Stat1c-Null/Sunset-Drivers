@@ -479,6 +479,7 @@
     {"name":"inst_5CE36882","path":"rooms/rm_endless_rg_start/rm_endless_rg_start.yy",},
     {"name":"inst_62ED42E2","path":"rooms/rm_endless_rg_start/rm_endless_rg_start.yy",},
     {"name":"inst_670E8C90","path":"rooms/rm_endless_rg_start/rm_endless_rg_start.yy",},
+    {"name":"inst_7F8B3605","path":"rooms/rm_endless_rg_start/rm_endless_rg_start.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -981,6 +982,7 @@
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"UnderPlayer","depth":1400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_24C22831_2_3","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"o_gasstation","path":"objects/o_gasstation/o_gasstation.yy",},"properties":[],"rotation":-90.01466,"scaleX":1.0,"scaleY":1.0,"x":1574.9487,"y":9912.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_33EDEF0E_2_2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"o_repairShop","path":"objects/o_repairShop/o_repairShop.yy",},"properties":[],"rotation":90.030556,"scaleX":1.0,"scaleY":1.0,"x":408.1599,"y":8260.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7F8B3605","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"o_light_circle_pulsing_player","path":"objects/o_light_circle_pulsing_player/o_light_circle_pulsing_player.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1152.0,"y":13056.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"City","depth":1500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":422,"SerialiseWidth":63,"TileCompressedData":[
 -22,351,3,2714,2720,0,-15,-2147483648,3,0,2714,2720,-20,347,-22,-2147483648,3,2714,2720,0,-15,-2147483648,3,0,2714,2720,-42,-2147483648,3,2714,2720,0,-15,-2147483648,3,0,2714,2720,-42,-2147483648,3,2714,2720,0,-15,-2147483648,3,0,2714,2720,-42,-2147483648,3,2714,2720,0,-15,-2147483648,3,0,2714,2720,-42,

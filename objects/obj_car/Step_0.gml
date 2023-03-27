@@ -143,6 +143,10 @@ if not key_left and not key_right {
 //As player loses health, his screen will turn more and more gray
 fx_set_parameter(blackwhiteFilter, "g_Intensity", (global.maxHealth - global.health) * 0.01)
 layer_set_fx("DeathFilter", blackwhiteFilter)
+//If player gains his hp back set variable back to true
+if global.health > lowHP and playerLowHp == true {
+	playerLowHp = false	
+}
 
 //Wasted
 if(global.health <= 0 and global.final_dist < bust_dist)

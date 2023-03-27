@@ -257,6 +257,7 @@
     {"id":{"name":"s_speedometer","path":"sprites/s_speedometer/s_speedometer.yy",},},
     {"id":{"name":"s_trashcan2","path":"sprites/s_trashcan2/s_trashcan2.yy",},},
     {"id":{"name":"o_box2","path":"objects/o_box2/o_box2.yy",},},
+    {"id":{"name":"o_light_circle_pulsing_player","path":"objects/o_light_circle_pulsing_player/o_light_circle_pulsing_player.yy",},},
     {"id":{"name":"WegSet5_tileset","path":"tilesets/WegSet5_tileset/WegSet5_tileset.yy",},},
     {"id":{"name":"s_dog_orange","path":"sprites/s_dog_orange/s_dog_orange.yy",},},
     {"id":{"name":"o_game_controller","path":"objects/o_game_controller/o_game_controller.yy",},},

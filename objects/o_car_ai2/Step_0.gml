@@ -62,7 +62,7 @@ if(hit == false) {
 	{
 	{
 	//Reduce cars health
-	global.health -= collision_damage
+	//global.health -= collision_damage
 	hit = true
 	}
 	}
