@@ -14,3 +14,8 @@ if(hit_reset == false and hp > 0) {
 		alarm[0] = hit_time * room_speed
 	}
 }
+
+if global.mphSpeed < 15 and busting_player == false {
+	busting_player = true
+	alarm[1] = time_to_bust * room_speed
+}
