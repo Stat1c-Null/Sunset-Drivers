@@ -1,1 +1,1 @@
-global.gasAmount = global.maxAmount
+//global.gasAmount = global.maxAmount
