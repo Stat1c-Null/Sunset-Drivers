@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "s_gasAnim",
-    "path": "sprites/s_gasAnim/s_gasAnim.yy",
+    "name": "s_gasAnimOld",
+    "path": "sprites/s_gasAnimOld/s_gasAnimOld.yy",
   },
   "spriteMaskId": null,
   "visible": true,

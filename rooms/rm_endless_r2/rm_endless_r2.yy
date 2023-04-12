@@ -443,7 +443,6 @@
     {"name":"inst_2A8183C8_1","path":"rooms/rm_endless_r2/rm_endless_r2.yy",},
     {"name":"inst_48279156_1","path":"rooms/rm_endless_r2/rm_endless_r2.yy",},
     {"name":"inst_32A620DB","path":"rooms/rm_endless_r2/rm_endless_r2.yy",},
-    {"name":"inst_B079D3C","path":"rooms/rm_endless_r2/rm_endless_r2.yy",},
     {"name":"inst_4B8EA916","path":"rooms/rm_endless_r2/rm_endless_r2.yy",},
     {"name":"inst_12A712E8","path":"rooms/rm_endless_r2/rm_endless_r2.yy",},
     {"name":"inst_34C0A6C6","path":"rooms/rm_endless_r2/rm_endless_r2.yy",},
@@ -477,6 +476,7 @@
     {"name":"inst_1B75F325","path":"rooms/rm_endless_r2/rm_endless_r2.yy",},
     {"name":"inst_687118AC","path":"rooms/rm_endless_r2/rm_endless_r2.yy",},
     {"name":"inst_2F3FFD39","path":"rooms/rm_endless_r2/rm_endless_r2.yy",},
+    {"name":"inst_B079D3C","path":"rooms/rm_endless_r2/rm_endless_r2.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -690,10 +690,9 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_E560ED0_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"o_shop1","path":"objects/o_shop1/o_shop1.yy",},"properties":[],"rotation":-89.74705,"scaleX":1.0,"scaleY":1.0,"x":1516.0787,"y":9970.107,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_392E4DE1_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"o_shop3","path":"objects/o_shop3/o_shop3.yy",},"properties":[],"rotation":-90.56871,"scaleX":1.0,"scaleY":1.0,"x":1548.759,"y":10364.566,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4B8EA916","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"o_repairShopPrice","path":"objects/o_repairShopPrice/o_repairShopPrice.yy",},"properties":[],"rotation":90.002495,"scaleX":1.0,"scaleY":1.0,"x":744.0,"y":8268.0,},
-      ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
-    {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Player","depth":800,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_B079D3C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"o_repairTool","path":"objects/o_repairTool/o_repairTool.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":586.0,"y":8274.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
+    {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Player","depth":800,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"GameObjects","depth":900,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7788148D_2_1_2_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"o_dollarBill","path":"objects/o_dollarBill/o_dollarBill.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1111.5,"y":10180.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_357CE0EA_2_1_2_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"o_dollarBill","path":"objects/o_dollarBill/o_dollarBill.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1111.5,"y":9998.0,},

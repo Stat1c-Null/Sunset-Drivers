@@ -325,8 +325,6 @@
     {"name":"inst_57BF150D_1_3","path":"rooms/rm_endless_rg_start/rm_endless_rg_start.yy",},
     {"name":"inst_70060DF1_1_3","path":"rooms/rm_endless_rg_start/rm_endless_rg_start.yy",},
     {"name":"inst_2C46155C_1_3","path":"rooms/rm_endless_rg_start/rm_endless_rg_start.yy",},
-    {"name":"inst_43EF2047_2_3","path":"rooms/rm_endless_rg_start/rm_endless_rg_start.yy",},
-    {"name":"inst_78EBA911_2_2","path":"rooms/rm_endless_rg_start/rm_endless_rg_start.yy",},
     {"name":"inst_5ACBC697_2_2","path":"rooms/rm_endless_rg_start/rm_endless_rg_start.yy",},
     {"name":"inst_5B1021EE_1_3","path":"rooms/rm_endless_rg_start/rm_endless_rg_start.yy",},
     {"name":"inst_6205080E_1_3","path":"rooms/rm_endless_rg_start/rm_endless_rg_start.yy",},
@@ -482,6 +480,8 @@
     {"name":"inst_7F8B3605","path":"rooms/rm_endless_rg_start/rm_endless_rg_start.yy",},
     {"name":"inst_70A9B665","path":"rooms/rm_endless_rg_start/rm_endless_rg_start.yy",},
     {"name":"inst_89B20E7","path":"rooms/rm_endless_rg_start/rm_endless_rg_start.yy",},
+    {"name":"inst_43EF2047_2_3","path":"rooms/rm_endless_rg_start/rm_endless_rg_start.yy",},
+    {"name":"inst_78EBA911_2_2","path":"rooms/rm_endless_rg_start/rm_endless_rg_start.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -696,10 +696,10 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1010AEF3_1_3","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"o_shop1","path":"objects/o_shop1/o_shop1.yy",},"properties":[],"rotation":-89.74705,"scaleX":1.0,"scaleY":1.0,"x":1494.4275,"y":334.8019,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4CE3CA2B_1_3","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"o_shop2","path":"objects/o_shop2/o_shop2.yy",},"properties":[],"rotation":89.99344,"scaleX":1.0000982,"scaleY":1.0,"x":578.049,"y":726.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5ACBC697_2_2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"o_repairShopPrice","path":"objects/o_repairShopPrice/o_repairShopPrice.yy",},"properties":[],"rotation":90.026726,"scaleX":1.0,"scaleY":1.0,"x":749.0,"y":8254.0,},
-      ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
-    {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Player","depth":800,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_43EF2047_2_3","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"o_gasCanister","path":"objects/o_gasCanister/o_gasCanister.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1491.0,"y":9932.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_78EBA911_2_2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"o_repairTool","path":"objects/o_repairTool/o_repairTool.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":580.0,"y":8254.0,},
+      ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
+    {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Player","depth":800,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_27CBC927","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_car","path":"objects/obj_car/obj_car.yy",},"properties":[],"rotation":91.50404,"scaleX":1.0,"scaleY":1.0,"x":1120.0,"y":12832.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"GameObjects","depth":900,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[

@@ -311,7 +311,6 @@
     {"name":"inst_57BF150D_1_1_2","path":"rooms/rm_endless_g2/rm_endless_g2.yy",},
     {"name":"inst_70060DF1_1_1_2","path":"rooms/rm_endless_g2/rm_endless_g2.yy",},
     {"name":"inst_2C46155C_1_1_2","path":"rooms/rm_endless_g2/rm_endless_g2.yy",},
-    {"name":"inst_43EF2047_2_1_1","path":"rooms/rm_endless_g2/rm_endless_g2.yy",},
     {"name":"inst_5B1021EE_1_1_2","path":"rooms/rm_endless_g2/rm_endless_g2.yy",},
     {"name":"inst_6205080E_1_1_2","path":"rooms/rm_endless_g2/rm_endless_g2.yy",},
     {"name":"inst_3766F905_1_1_2","path":"rooms/rm_endless_g2/rm_endless_g2.yy",},
@@ -474,6 +473,7 @@
     {"name":"inst_7B558A23","path":"rooms/rm_endless_g2/rm_endless_g2.yy",},
     {"name":"inst_2F42C4BA","path":"rooms/rm_endless_g2/rm_endless_g2.yy",},
     {"name":"inst_3FD7CD8E","path":"rooms/rm_endless_g2/rm_endless_g2.yy",},
+    {"name":"inst_43EF2047_2_1_1","path":"rooms/rm_endless_g2/rm_endless_g2.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -683,10 +683,9 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_716150BB","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"o_house1","path":"objects/o_house1/o_house1.yy",},"properties":[],"rotation":-90.14176,"scaleX":1.0,"scaleY":1.0,"x":1596.721,"y":9594.912,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_E560ED0","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"o_shop1","path":"objects/o_shop1/o_shop1.yy",},"properties":[],"rotation":-89.74705,"scaleX":1.0,"scaleY":1.0,"x":1516.0787,"y":9970.107,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_392E4DE1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"o_shop3","path":"objects/o_shop3/o_shop3.yy",},"properties":[],"rotation":-90.56871,"scaleX":1.0,"scaleY":1.0,"x":1548.759,"y":10364.566,},
-      ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
-    {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Player","depth":800,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_43EF2047_2_1_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"o_gasCanister","path":"objects/o_gasCanister/o_gasCanister.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":576.0,"y":8256.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
+    {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Player","depth":800,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"GameObjects","depth":900,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_26F3B08A_1_1_2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"o_dollarBill","path":"objects/o_dollarBill/o_dollarBill.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1198.0,"y":6414.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6E84C083_1_1_2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"o_dollarBill","path":"objects/o_dollarBill/o_dollarBill.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1198.0,"y":6162.0,},

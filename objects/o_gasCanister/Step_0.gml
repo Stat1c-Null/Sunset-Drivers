@@ -21,7 +21,7 @@ if(destroyed)
 {
 	sprite_index = s_gasDestroyed
 	image_speed = 1
-	if(image_index >= 56)
+	if(image_index >= 70)
 	{
 		global.dollars -= price
 		//Increase Gas on touch
