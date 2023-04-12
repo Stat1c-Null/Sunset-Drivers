@@ -5,7 +5,7 @@ if instance_exists(obj_car) {
 	//Move cop forward
 	if global.busted == false and o_pause_menu.pause == false and hit == false
 		//Direction of the player
-		physics_apply_impulse(x, y, lengthdir_x(2.1, dir), lengthdir_y(2.1, dir))//0.8/2.5
+		physics_apply_impulse(x, y, lengthdir_x(2.3, dir), lengthdir_y(2.3, dir))//0.8/2.5
 		//Turn into player's direction
 		if(hp > 0) 
 			phy_rotation = -dir

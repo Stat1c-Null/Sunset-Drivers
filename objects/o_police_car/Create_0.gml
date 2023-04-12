@@ -1,4 +1,4 @@
-hp = 40
+hp = 50
 hit = false
 hit_reset = false
 hit_time = 2//Time before another hit will give damage

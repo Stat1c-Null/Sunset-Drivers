@@ -83,8 +83,13 @@ if(global.gasAmount > 0 and o_pause_menu.pause == false) {
 	}
 }
 
-if(global.gasAmount < 0 and global.final_dist < bust_dist) { 
+//Bust if no gas and cops are nearby
+if(global.gasAmount <= 0 and global.final_dist < bust_dist) { 
 	global.busted = true	
+}
+//Game over with no gas
+if(global.gasAmount <= 0 and global.final_dist > bust_dist) {
+	global.wasted = true
 }
 
 //Deactivate physics if the game is paused
@@ -157,7 +162,7 @@ if(global.health <= 0 and global.final_dist < bust_dist)
 }
 	
 //Destroy car if there is no health
-if(global.health <= 0 or global.busted == true)
+if(global.health <= 0 or global.busted == true or global.wasted == true)
 {
 	//Black and white filter for game ove
 	fx_set_parameter(blackwhiteFilter, "g_Intensity", 1)
