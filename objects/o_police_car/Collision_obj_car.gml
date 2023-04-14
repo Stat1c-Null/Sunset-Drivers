@@ -15,7 +15,7 @@ if(hit_reset == false and hp > 0) {
 	}
 }
 
-if global.mphSpeed < 15 and busting_player == false and o_pause_menu.pause == false and hp > 0{
+if global.mphSpeed < bust_speed and busting_player == false and o_pause_menu.pause == false and hp > 0 and global.final_dist < obj_car.bust_dist{
 	busting_player = true
 	alarm[1] = time_to_bust * room_speed
-}
+} 

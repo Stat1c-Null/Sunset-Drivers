@@ -83,15 +83,6 @@ if(global.gasAmount > 0 and o_pause_menu.pause == false) {
 	}
 }
 
-//Bust if no gas and cops are nearby
-if(global.gasAmount <= 0 and global.final_dist < bust_dist) { 
-	global.busted = true	
-}
-//Game over with no gas
-if(global.gasAmount <= 0 and global.final_dist > bust_dist) {
-	global.wasted = true
-}
-
 //Deactivate physics if the game is paused
 if o_pause_menu.pause == true {
 	phy_active = false
@@ -151,6 +142,14 @@ layer_set_fx("DeathFilter", blackwhiteFilter)
 //If player gains his hp back set variable back to true
 if global.health > lowHP and playerLowHp == true {
 	playerLowHp = false	
+}
+//Bust if no gas and cops are nearby
+if(global.gasAmount <= 0 and global.final_dist < bust_dist) { 
+	global.busted = true	
+}
+//Game over with no gas
+if(global.gasAmount <= 0 and global.final_dist > bust_dist) {
+	global.wasted = true
 }
 
 //Wasted

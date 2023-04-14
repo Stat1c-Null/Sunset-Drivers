@@ -8,11 +8,11 @@
   "option_operagx_guid": "26f0b21a-58e0-4920-9aed-e6723deb1c36",
   "option_operagx_internalShareUrl": "",
   "option_operagx_interpolate_pixels": true,
-  "option_operagx_next_version": "1.0.0.2",
+  "option_operagx_next_version": "1.0.0.3",
   "option_operagx_publicShareUrl": "https://gx.games/games/a31fx7/sunset-driver/",
   "option_operagx_scale": 0,
   "option_operagx_team_id": "0ddaf14a-d8fa-48ac-9ebc-4b9330635d78",
   "option_operagx_team_name": "Tsunami Surfers",
   "option_operagx_texture_page": "2048x2048",
-  "option_operagx_version": "1.0.0.1",
+  "option_operagx_version": "1.0.0.2",
 }
