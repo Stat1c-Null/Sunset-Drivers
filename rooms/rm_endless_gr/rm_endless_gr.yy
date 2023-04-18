@@ -454,7 +454,6 @@
     {"name":"inst_26EC8EC2_1_1","path":"rooms/rm_endless_gr/rm_endless_gr.yy",},
     {"name":"inst_1148A2C1_1_1","path":"rooms/rm_endless_gr/rm_endless_gr.yy",},
     {"name":"inst_1CF839F8_1_1","path":"rooms/rm_endless_gr/rm_endless_gr.yy",},
-    {"name":"inst_40AEBF7F_1_1","path":"rooms/rm_endless_gr/rm_endless_gr.yy",},
     {"name":"inst_755EF97B_1_1","path":"rooms/rm_endless_gr/rm_endless_gr.yy",},
     {"name":"inst_6016B98D_2_1","path":"rooms/rm_endless_gr/rm_endless_gr.yy",},
     {"name":"inst_5658AF70_1_1","path":"rooms/rm_endless_gr/rm_endless_gr.yy",},
@@ -478,6 +477,7 @@
     {"name":"inst_6DA50EDB","path":"rooms/rm_endless_gr/rm_endless_gr.yy",},
     {"name":"inst_43EF2047_2_1","path":"rooms/rm_endless_gr/rm_endless_gr.yy",},
     {"name":"inst_78EBA911_2_1","path":"rooms/rm_endless_gr/rm_endless_gr.yy",},
+    {"name":"inst_6236A0B5","path":"rooms/rm_endless_gr/rm_endless_gr.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -559,8 +559,8 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_363C760A_1_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"o_tree","path":"objects/o_tree/o_tree.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1900.0,"y":7197.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1148A2C1_1_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"o_stand1","path":"objects/o_stand1/o_stand1.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1534.0,"y":10417.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1CF839F8_1_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"o_stand2","path":"objects/o_stand2/o_stand2.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1534.0,"y":9216.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_40AEBF7F_1_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"o_stand3","path":"objects/o_stand3/o_stand3.yy",},"properties":[],"rotation":0.0,"scaleX":-1.0,"scaleY":1.0,"x":532.0,"y":8796.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_755EF97B_1_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"o_stand1","path":"objects/o_stand1/o_stand1.yy",},"properties":[],"rotation":0.0,"scaleX":-1.0,"scaleY":1.0,"x":532.0,"y":7476.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6236A0B5","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"o_stand2","path":"objects/o_stand2/o_stand2.yy",},"properties":[],"rotation":0.0,"scaleX":-1.0,"scaleY":1.0,"x":544.0,"y":8832.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Invisible","depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_196B5AC0_2_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"o_game_controller","path":"objects/o_game_controller/o_game_controller.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":22.0,"y":18.0,},
