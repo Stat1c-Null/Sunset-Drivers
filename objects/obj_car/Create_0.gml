@@ -25,8 +25,8 @@ global.reverse = false//Determine whether player is reversing right now or no
 turn_multi = 2
 turn_limit = 100
 //Time
-global.time = 0.00//What time in the world is it
-global.army_time = "AM 12:00"
+global.time = 0.2982//What time in the world is it
+global.army_time = "AM 8:00"
 global.night = false
 global.day = 1
 global.minutes_survived = 0

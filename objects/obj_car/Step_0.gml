@@ -27,6 +27,22 @@ if(key_forward and !key_left and !key_right and !destroyed) {
 	image_index = 0	
 }
 
+function shootGun() {
+	
+}
+
+//Shoot gun
+if(key_shoot_left) {
+	image_index = 7	
+	with(instance_create_layer(x,y, "Player", o_bullet)) {
+		//speed = 25
+		direction = other.image_angle + random_range(-4, 4)
+		image_angle = direction
+	}
+} else if(key_shoot_right) {
+	image_index = 8
+}
+
 //Reset camera shake collision vars
 if(not place_meeting(x, y, o_staticParent) or not place_meeting(x, y, obj_parent_physics)) {
 	o_camera.collisionWithDynamic = false
