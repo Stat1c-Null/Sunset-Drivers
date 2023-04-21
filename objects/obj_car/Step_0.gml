@@ -27,20 +27,29 @@ if(key_forward and !key_left and !key_right and !destroyed) {
 	image_index = 0	
 }
 
-function shootGun() {
-	
+function shootGun(argument0, argument1, argument2, argument3) {
+	with(instance_create_layer(x + argument0,y + argument1, "Particles", o_bullet)) {
+		speed = 25
+		direction = other.image_angle + argument2 + random_range(-other.gun_spread, other.gun_spread)
+		image_angle = other.image_angle + argument3
+	}
 }
 
 //Shoot gun
+firingdelay -= 1
+
 if(key_shoot_left) {
 	image_index = 7	
-	with(instance_create_layer(x,y, "Player", o_bullet)) {
-		//speed = 25
-		direction = other.image_angle + random_range(-4, 4)
-		image_angle = direction
+	if (firingdelay < 0) {
+		firingdelay = firing_timeout
+		shootGun(-45,-10, 90, -90)
 	}
 } else if(key_shoot_right) {
 	image_index = 8
+	if (firingdelay < 0) {
+		firingdelay = firing_timeout
+		shootGun(45,-10, -90, 90)
+	}
 }
 
 //Reset camera shake collision vars

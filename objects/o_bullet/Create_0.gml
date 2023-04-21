@@ -13,5 +13,5 @@ part_type_blend(particle_trail, 1)
 
 alarm[0] = 5
 
-loopAlarmMin = 1
-loopAlarmMax = 5
+loopAlarmMin = 4
+loopAlarmMax = 9

@@ -12,6 +12,12 @@ global.teleport_collision = false //Turn on when colliding with teleport so skid
 og_pos_x = x
 og_pos_y = y
 
+
+//Shooting
+firingdelay = 0
+firing_timeout = 12
+gun_spread = 6
+
 //Turn signal timer
 signal_timer = 0.35
 turn_left = false

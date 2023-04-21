@@ -120,8 +120,8 @@ if ( pause ){
 				global.dollars = 0
 				global.gasAmount = 100
 				global.health = 100
-				global.time = 0.00//What time in the world is it
-				global.army_time = "AM 12:00"
+				global.time = 0.2982//What time in the world is it
+				global.army_time = "AM 8:00"
 				global.day = 1
 				audio_stop_sound(a_ChroniclesOfThePit)
 				if(roomname == "rm_endless_rg_start") {

@@ -1,1 +1,2 @@
-speed = 25
+x += hspeed
+y += vspeed
