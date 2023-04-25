@@ -11,7 +11,7 @@ part_type_alpha3(particle_trail, 1, 1, 0)
 part_type_size(particle_trail, 1, 3, 0.1, 0.5)
 part_type_blend(particle_trail, 1)
 
-alarm[0] = 5
+alarm[0] = 1
 
 loopAlarmMin = 4
 loopAlarmMax = 9

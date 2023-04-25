@@ -28,11 +28,14 @@ if(key_forward and !key_left and !key_right and !destroyed) {
 }
 
 function shootGun(argument0, argument1, argument2, argument3) {
-	with(instance_create_layer(x - lengthdir_x(argument0, image_angle),y - lengthdir_y(argument1, image_angle), "Particles", o_bullet)) {
+	///@param argument0  X Pos
+	///@param argument1  Y Pos
+	///@param argument2  Direction
+	///@param argument3  Image Direction
+	with(instance_create_layer(argument0,argument1, "Particles", o_bullet)) {
 		speed = 25
 		direction = other.image_angle + argument2 + random_range(-other.gun_spread, other.gun_spread)
 		image_angle = other.image_angle + argument3
-		attached = other.id
 	}
 }
 
@@ -40,21 +43,24 @@ function shootGun(argument0, argument1, argument2, argument3) {
 firingdelay -= 1
 
 if(key_shoot_left) {
-	//image_index = 7	
+	image_index = 6	
 	if (firingdelay < 0) {
 		firingdelay = firing_timeout
-		//OG - 45 -10
-		//Rotation 0 is 0 -50 (right)
-		//Rotation 90 is  (down)
-		//Rotation 180 is -5 40 (left)
-		//Rotation 270 is -45 -10(up)
-		//shootGun(45,10, 90, -90)
+		// bulletSpawn
+		var _bulletspawn_x = x + lengthdir_x(38.68484, image_angle + 78.569844);
+		var _bulletspawn_y = y + lengthdir_y(38.68484, image_angle + 78.569844);
+		//shootGun(_bulletspawn_x,_bulletspawn_y, 90, -90)
+		shootGun(_bulletspawn_x,_bulletspawn_y, 90, -90)
 	}
 } else if(key_shoot_right) {
-	//image_index = 8
+	image_index = 7
 	if (firingdelay < 0) {
 		firingdelay = firing_timeout
-		//shootGun(45,-10, -90, 90)
+		// bulletSpawn
+		var _bulletspawn_x = x + lengthdir_x(36.829303, image_angle + 281.482154);
+		var _bulletspawn_y = y + lengthdir_y(36.829303, image_angle + 281.482154);
+		//shootGun(_bulletspawn_x,_bulletspawn_y, -90, 90)
+		shootGun(_bulletspawn_x,_bulletspawn_y, -90, 90)
 	}
 }
 

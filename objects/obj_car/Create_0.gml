@@ -1,7 +1,5 @@
 //Clear effects
 
-attached = undefined//For bullets position
-
 friction_strength = 6
 acceleration_speed = 0.4
 center_to_front = 45//Number of pixels from your cars center to it's front wheels
