@@ -152,6 +152,7 @@
     {"name":"o_back_button","order":13,"path":"objects/o_back_button/o_back_button.yy",},
     {"name":"s_cabrioletPorshe","order":8,"path":"sprites/s_cabrioletPorshe/s_cabrioletPorshe.yy",},
     {"name":"s_scificar","order":4,"path":"sprites/s_scificar/s_scificar.yy",},
+    {"name":"a_gun_shot","order":1,"path":"sounds/a_gun_shot/a_gun_shot.yy",},
     {"name":"sprChromatic1","order":1,"path":"sprites/sprChromatic1/sprChromatic1.yy",},
     {"name":"s_speedometer_half","order":7,"path":"sprites/s_speedometer_half/s_speedometer_half.yy",},
     {"name":"scr_set_alpha_lights","order":1,"path":"scripts/scr_set_alpha_lights/scr_set_alpha_lights.yy",},

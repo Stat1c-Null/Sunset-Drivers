@@ -1,7 +1,7 @@
 bullet_speed = 25
 
 //Create particles system
-particle_syst = part_system_create_layer("Particles", 0)
+particle_syst = part_system_create_layer("Lights", 0)
 
 particle_trail = part_type_create()
 //Settings for particles
@@ -13,5 +13,5 @@ part_type_blend(particle_trail, 1)
 
 alarm[0] = 1
 
-loopAlarmMin = 4
+loopAlarmMin = 6
 loopAlarmMax = 9

@@ -190,6 +190,7 @@
     {"id":{"name":"s_bullet","path":"sprites/s_bullet/s_bullet.yy",},},
     {"id":{"name":"s_scificar","path":"sprites/s_scificar/s_scificar.yy",},},
     {"id":{"name":"a_pickup","path":"sounds/a_pickup/a_pickup.yy",},},
+    {"id":{"name":"a_gun_shot","path":"sounds/a_gun_shot/a_gun_shot.yy",},},
     {"id":{"name":"sh_OLDTVFilter_Bleeding","path":"shaders/sh_OLDTVFilter_Bleeding/sh_OLDTVFilter_Bleeding.yy",},},
     {"id":{"name":"sprChromatic1","path":"sprites/sprChromatic1/sprChromatic1.yy",},},
     {"id":{"name":"s_speedometer_half","path":"sprites/s_speedometer_half/s_speedometer_half.yy",},},

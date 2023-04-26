@@ -33,3 +33,8 @@ if(hit == false) {
 } else if(hit == true) {
 	part_particles_create(global.partSystemCar,x,y,global.ptSmoke,3)
 }
+
+//Deal damage from bullets
+if(place_meeting(x,y,o_bullet) ){
+	hp -= 10
+}

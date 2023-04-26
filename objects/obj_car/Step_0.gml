@@ -32,7 +32,8 @@ function shootGun(argument0, argument1, argument2, argument3) {
 	///@param argument1  Y Pos
 	///@param argument2  Direction
 	///@param argument3  Image Direction
-	with(instance_create_layer(argument0,argument1, "Particles", o_bullet)) {
+	audio_play_sound(a_gun_shot, 500, false)
+	with(instance_create_layer(argument0,argument1, "Lights", o_bullet)) {
 		speed = 25
 		direction = other.image_angle + argument2 + random_range(-other.gun_spread, other.gun_spread)
 		image_angle = other.image_angle + argument3
@@ -47,8 +48,10 @@ if(key_shoot_left) {
 	if (firingdelay < 0) {
 		firingdelay = firing_timeout
 		// bulletSpawn
-		var _bulletspawn_x = x + lengthdir_x(38.68484, image_angle + 78.569844);
-		var _bulletspawn_y = y + lengthdir_y(38.68484, image_angle + 78.569844);
+		//var _bulletspawn_x = x + lengthdir_x(38.68484, image_angle + 78.569844);
+		//var _bulletspawn_y = y + lengthdir_y(38.68484, image_angle + 78.569844);
+		var _bulletspawn_x = x + lengthdir_x(43.083205, image_angle + 68.657308);
+		var _bulletspawn_y = y + lengthdir_y(43.083205, image_angle + 68.657308);
 		//shootGun(_bulletspawn_x,_bulletspawn_y, 90, -90)
 		shootGun(_bulletspawn_x,_bulletspawn_y, 90, -90)
 	}
@@ -57,8 +60,10 @@ if(key_shoot_left) {
 	if (firingdelay < 0) {
 		firingdelay = firing_timeout
 		// bulletSpawn
-		var _bulletspawn_x = x + lengthdir_x(36.829303, image_angle + 281.482154);
-		var _bulletspawn_y = y + lengthdir_y(36.829303, image_angle + 281.482154);
+		//var _bulletspawn_x = x + lengthdir_x(36.829303, image_angle + 281.482154);
+		//var _bulletspawn_y = y + lengthdir_y(36.829303, image_angle + 281.482154);
+		var _bulletspawn_x = x + lengthdir_x(38.93348, image_angle + 287.280437);
+		var _bulletspawn_y = y + lengthdir_y(38.93348, image_angle + 287.280437);
 		//shootGun(_bulletspawn_x,_bulletspawn_y, -90, 90)
 		shootGun(_bulletspawn_x,_bulletspawn_y, -90, 90)
 	}

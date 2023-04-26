@@ -33,7 +33,7 @@ else if(layer_id == "LeftLaneHor"){
 //Car movement
 speed_var = choose(0.85, 0.8, 0.75, 0.7, 0.65) 
 hit = false
-hp = 5
+hp = 7
 collision_damage = 15
 current_speed = 0//Physics speed
 brake_power = 0.6

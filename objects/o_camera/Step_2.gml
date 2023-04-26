@@ -17,11 +17,11 @@ if(camW > zoom_out_w_max or camH > zoom_out_h_max) {
 
 //Panning
 if(instance_exists(object_following)) {
-	if (mouse_check_button(mb_middle)) {
-		var move_x = device_mouse_x_to_gui(0) - mouse_x_previous
+	if (mouse_check_button(mb_middle) and global.gameover == false) {
+		//var move_x = device_mouse_x_to_gui(0) - mouse_x_previous
 		var move_y = device_mouse_y_to_gui(0) - mouse_y_previous
 	
-		camX -= move_x
+		//camX -= move_x
 		camY -= move_y
 	} else {
 		//Follow the player 
@@ -42,7 +42,7 @@ if(instance_exists(object_following)) {
 //Zooming
 var wheel = mouse_wheel_down() - mouse_wheel_up()
 
-if (wheel != 0 and o_pause_menu.pause == false){
+if (wheel != 0 and o_pause_menu.pause == false and global.gameover == false){
 	wheel *= zoom_speed
 	
 	// Add to size
