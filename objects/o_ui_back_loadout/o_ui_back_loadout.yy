@@ -2,7 +2,9 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "o_ui_back_loadout",
-  "eventList": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
@@ -26,8 +28,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "s_ui_back_loadout",
-    "path": "sprites/s_ui_back_loadout/s_ui_back_loadout.yy",
+    "name": "s_ui_backloadout",
+    "path": "sprites/s_ui_backloadout/s_ui_backloadout.yy",
   },
   "spriteMaskId": null,
   "visible": true,
