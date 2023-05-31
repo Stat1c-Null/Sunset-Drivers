@@ -1,7 +1,7 @@
 //Clear effects
 
 friction_strength = 6
-acceleration_speed = 0.4
+acceleration_speed = 0.44
 center_to_front = 45//Number of pixels from your cars center to it's front wheels
 
 richting = 0
@@ -29,7 +29,7 @@ reverse_detect = 13
 reverse_mult = 0.3
 global.reverse = false//Determine whether player is reversing right now or no
 turn_multi = 2
-turn_limit = 100
+turn_limit = 40
 //Time
 global.time = 0.2982//What time in the world is it
 global.army_time = "AM 8:00"
@@ -66,8 +66,8 @@ arrow_rot = 360//Control in which direction speedometer arrow is turned
 bust_dist = 15
 
 //Money
-global.dollars = 0
 money_timer = 4
+global.dollars = 0
 
 //Keys
 var key_left = keyboard_check(ord("A"))

@@ -148,7 +148,7 @@ if(o_pause_menu.pause == false) {
 }
 
 //Handbrake Drift
-if((key_handbrake or gamepad_LS) and !destroyed){
+/*if((key_handbrake or gamepad_LS) and !destroyed){
 	turn_multi = 8
 	//turn_limit = 15
 	phy_speed_x += lengthdir_x(-acceleration_speed/6,-phy_rotation)
@@ -156,7 +156,7 @@ if((key_handbrake or gamepad_LS) and !destroyed){
 } else {
 	turn_multi = 2
 	turn_limit = 45
-}
+}*/
 
 //Work with hand brake
 //Turning
