@@ -526,6 +526,7 @@
     {"id":{"name":"obj_OLDTVFilter_Logo","path":"objects/obj_OLDTVFilter_Logo/obj_OLDTVFilter_Logo.yy",},},
     {"id":{"name":"o_switch_dir_right","path":"objects/o_switch_dir_right/o_switch_dir_right.yy",},},
     {"id":{"name":"s_trashcan","path":"sprites/s_trashcan/s_trashcan.yy",},},
+    {"id":{"name":"BufferFunc","path":"scripts/BufferFunc/BufferFunc.yy",},},
     {"id":{"name":"sprMask1","path":"sprites/sprMask1/sprMask1.yy",},},
     {"id":{"name":"s_veryOldBens","path":"sprites/s_veryOldBens/s_veryOldBens.yy",},},
     {"id":{"name":"o_ui_back_loadout","path":"objects/o_ui_back_loadout/o_ui_back_loadout.yy",},},

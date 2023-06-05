@@ -31,15 +31,14 @@ res_h = 1080
 screen_w = display_get_width()
 screen_h = display_get_height()
 
-//Money
-//global.dollars = 0
-
 //Determine which room player is located in and set according game state
 var roomname = room_get_name(room)
-if(roomname == "rm_mainmenu") 
+if(roomname == "rm_mainmenu") {
 	global.game_state = "menu"
-else
+	global.dollars = 0
+} else {
 	global.game_state = "game"
+}
 	
 global.filter = "day_night"
 /*if(global.game_state == "game") {

@@ -10,10 +10,14 @@ save = function () {
 	
 	//Save to JSON
 	var json = json_stringify(rootStruct)
-	var file = working_directory + "save.txt"
-	saveJsonToFile(json, file)
+	SaveString(json, "sdsave")
 }
 
 load = function() {
-		
+	if(!file_exists("mysave")) return;
+	
+	//Load json
+	var json = LoadString("sdsave")
+	var rootStruct = json_parse(json)
+	global.dollars = rootStruct.money
 }

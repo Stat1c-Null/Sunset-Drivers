@@ -443,6 +443,7 @@
     {"name":"obj_OLDTVFilter_Logo","order":2,"path":"objects/obj_OLDTVFilter_Logo/obj_OLDTVFilter_Logo.yy",},
     {"name":"o_switch_dir_right","order":10,"path":"objects/o_switch_dir_right/o_switch_dir_right.yy",},
     {"name":"s_trashcan","order":18,"path":"sprites/s_trashcan/s_trashcan.yy",},
+    {"name":"BufferFunc","order":2,"path":"scripts/BufferFunc/BufferFunc.yy",},
     {"name":"sprMask1","order":3,"path":"sprites/sprMask1/sprMask1.yy",},
     {"name":"s_veryOldBens","order":3,"path":"sprites/s_veryOldBens/s_veryOldBens.yy",},
     {"name":"o_ui_back_loadout","order":16,"path":"objects/o_ui_back_loadout/o_ui_back_loadout.yy",},
