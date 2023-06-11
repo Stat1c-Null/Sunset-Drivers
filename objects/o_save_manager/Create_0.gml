@@ -14,7 +14,7 @@ save = function () {
 }
 
 load = function() {
-	if(!file_exists("mysave")) return;
+	if(!file_exists("sdsave")) return;
 	
 	//Load json
 	var json = LoadString("sdsave")

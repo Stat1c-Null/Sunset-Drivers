@@ -370,6 +370,7 @@
     {"name":"o_destroy","order":3,"path":"sprites/o_destroy/o_destroy.yy",},
     {"name":"s_loadout_button","order":17,"path":"sprites/s_loadout_button/s_loadout_button.yy",},
     {"name":"o_cat_orange","order":3,"path":"objects/o_cat_orange/o_cat_orange.yy",},
+    {"name":"s_cursor","order":28,"path":"sprites/s_cursor/s_cursor.yy",},
     {"name":"o_vending","order":17,"path":"objects/o_vending/o_vending.yy",},
     {"name":"o_broken_bench1_right","order":29,"path":"objects/o_broken_bench1_right/o_broken_bench1_right.yy",},
     {"name":"s_settings_display_button_pressed","order":16,"path":"sprites/s_settings_display_button_pressed/s_settings_display_button_pressed.yy",},

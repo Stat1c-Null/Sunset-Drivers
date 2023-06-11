@@ -442,6 +442,7 @@
     {"id":{"name":"o_destroy","path":"sprites/o_destroy/o_destroy.yy",},},
     {"id":{"name":"s_loadout_button","path":"sprites/s_loadout_button/s_loadout_button.yy",},},
     {"id":{"name":"o_cat_orange","path":"objects/o_cat_orange/o_cat_orange.yy",},},
+    {"id":{"name":"s_cursor","path":"sprites/s_cursor/s_cursor.yy",},},
     {"id":{"name":"o_vending","path":"objects/o_vending/o_vending.yy",},},
     {"id":{"name":"o_broken_bench1_right","path":"objects/o_broken_bench1_right/o_broken_bench1_right.yy",},},
     {"id":{"name":"s_settings_display_button_pressed","path":"sprites/s_settings_display_button_pressed/s_settings_display_button_pressed.yy",},},
