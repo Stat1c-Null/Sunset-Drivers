@@ -39,7 +39,7 @@ global.minutes_survived = 0
 global.seconds_survived = 0
 alarm[3] = 1 * room_speed
 //Gas gas gas
-global.maxAmount = o_game_controller.car_gas
+global.maxAmount = o_game_controller.car_gas + o_game_controller.gas_lvl * o_game_controller.gas_inc
 global.gasAmount = global.maxAmount
 gasFrame = 0
 global.mphSpeed = 0

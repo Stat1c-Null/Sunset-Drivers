@@ -1,4 +1,4 @@
-value = round(random_range(10, 50))
+value = round(random_range(5, 30))
 destroyed = false
 image_speed = 1
 sound_played = false

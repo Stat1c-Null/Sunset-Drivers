@@ -61,10 +61,17 @@ part_system_depth(global.partSystemCar, 800)
 car_speed = 0.44
 car_health = 100
 car_gas = 100
+
 speed_lvl = 1
 speed_inc = 0.02//By howw much speed increases every level
 max_speed_lvl = 10
+speed_prices = [0, 400, 800, 1200, 1600, 2000, 2400, 2800, 3500, 4500, 6000]//0 in begininng to take index 0
+
 health_lvl = 1
+
 gas_lvl = 1
-speed_prices = [0, 200, 400, 600, 800, 1000, 1200, 1400, 1600, 1800, 2000]//0 in begininng to take index 0
+gas_inc = 10
+max_gas_lvl = 10
+gas_prices = [0, 300, 600, 900, 1200, 1500, 1800, 2100, 2400, 2700, 3000]
+
 
