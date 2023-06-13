@@ -57,3 +57,14 @@ global.filter = "day_night"
 global.partSystemCar =  part_system_create_layer("Particles", 0)
 part_system_depth(global.partSystemCar, 800)
 
+//Car Specs
+car_speed = 0.44
+car_health = 100
+car_gas = 100
+speed_lvl = 1
+speed_inc = 0.02//By howw much speed increases every level
+max_speed_lvl = 10
+health_lvl = 1
+gas_lvl = 1
+speed_prices = [0, 200, 400, 600, 800, 1000, 1200, 1400, 1600, 1800, 2000]//0 in begininng to take index 0
+

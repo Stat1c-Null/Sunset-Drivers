@@ -22,7 +22,7 @@ switch(global.game_state) {
 			if o_pause_menu.pause == false {
 				global.last_y = obj_car.y
 				global.final_score = obj_car.player_score
-				global.final_money = global.dollars
+				global.final_money = global.current_dollars
 				global.final_minutes = global.minutes_survived
 				global.final_seconds = global.seconds_survived
 			}

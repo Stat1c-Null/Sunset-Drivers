@@ -77,6 +77,13 @@ if(not place_meeting(x, y, o_staticParent) or not place_meeting(x, y, obj_parent
 	o_camera.cameraAlarmOn = false
 }
 
+//Handbrake / Drift
+if(key_handbrake) {
+	friction_strength = 1.7
+} else {
+	friction_strength = 5
+}
+
 //Switch score position depending on number of numbers
 calculate_score(player_score)
 
@@ -146,17 +153,6 @@ if(o_pause_menu.pause == false) {
 		player_score += 2.5
 	} 
 }
-
-//Handbrake Drift
-/*if((key_handbrake or gamepad_LS) and !destroyed){
-	turn_multi = 8
-	//turn_limit = 15
-	phy_speed_x += lengthdir_x(-acceleration_speed/6,-phy_rotation)
-	phy_speed_y += lengthdir_y(-acceleration_speed/6,-phy_rotation)
-} else {
-	turn_multi = 2
-	turn_limit = 45
-}*/
 
 //Work with hand brake
 //Turning

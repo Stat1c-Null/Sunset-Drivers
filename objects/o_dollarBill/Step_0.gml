@@ -10,7 +10,7 @@ if(place_meeting(x,y, obj_car)) {
 if(destroyed)
 {
 	if(image_index >= 23) {
-		global.dollars += value
+		global.current_dollars += value
 		instance_destroy(self)	
 	}	
 }

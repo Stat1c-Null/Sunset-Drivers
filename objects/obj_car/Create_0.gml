@@ -1,7 +1,7 @@
 //Clear effects
 
-friction_strength = 6
-acceleration_speed = 0.44
+friction_strength = 5
+acceleration_speed = o_game_controller.car_speed + o_game_controller.speed_lvl * o_game_controller.speed_inc
 center_to_front = 45//Number of pixels from your cars center to it's front wheels
 
 richting = 0
@@ -39,14 +39,14 @@ global.minutes_survived = 0
 global.seconds_survived = 0
 alarm[3] = 1 * room_speed
 //Gas gas gas
-global.maxAmount = 100
+global.maxAmount = o_game_controller.car_gas
 global.gasAmount = global.maxAmount
 gasFrame = 0
 global.mphSpeed = 0
 global.phySpeed = 0
 global.gear = 1
 //Condition
-global.maxHealth = 100
+global.maxHealth = o_game_controller.car_health
 global.health = global.maxHealth
 playerLowHp = false
 alarmSet = false
@@ -68,6 +68,7 @@ bust_dist = 15
 //Money
 money_timer = 4
 global.dollars = 0
+global.current_dollars = 0
 
 //Keys
 var key_left = keyboard_check(ord("A"))

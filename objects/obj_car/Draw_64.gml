@@ -47,7 +47,7 @@ if(global.busted == false and global.wasted == false) {
 	} else {
 		draw_set_color(c_lime)
 	}
-	draw_text(2400, 200, "$" + string(global.dollars))
+	draw_text(2400, 200, "$" + string(global.current_dollars))
 } else {
 	draw_clear(c_green)	
 }
