@@ -68,10 +68,14 @@ max_speed_lvl = 10
 speed_prices = [0, 400, 800, 1200, 1600, 2000, 2400, 2800, 3500, 4500, 6000]//0 in begininng to take index 0
 
 health_lvl = 1
+health_inc = 10//How much health increases
+max_health_lvl = 10
+health_prices = [0, 500, 1000, 1500, 2000, 3000, 4000, 5500, 6000, 8000, 10000]
 
 gas_lvl = 1
 gas_inc = 10
 max_gas_lvl = 10
 gas_prices = [0, 300, 600, 900, 1200, 1500, 1800, 2100, 2400, 2700, 3000]
+
 
 

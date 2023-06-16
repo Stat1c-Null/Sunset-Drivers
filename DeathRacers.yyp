@@ -386,6 +386,7 @@
     {"id":{"name":"o_watercan","path":"objects/o_watercan/o_watercan.yy",},},
     {"id":{"name":"sh_OLDTVFilter_Television","path":"shaders/sh_OLDTVFilter_Television/sh_OLDTVFilter_Television.yy",},},
     {"id":{"name":"s_vending","path":"sprites/s_vending/s_vending.yy",},},
+    {"id":{"name":"o_add_health_button","path":"objects/o_add_health_button/o_add_health_button.yy",},},
     {"id":{"name":"o_car_ai","path":"objects/o_car_ai/o_car_ai.yy",},},
     {"id":{"name":"f_vhs_big","path":"fonts/f_vhs_big/f_vhs_big.yy",},},
     {"id":{"name":"s_beam","path":"sprites/s_beam/s_beam.yy",},},

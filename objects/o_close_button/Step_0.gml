@@ -12,6 +12,7 @@ if(meeting == 1 and mouse_check_button_pressed(mb_left))
 		instance_destroy(o_ui_back_loadout)
 		instance_destroy(o_add_speed_button)
 		instance_destroy(o_add_gas_button)
+		instance_destroy(o_add_health_button)
 	instance_destroy(self)
 } else {
 	sprite_index = s_close_button	

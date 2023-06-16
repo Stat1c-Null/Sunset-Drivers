@@ -324,6 +324,7 @@
     {"name":"o_watercan","order":18,"path":"objects/o_watercan/o_watercan.yy",},
     {"name":"sh_OLDTVFilter_Television","order":5,"path":"shaders/sh_OLDTVFilter_Television/sh_OLDTVFilter_Television.yy",},
     {"name":"s_vending","order":20,"path":"sprites/s_vending/s_vending.yy",},
+    {"name":"o_add_health_button","order":19,"path":"objects/o_add_health_button/o_add_health_button.yy",},
     {"name":"o_car_ai","order":1,"path":"objects/o_car_ai/o_car_ai.yy",},
     {"name":"f_vhs_big","order":3,"path":"fonts/f_vhs_big/f_vhs_big.yy",},
     {"name":"s_beam","order":7,"path":"sprites/s_beam/s_beam.yy",},

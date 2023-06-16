@@ -46,7 +46,7 @@ global.mphSpeed = 0
 global.phySpeed = 0
 global.gear = 1
 //Condition
-global.maxHealth = o_game_controller.car_health
+global.maxHealth = o_game_controller.car_health + o_game_controller.health_lvl * o_game_controller.health_inc
 global.health = global.maxHealth
 playerLowHp = false
 alarmSet = false
