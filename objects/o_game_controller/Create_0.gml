@@ -5,6 +5,13 @@ global.final_score = 0
 global.final_money = 0
 global.final_minutes = 0
 global.final_seconds = 0
+
+//Overall Statistics
+overall_money = 0
+total_runs = 0 //Number of times player played
+time_played = 0// How much hours or minutes player played
+cops_killed = 0 //How many cops died
+
 //Cop setting
 distance_betw = 0
 global.final_dist = 100//Final calculated distance between player and a cop

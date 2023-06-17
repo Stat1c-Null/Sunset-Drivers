@@ -44,7 +44,7 @@ hit_reset = false
 hit_time = 2//Time before another hit will give damage
 
 //Randomly choose sprite for car
-sprites = [s_opel, s_zaporozech, s_bluecar, s_devyatka, s_volga, s_volga2, s_volga3, s_aston, s_bugatti, s_bugatti, s_challenger, s_corvett, s_ferrari, s_lambo, s_mclaren, s_audir8, s_merse, s_porshe, s_sportcar, s_jaguar,s_jaguar2, s_jaguar3, s_supra, s_astonMartin2, s_bmw, s_buggatti2, s_cabrioletPorshe, s_cabrioletPorsche2, s_futuristicCar, s_modernLambo, s_oldMclaren, s_scificar, s_fordGT, s_oldCar, s_oldFerrari, s_oldMers, s_oldPorshe, s_veryOldBens]
+sprites = [s_opel, s_zaporozech, s_bluecar, s_devyatka, s_volga, s_volga2, s_volga_black, s_aston, s_bugatti, s_bugatti, s_challenger, s_corvett, s_ferrari, s_lambo, s_mclaren, s_audir8, s_merse, s_porshe, s_sportcar, s_jaguar,s_jaguar2, s_jaguar3, s_supra, s_astonMartin2, s_bmw, s_buggatti2, s_cabrioletPorshe, s_cabrioletPorsche2, s_futuristicCar, s_modernLambo, s_oldMclaren, s_scificar, s_fordGT, s_oldCar, s_oldFerrari, s_oldMers, s_oldPorshe, s_veryOldBens]
 amount = array_length(sprites)
 sprite_choice = random_range(0, amount - 1)
 final = round(sprite_choice)

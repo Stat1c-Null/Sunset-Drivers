@@ -16,7 +16,7 @@ if(global.busted == false and global.wasted == false) {
 	draw_sprite(s_speedometer, 1, 2390, 600)
 	draw_sprite_ext(s_speed_arrow, 1, 2390, 600, image_xscale, image_yscale, arrow_rot, image_blend, image_alpha)
 	draw_set_color(c_green)
-	draw_text(2435, 735, round(global.mphSpeed))
+	draw_text(2420, 735, round(global.mphSpeed))
 	draw_set_color(c_red)
 	draw_text(2435, 690, global.gear)
 	draw_sprite(s_gear_m, 1,2515, 735)

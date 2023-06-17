@@ -38,8 +38,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "s_volga3",
-    "path": "sprites/s_volga3/s_volga3.yy",
+    "name": "s_volga_black",
+    "path": "sprites/s_volga_black/s_volga_black.yy",
   },
   "spriteMaskId": null,
   "visible": true,
