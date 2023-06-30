@@ -68,6 +68,10 @@ part_system_depth(global.partSystemCar, 800)
 car_speed = 0.44
 car_health = 100
 car_gas = 100
+car_color = "black"
+
+colors = ["black", "white", "red"]
+color_price = [0, 500, 1000]
 
 speed_lvl = 1
 speed_inc = 0.02//By howw much speed increases every level
