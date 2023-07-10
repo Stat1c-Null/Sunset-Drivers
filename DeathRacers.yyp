@@ -98,7 +98,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.4.0.84",
+    "IDEVersion": "2023.6.0.89",
   },
   "resources": [
     {"id":{"name":"o_traffic_block3","path":"objects/o_traffic_block3/o_traffic_block3.yy",},},
@@ -134,6 +134,7 @@
     {"id":{"name":"s_stone1","path":"sprites/s_stone1/s_stone1.yy",},},
     {"id":{"name":"o_box3","path":"objects/o_box3/o_box3.yy",},},
     {"id":{"name":"o_shop1","path":"objects/o_shop1/o_shop1.yy",},},
+    {"id":{"name":"s_volga_black_display","path":"sprites/s_volga_black_display/s_volga_black_display.yy",},},
     {"id":{"name":"s_challenger_police","path":"sprites/s_challenger_police/s_challenger_police.yy",},},
     {"id":{"name":"s_civcar","path":"sprites/s_civcar/s_civcar.yy",},},
     {"id":{"name":"o_water_splash","path":"objects/o_water_splash/o_water_splash.yy",},},
@@ -499,6 +500,7 @@
     {"id":{"name":"o_bullet","path":"objects/o_bullet/o_bullet.yy",},},
     {"id":{"name":"o_filter_button","path":"objects/o_filter_button/o_filter_button.yy",},},
     {"id":{"name":"s_tree","path":"sprites/s_tree/s_tree.yy",},},
+    {"id":{"name":"s_volga_red_display","path":"sprites/s_volga_red_display/s_volga_red_display.yy",},},
     {"id":{"name":"o_exit_button","path":"objects/o_exit_button/o_exit_button.yy",},},
     {"id":{"name":"s_b4","path":"sprites/s_b4/s_b4.yy",},},
     {"id":{"name":"obj_ball_piece4","path":"objects/obj_ball_piece4/obj_ball_piece4.yy",},},
@@ -523,6 +525,7 @@
     {"id":{"name":"obj_day_and_night_overlay","path":"objects/obj_day_and_night_overlay/obj_day_and_night_overlay.yy",},},
     {"id":{"name":"s_clockUI","path":"sprites/s_clockUI/s_clockUI.yy",},},
     {"id":{"name":"rm_endless_none","path":"rooms/rm_endless_none/rm_endless_none.yy",},},
+    {"id":{"name":"s_volga_white_display","path":"sprites/s_volga_white_display/s_volga_white_display.yy",},},
     {"id":{"name":"s_switch_direction_left","path":"sprites/s_switch_direction_left/s_switch_direction_left.yy",},},
     {"id":{"name":"s_jaguar3","path":"sprites/s_jaguar3/s_jaguar3.yy",},},
     {"id":{"name":"o_ai_car_og","path":"objects/o_ai_car_og/o_ai_car_og.yy",},},

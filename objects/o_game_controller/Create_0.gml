@@ -68,10 +68,11 @@ part_system_depth(global.partSystemCar, 800)
 car_speed = 0.44
 car_health = 100
 car_gas = 100
-car_color = "black"
 
-colors = ["black", "white", "red"]
+colors = [s_volga_black_display, s_volga_white_display, s_volga_red_display]
 color_price = [0, 500, 1000]
+color_owned = [true, false, false]
+car_color = colors[0]
 
 speed_lvl = 1
 speed_inc = 0.02//By howw much speed increases every level

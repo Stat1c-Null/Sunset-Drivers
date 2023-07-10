@@ -2,6 +2,16 @@
 convert_speed(phy_speed)
 global.phySpeed = phy_speed
 
+//Car color REDO THIS YANDEREDEV CODE ASAP
+if(o_pause_menu.pause == false) {
+	if o_game_controller.car_color == s_volga_black_display {
+		sprite_index = s_volga_black	
+	} else if o_game_controller.car_color == s_volga_white_display {
+		sprite_index = s_volga_white
+	} else if o_game_controller.car_color == s_volga_red_display {
+		sprite_index = s_volga_red
+	}
+}
 //Keys
 Controls()
 
