@@ -15,4 +15,5 @@
 }*/
 if not instance_exists(o_ui_back_loadout)
 	instance_create_layer(x, y - 60, "SettingsBase", o_ui_back_settings)
+	settings_on = true
 	global.mode = "settings"
