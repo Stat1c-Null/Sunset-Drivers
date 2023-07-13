@@ -19,7 +19,11 @@ if(global.busted == false and global.wasted == false) {
 	draw_text(2420, 735, round(global.mphSpeed))
 	draw_set_color(c_red)
 	draw_text(2435, 690, global.gear)
-	draw_sprite(s_gear_m, 1,2515, 735)
+	if instance_exists(o_game_controller)
+		if(o_game_controller.range_units == "imperial")
+			draw_sprite(s_gear_m, 0,2515, 735)//mph
+		else if(o_game_controller.range_units == "metric")
+			draw_sprite(s_gear_km, 1,2515, 735)//kph
 	//Score
 	draw_set_color(c_yellow)
 	draw_text(1227, 100, "SCORE")

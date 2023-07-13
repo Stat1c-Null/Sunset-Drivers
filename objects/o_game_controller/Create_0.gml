@@ -90,4 +90,4 @@ max_gas_lvl = 10
 gas_prices = [0, 300, 600, 900, 1200, 1500, 1800, 2100, 2400, 2700, 3000]
 
 //Settings
-range_units = "metric"
+range_units = "imperial"
