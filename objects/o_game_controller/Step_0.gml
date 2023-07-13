@@ -1,6 +1,6 @@
 /// @description 
 Controls()
-
+show_debug_message(range_units)
 //Determine which room player is located in and set according game state
 var roomname = room_get_name(room)
 if(roomname == "rm_mainmenu") 

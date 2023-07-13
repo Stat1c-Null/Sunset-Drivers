@@ -191,6 +191,7 @@
     {"name":"s_gasCanister","order":3,"path":"sprites/s_gasCanister/s_gasCanister.yy",},
     {"name":"s_exit_button","order":2,"path":"sprites/s_exit_button/s_exit_button.yy",},
     {"name":"WegSet5","order":4,"path":"sprites/WegSet5/WegSet5.yy",},
+    {"name":"o_settings_save","order":11,"path":"objects/o_settings_save/o_settings_save.yy",},
     {"name":"s_bench2","order":5,"path":"sprites/s_bench2/s_bench2.yy",},
     {"name":"s_settings_button","order":4,"path":"sprites/s_settings_button/s_settings_button.yy",},
     {"name":"s_speedometer_half_smol","order":17,"path":"sprites/s_speedometer_half_smol/s_speedometer_half_smol.yy",},

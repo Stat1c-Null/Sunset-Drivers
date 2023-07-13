@@ -8,6 +8,7 @@ save = function () {
 	var _health_lvl = o_game_controller.health_lvl
 	var _current_car_color = o_game_controller.car_color
 	var _colors_owned = o_game_controller.color_owned
+	var _metric_unit = o_game_controller.range_units
 	var roomname = room_get_name(room)
 
 	_money = _money + current_money
@@ -18,7 +19,8 @@ save = function () {
 		car_gas: _gas_lvl,
 		car_health: _health_lvl,
 		car_color: _current_car_color,
-		colors_owned: _colors_owned
+		colors_owned: _colors_owned,
+		range_unit: _metric_unit
 	};
 	
 	//Save to JSON
@@ -41,6 +43,7 @@ load = function() {
 		o_game_controller.health_lvl = rootStruct.car_health
 		o_game_controller.car_color = rootStruct.car_color
 		o_game_controller.color_owned = rootStruct.colors_owned
+		o_game_controller.range_units = rootStruct.range_units
 	} catch (_exception) {
 		return
 	}
