@@ -4,7 +4,7 @@ if instance_exists(o_game_controller)
 global.phySpeed = phy_speed
 
 //Car color REDO THIS YANDEREDEV CODE ASAP
-if(o_pause_menu.pause == false) {
+if(o_pause_menu.pause == false and instance_exists(o_game_controller)) {
 	if o_game_controller.car_color == s_volga_black_display {
 		sprite_index = s_volga_black	
 	} else if o_game_controller.car_color == s_volga_white_display {

@@ -23,7 +23,7 @@ if(global.busted == false and global.wasted == false) {
 		if(o_game_controller.range_units == "imperial")
 			draw_sprite(s_gear_m, 0,2515, 735)//mph
 		else if(o_game_controller.range_units == "metric")
-			draw_sprite(s_gear_km, 1,2515, 735)//kph
+			draw_sprite(s_gear_km, 1,2505, 735)//kph
 	//Score
 	draw_set_color(c_yellow)
 	draw_text(1227, 100, "SCORE")

@@ -238,7 +238,6 @@
     {"id":{"name":"WegSet5","path":"sprites/WegSet5/WegSet5.yy",},},
     {"id":{"name":"rm_OLDTVFilter_Sample","path":"rooms/rm_OLDTVFilter_Sample/rm_OLDTVFilter_Sample.yy",},},
     {"id":{"name":"s_play_button","path":"sprites/s_play_button/s_play_button.yy",},},
-    {"id":{"name":"o_settings_save","path":"objects/o_settings_save/o_settings_save.yy",},},
     {"id":{"name":"s_bench2","path":"sprites/s_bench2/s_bench2.yy",},},
     {"id":{"name":"s_settings_button","path":"sprites/s_settings_button/s_settings_button.yy",},},
     {"id":{"name":"s_speedometer_half_smol","path":"sprites/s_speedometer_half_smol/s_speedometer_half_smol.yy",},},
