@@ -15,6 +15,7 @@ cops_killed = 0 //How many cops died
 //Cop setting
 distance_betw = 0
 global.final_dist = 100//Final calculated distance between player and a cop
+meter_dist = 0
 
 //Game over settings
 global.busted = false

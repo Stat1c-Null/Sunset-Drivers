@@ -37,6 +37,8 @@ switch(global.game_state) {
 
 				global.final_dist = distance_betw / 10
 				
+				meter_dist = global.final_dist / 3
+				
 			}
 
 			win_width = room_width	

@@ -15,8 +15,12 @@ if(global.busted == false and global.wasted == false) {
 	//Speeeeeed
 	draw_sprite(s_speedometer, 1, 2390, 600)
 	draw_sprite_ext(s_speed_arrow, 1, 2390, 600, image_xscale, image_yscale, arrow_rot, image_blend, image_alpha)
-	draw_set_color(c_green)
-	draw_text(2420, 735, round(global.mphSpeed))
+	draw_set_color(c_aqua)
+	if instance_exists(o_game_controller)
+		if(o_game_controller.range_units == "imperial")
+			draw_text(2420, 735, round(global.mphSpeed))
+		else 
+			draw_text(2420, 735, round(global.kphSpeed))
 	draw_set_color(c_red)
 	draw_text(2435, 690, global.gear)
 	if instance_exists(o_game_controller)

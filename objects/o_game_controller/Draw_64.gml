@@ -64,7 +64,10 @@ if(global.game_state == "game") {
 		} else if(global.final_dist > 200){
 			draw_set_color(c_green)
 		}
-		draw_text(550, 1170, string(floor(global.final_dist)) + " feet")	
+		if range_units == "imperial"
+			draw_text(550, 1170, string(floor(global.final_dist)) + " feet")
+		else
+			draw_text(550, 1170, string(floor(meter_dist)) + " meters")
 	}
 } else if(global.game_state == "menu") {
 	draw_set_color(c_ltgray)

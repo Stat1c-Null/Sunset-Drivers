@@ -1,6 +1,6 @@
 //Update physics speed
 if instance_exists(o_game_controller)
-	convert_speed(phy_speed, o_game_controller.range_units)
+	convert_speed(phy_speed)
 global.phySpeed = phy_speed
 
 //Car color REDO THIS YANDEREDEV CODE ASAP

@@ -42,6 +42,7 @@ global.maxAmount = o_game_controller.car_gas + o_game_controller.gas_lvl * o_gam
 global.gasAmount = global.maxAmount
 gasFrame = 0
 global.mphSpeed = 0
+global.kphSpeed = 0
 global.phySpeed = 0
 global.gear = 1
 //Condition

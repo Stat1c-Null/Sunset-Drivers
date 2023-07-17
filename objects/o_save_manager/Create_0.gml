@@ -43,7 +43,7 @@ load = function() {
 		o_game_controller.health_lvl = rootStruct.car_health
 		o_game_controller.car_color = rootStruct.car_color
 		o_game_controller.color_owned = rootStruct.colors_owned
-		o_game_controller.range_units = rootStruct.range_units
+		o_game_controller.range_units = rootStruct.range_unit
 	} catch (_exception) {
 		return
 	}
