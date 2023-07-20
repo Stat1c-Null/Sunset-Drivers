@@ -9,6 +9,7 @@ save = function () {
 	var _current_car_color = o_game_controller.car_color
 	var _colors_owned = o_game_controller.color_owned
 	var _metric_unit = o_game_controller.range_units
+	var _money_highscore = global.money_highscore
 	var roomname = room_get_name(room)
 
 	_money = _money + current_money
@@ -20,7 +21,8 @@ save = function () {
 		car_health: _health_lvl,
 		car_color: _current_car_color,
 		colors_owned: _colors_owned,
-		range_unit: _metric_unit
+		range_unit: _metric_unit,
+		money_highscore: _money_highscore
 	};
 	
 	//Save to JSON
@@ -44,7 +46,9 @@ load = function() {
 		o_game_controller.car_color = rootStruct.car_color
 		o_game_controller.color_owned = rootStruct.colors_owned
 		o_game_controller.range_units = rootStruct.range_unit
+		global.money_highscore = rootStruct.money_highscore
 	} catch (_exception) {
 		return
 	}
 }
+

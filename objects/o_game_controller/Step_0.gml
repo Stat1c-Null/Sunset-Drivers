@@ -55,6 +55,7 @@ switch(global.game_state) {
 			instance_create_layer(vx + v_width, vy + v_height + 200, "UI", o_home_button)
 			buttons_created = true
 			levels_done = 0
+			global.money_score = global.final_money
 		}
 
 

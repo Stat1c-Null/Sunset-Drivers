@@ -92,3 +92,7 @@ gas_prices = [0, 300, 600, 900, 1200, 1500, 1800, 2100, 2400, 2700, 3000]
 
 //Settings
 range_units = "metric"
+
+//Challenges
+global.money_highscore = 0
+global.money_score = 0

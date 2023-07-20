@@ -1,0 +1,1 @@
+global.ch_banker = "c670f87c-704e-4749-9cc0-f3dea5a753bc"
