@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "o_turn_right",
+  "name": "o_gas",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":2,"eventType":3,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "s_arrow_right",
-    "path": "sprites/s_arrow_right/s_arrow_right.yy",
+    "name": "s_arrow_up",
+    "path": "sprites/s_arrow_up/s_arrow_up.yy",
   },
   "spriteMaskId": null,
   "visible": true,
