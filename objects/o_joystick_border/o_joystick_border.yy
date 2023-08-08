@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "o_gas",
+  "name": "o_joystick_border",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":2,"eventType":3,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "s_gas_noborder",
-    "path": "sprites/s_gas_noborder/s_gas_noborder.yy",
+    "name": "s_joystick_border",
+    "path": "sprites/s_joystick_border/s_joystick_border.yy",
   },
   "spriteMaskId": null,
   "visible": true,

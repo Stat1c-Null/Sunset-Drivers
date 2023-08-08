@@ -482,9 +482,9 @@
     {"name":"inst_43EF2047_2_3","path":"rooms/rm_endless_rg_start/rm_endless_rg_start.yy",},
     {"name":"inst_78EBA911_2_2","path":"rooms/rm_endless_rg_start/rm_endless_rg_start.yy",},
     {"name":"inst_3287A088","path":"rooms/rm_endless_rg_start/rm_endless_rg_start.yy",},
-    {"name":"inst_27E0215D","path":"rooms/rm_endless_rg_start/rm_endless_rg_start.yy",},
-    {"name":"inst_10990E3A","path":"rooms/rm_endless_rg_start/rm_endless_rg_start.yy",},
     {"name":"inst_353EC22C","path":"rooms/rm_endless_rg_start/rm_endless_rg_start.yy",},
+    {"name":"inst_21F256","path":"rooms/rm_endless_rg_start/rm_endless_rg_start.yy",},
+    {"name":"inst_64025985","path":"rooms/rm_endless_rg_start/rm_endless_rg_start.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -494,9 +494,9 @@
         {"name":"g_WhiteNoiseTexture","type":2,"value":"_filter_whitenoise_noise",},
       ],"userdefinedDepth":false,"visible":false,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"UI","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_27E0215D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"o_turn_right","path":"objects/o_turn_right/o_turn_right.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1400.0,"y":13287.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_10990E3A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"o_turn_left","path":"objects/o_turn_left/o_turn_left.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1216.0,"y":13280.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_353EC22C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"o_gas","path":"objects/o_gas/o_gas.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1472.0,"y":13184.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_21F256","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"o_brake","path":"objects/o_brake/o_brake.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1664.0,"y":13184.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_64025985","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"o_joystick_border","path":"objects/o_joystick_border/o_joystick_border.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":704.0,"y":13184.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMREffectLayer","resourceVersion":"1.0","name":"DeathFilter","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Particles","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
