@@ -485,6 +485,8 @@
     {"name":"inst_353EC22C","path":"rooms/rm_endless_rg_start/rm_endless_rg_start.yy",},
     {"name":"inst_21F256","path":"rooms/rm_endless_rg_start/rm_endless_rg_start.yy",},
     {"name":"inst_64025985","path":"rooms/rm_endless_rg_start/rm_endless_rg_start.yy",},
+    {"name":"inst_655D4298","path":"rooms/rm_endless_rg_start/rm_endless_rg_start.yy",},
+    {"name":"inst_2FE9EE8E","path":"rooms/rm_endless_rg_start/rm_endless_rg_start.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -497,6 +499,8 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_353EC22C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"o_gas","path":"objects/o_gas/o_gas.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1472.0,"y":13184.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_21F256","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"o_brake","path":"objects/o_brake/o_brake.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1664.0,"y":13184.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_64025985","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"o_joystick_border","path":"objects/o_joystick_border/o_joystick_border.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":704.0,"y":13184.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_655D4298","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"o_joystick_ball","path":"objects/o_joystick_ball/o_joystick_ball.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":704.0,"y":13216.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2FE9EE8E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"o_gun_button","path":"objects/o_gun_button/o_gun_button.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":736.0,"y":12928.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMREffectLayer","resourceVersion":"1.0","name":"DeathFilter","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Particles","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
