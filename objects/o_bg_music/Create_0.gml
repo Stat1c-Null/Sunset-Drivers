@@ -1,1 +1,3 @@
-audio_play_sound(a_ChroniclesOfThePit, 1000, true)
+songs = [noone ,a_ChroniclesOfThePit, a_wonky_chops, a_dreamy_spungebonk]
+music_play = false
+current_song = noone

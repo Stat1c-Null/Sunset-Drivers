@@ -469,7 +469,6 @@
     {"name":"inst_6FA7D7C5","path":"rooms/rm_endless_rg/rm_endless_rg.yy",},
     {"name":"inst_5978D31B","path":"rooms/rm_endless_rg/rm_endless_rg.yy",},
     {"name":"inst_2C106D65","path":"rooms/rm_endless_rg/rm_endless_rg.yy",},
-    {"name":"inst_254FF5B1","path":"rooms/rm_endless_rg/rm_endless_rg.yy",},
     {"name":"inst_1A88F71C","path":"rooms/rm_endless_rg/rm_endless_rg.yy",},
     {"name":"inst_59831FED","path":"rooms/rm_endless_rg/rm_endless_rg.yy",},
     {"name":"inst_7FB0D18A","path":"rooms/rm_endless_rg/rm_endless_rg.yy",},
@@ -604,7 +603,6 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_613B565F_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"o_mailbox","path":"objects/o_mailbox/o_mailbox.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":788.0,"y":10416.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5658AF70_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"o_barrier","path":"objects/o_barrier/o_barrier.yy",},"properties":[],"rotation":0.0,"scaleX":9.859375,"scaleY":0.359375,"x":1691.5,"y":18.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2C106D65","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"o_camera","path":"objects/o_camera/o_camera.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":32.0,"y":64.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_254FF5B1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"o_bg_music","path":"objects/o_bg_music/o_bg_music.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":64.0,"y":64.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Lights","depth":600,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_666EDFEB_2","colour":4294967295,"frozen":true,"hasCreationCode":false,"ignore":true,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_OLDTVFilter_SVideo","path":"objects/obj_OLDTVFilter_SVideo/obj_OLDTVFilter_SVideo.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":15.0,"y":61.0,},
