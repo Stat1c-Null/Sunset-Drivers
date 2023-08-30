@@ -12,6 +12,8 @@ part_system_depth(global.partSystemCar, 800)
 var roomname = room_get_name(room)
 if(roomname == "rm_endless_rg_start") {
 	levels_done = 0	
+} else if(roomname == "rm_mainmenu") {
+	audio_stop_all()	
 }
 
 //if(roomname != "rm_mainmenu" and not instance_exists(obj_day_and_night_lights)) 

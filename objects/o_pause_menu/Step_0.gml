@@ -123,7 +123,7 @@ if ( pause ){
 				global.time = 0.2982//What time in the world is it
 				global.army_time = "AM 8:00"
 				global.day = 1
-				audio_stop_sound(a_ChroniclesOfThePit)
+				audio_stop_all()
 				if(roomname == "rm_endless_rg_start") {
 					room_restart()
 				} else {
@@ -133,7 +133,7 @@ if ( pause ){
 			case 2: // MainMenus
 				alarm[0]	= room_speed* 0.1; //resume timer
 				instance_deactivate_object(obj_car)
-				audio_stop_sound(a_ChroniclesOfThePit)
+				audio_stop_all()
 				room_goto(rm_mainmenu) 
 			break;
 			case 3: // Exit
