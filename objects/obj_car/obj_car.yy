@@ -52,8 +52,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "s_volga_black",
-    "path": "sprites/s_volga_black/s_volga_black.yy",
+    "name": "s_volga_red",
+    "path": "sprites/s_volga_red/s_volga_red.yy",
   },
   "spriteMaskId": null,
   "visible": true,

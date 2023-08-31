@@ -117,9 +117,9 @@ if ( pause ){
 				obj_car.x = obj_car.og_pos_x
 				obj_car.y = obj_car.og_pos_y
 				obj_car.player_score = 0
-				global.dollars = 0
-				global.gasAmount = 100
-				global.health = 100
+				global.current_dollars = 0
+				global.gasAmount = global.maxAmount 
+				global.health = global.maxHealth
 				global.time = 0.2982//What time in the world is it
 				global.army_time = "AM 8:00"
 				global.day = 1

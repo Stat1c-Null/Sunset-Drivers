@@ -11,10 +11,6 @@ save = function () {
 	var _metric_unit = o_game_controller.range_units
 	var _money_highscore = global.money_highscore
 	var roomname = room_get_name(room)
-	if instance_exists(o_bg_music)
-		var _current_song = o_bg_music.current_song
-	else
-		var _current_song = noone
 	
 
 	_money = _money + current_money
@@ -28,7 +24,6 @@ save = function () {
 		colors_owned: _colors_owned,
 		range_unit: _metric_unit,
 		money_highscore: _money_highscore,
-		song_playing: _current_song
 	};
 	
 	//Save to JSON
@@ -53,7 +48,6 @@ load = function() {
 		o_game_controller.color_owned = rootStruct.colors_owned
 		o_game_controller.range_units = rootStruct.range_unit
 		global.money_highscore = rootStruct.money_highscore
-		o_bg_music.current_song = rootStruct.song_playing
 	} catch (_exception) {
 		return
 	}

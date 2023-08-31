@@ -1,11 +1,11 @@
-if(place_meeting(x,y,obj_car) and global.gasAmount <= min_amount and global.dollars >= price)//Check if car touched canister
+if(place_meeting(x,y,obj_car) and global.current_dollars >= price)//Check if car touched canister
 {
 	destroyed = true
 	if(sound_played == false) {
 		audio_play_sound(a_pickup, 800, false)
 		sound_played = true
 	}
-}else if(place_meeting(x,y,obj_car) and (global.gasAmount > min_amount or global.dollars < price))
+}else if(place_meeting(x,y,obj_car) and (global.current_dollars < price))
 {
 	//If collided with player but they have too much gas
 	sprite_index = s_gasDenied
@@ -23,7 +23,7 @@ if(destroyed)
 	image_speed = 1
 	if(image_index >= 70)
 	{
-		global.dollars -= price
+		global.current_dollars -= price
 		//Increase Gas on touch
 		repair_amount = global.maxAmount - global.gasAmount
 		global.gasAmount += repair_amount

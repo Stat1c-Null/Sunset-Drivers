@@ -1,6 +1,5 @@
 /// @description 
 Controls()
-s_audio_playing()
 //Determine which room player is located in and set according game state
 var roomname = room_get_name(room)
 if(roomname == "rm_mainmenu") 
