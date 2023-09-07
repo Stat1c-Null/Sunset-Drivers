@@ -1,2 +1,2 @@
-part_system_destroy(particle_syst)
+//part_system_destroy(particle_syst)
 instance_destroy(self)
