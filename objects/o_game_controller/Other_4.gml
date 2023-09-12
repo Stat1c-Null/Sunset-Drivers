@@ -6,7 +6,6 @@ global.final_dist = 100
 buttons_created = false
 vigOn = false
 room_speed = 30
-part_system_depth(global.partSystemCar, 800)
 
 //Create lights
 var roomname = room_get_name(room)
@@ -14,6 +13,10 @@ if(roomname == "rm_endless_rg_start") {
 	levels_done = 0	
 } else if(roomname == "rm_mainmenu") {
 	audio_stop_all()	
+}
+
+if roomname != "rm_mainmenu" {
+	part_system_depth(global.partSystemCar, 800)	
 }
 
 //if(roomname != "rm_mainmenu" and not instance_exists(obj_day_and_night_lights)) 

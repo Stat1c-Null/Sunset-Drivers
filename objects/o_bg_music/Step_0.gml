@@ -16,7 +16,7 @@ if(global.game_state == "game") {
 	music_play = true
 }
 
-if(current_song == noone and music_play == true and not s_audio_playing() and not global.gameover == true) {
+if(music_play == true and not s_audio_playing() and not global.gameover == true) {
 	num_songs = array_length(songs)
 	song_choice = random_range(0, num_songs - 1)
 	final_song = round(song_choice)
