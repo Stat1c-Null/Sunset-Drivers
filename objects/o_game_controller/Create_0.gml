@@ -47,6 +47,8 @@ if(roomname == "rm_mainmenu") {
 } else {
 	global.game_state = "game"
 }
+
+global.gamemode = "mobile"
 	
 global.filter = "day_night"
 /*if(global.game_state == "game") {

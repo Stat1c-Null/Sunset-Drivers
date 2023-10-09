@@ -330,6 +330,7 @@
     {"name":"o_stand4_inv","order":14,"path":"objects/o_stand4_inv/o_stand4_inv.yy",},
     {"name":"s_gear_km","order":10,"path":"sprites/s_gear_km/s_gear_km.yy",},
     {"name":"sprScanline2","order":9,"path":"sprites/sprScanline2/sprScanline2.yy",},
+    {"name":"o_ui_parent","order":7,"path":"objects/o_ui_parent/o_ui_parent.yy",},
     {"name":"rm_endless_rg_start","order":8,"path":"rooms/rm_endless_rg_start/rm_endless_rg_start.yy",},
     {"name":"sprScanline1","order":8,"path":"sprites/sprScanline1/sprScanline1.yy",},
     {"name":"s_menu_bg","order":1,"path":"sprites/s_menu_bg/s_menu_bg.yy",},

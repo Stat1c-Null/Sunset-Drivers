@@ -103,7 +103,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.8.0.98",
+    "IDEVersion": "2023.8.1.102",
   },
   "resources": [
     {"id":{"name":"o_traffic_block3","path":"objects/o_traffic_block3/o_traffic_block3.yy",},},
@@ -391,6 +391,7 @@
     {"id":{"name":"o_light_circle_pulsing","path":"objects/o_light_circle_pulsing/o_light_circle_pulsing.yy",},},
     {"id":{"name":"s_gear_km","path":"sprites/s_gear_km/s_gear_km.yy",},},
     {"id":{"name":"sprScanline2","path":"sprites/sprScanline2/sprScanline2.yy",},},
+    {"id":{"name":"o_ui_parent","path":"objects/o_ui_parent/o_ui_parent.yy",},},
     {"id":{"name":"o_cat_black","path":"objects/o_cat_black/o_cat_black.yy",},},
     {"id":{"name":"rm_endless_rg_start","path":"rooms/rm_endless_rg_start/rm_endless_rg_start.yy",},},
     {"id":{"name":"sprScanline1","path":"sprites/sprScanline1/sprScanline1.yy",},},
