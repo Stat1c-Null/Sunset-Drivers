@@ -13,4 +13,4 @@
 		settings_on = false
 	break
 }*/
-instance_create_layer(x - 450, y,"BaseBack", o_ui_med_game)
+instance_create_layer(x - 450, y,"SettingsBase", o_ui_med_game)
