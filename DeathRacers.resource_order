@@ -152,6 +152,7 @@
     {"name":"s_circlelight2","order":9,"path":"sprites/s_circlelight2/s_circlelight2.yy",},
     {"name":"rm_endless_rg","order":1,"path":"rooms/rm_endless_rg/rm_endless_rg.yy",},
     {"name":"s_trash_particles","order":6,"path":"sprites/s_trash_particles/s_trash_particles.yy",},
+    {"name":"o_ui_back_credits","order":28,"path":"objects/o_ui_back_credits/o_ui_back_credits.yy",},
     {"name":"o_bench2","order":7,"path":"objects/o_bench2/o_bench2.yy",},
     {"name":"spr_ball_piece2","order":2,"path":"sprites/spr_ball_piece2/spr_ball_piece2.yy",},
     {"name":"o_broken_block2_left","order":23,"path":"objects/o_broken_block2_left/o_broken_block2_left.yy",},

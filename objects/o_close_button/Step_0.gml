@@ -20,6 +20,9 @@ if(meeting == 1 and mouse_check_button_pressed(mb_left))
 		instance_destroy(o_color_black_button)
 		instance_destroy(o_color_red_button)
 		instance_destroy(o_color_white_button)
+	if instance_exists(o_ui_back_credits)
+		o_credits_button.credits_on = false
+		instance_destroy(o_ui_back_credits)
 	instance_destroy(self)
 } else {
 	sprite_index = s_close_button	
