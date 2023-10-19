@@ -1,0 +1,1 @@
+instance_create_layer(x + 450, y - 330, "SettingsTop", o_close_button)

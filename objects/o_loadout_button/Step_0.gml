@@ -2,7 +2,7 @@
 image_index = position_meeting(mouse_x,mouse_y, o_loadout_button)
 var meeting = position_meeting(mouse_x,mouse_y, o_loadout_button)
 
-if(meeting == 1 and mouse_check_button_pressed(mb_left) and o_settings_button.settings_on == false) 
+if(meeting == 1 and mouse_check_button_pressed(mb_left) and o_settings_button.settings_on == false and o_credits_button.credits_on == false) 
 {
 	sprite_index = s_loadout_button_pressed
 	alarm[0] = 5
