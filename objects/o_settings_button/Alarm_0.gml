@@ -13,7 +13,7 @@
 		settings_on = false
 	break
 }*/
-if not instance_exists(o_ui_back_loadout) and not o_credits_button.credits_on
+if not instance_exists(o_ui_back_loadout) and not o_credits_button.credits_on and not o_stats_button.stats_on
 	instance_create_layer(x - 130, y - 60, "SettingsBase", o_ui_back_settings)
 	settings_on = true
 	global.mode = "settings"
