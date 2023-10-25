@@ -78,7 +78,7 @@ color_owned = [true, false, false]
 car_color = colors[0]
 
 speed_lvl = 1
-speed_inc = 0.02//By howw much speed increases every level
+speed_inc = 0.02//By how much speed increases every level
 max_speed_lvl = 10
 speed_prices = [0, 400, 800, 1200, 1600, 2000, 2400, 2800, 3500, 4500, 6000]//0 in begininng to take index 0
 
