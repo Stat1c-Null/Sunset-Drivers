@@ -38,3 +38,8 @@ if(hit == false) {
 if(place_meeting(x,y,o_bullet) ){
 	hp -= 10
 }
+
+if (hp <= 0 and cop_killed == false) {
+	global.cops_kills += 1
+	cop_killed = true
+}

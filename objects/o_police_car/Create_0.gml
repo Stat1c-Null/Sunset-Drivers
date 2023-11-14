@@ -8,4 +8,6 @@ busting_player = false
 time_to_bust = 15
 bust_speed = 10
 
+cop_killed = false
+
 

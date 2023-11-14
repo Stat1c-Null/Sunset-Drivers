@@ -92,9 +92,21 @@ gas_inc = 10
 max_gas_lvl = 10
 gas_prices = [0, 300, 600, 900, 1200, 1500, 1800, 2100, 2400, 2700, 3000]
 
+
 //Settings
 range_units = "metric"
 
 //Challenges
 global.money_highscore = 0
 global.money_score = 0
+
+//Stats
+global.cash_earned = 0 // Total cash earned for the whole entire playtime suka
+global.jobs_done = 0 //How many times did you launch play
+global.streets_driven = 0 // Number of streets/level player got through
+global.cops_kills = 0 //Cops killed
+global.civ_kills = 0 // How many people's days have you ruined by hitting them with your car
+global.prop_kills = 0// How many objects in the world you hit
+global.bullets_fired = 0 // Self explanatory
+global.gas_used = 0 //also 
+global.money_spent = 0 //How much money you blown away

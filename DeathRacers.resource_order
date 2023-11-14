@@ -395,6 +395,7 @@
     {"name":"o_dog_brown","order":4,"path":"objects/o_dog_brown/o_dog_brown.yy",},
     {"name":"GamepadControls","order":2,"path":"scripts/GamepadControls/GamepadControls.yy",},
     {"name":"o_busted_car","order":13,"path":"objects/o_busted_car/o_busted_car.yy",},
+    {"name":"a_new_sample","order":4,"path":"sounds/a_new_sample/a_new_sample.yy",},
     {"name":"s_credits_button_pressed","order":29,"path":"sprites/s_credits_button_pressed/s_credits_button_pressed.yy",},
     {"name":"s_brake_noborder","order":7,"path":"sprites/s_brake_noborder/s_brake_noborder.yy",},
     {"name":"s_VerticalGasUI","order":23,"path":"sprites/s_VerticalGasUI/s_VerticalGasUI.yy",},

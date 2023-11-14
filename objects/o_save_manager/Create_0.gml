@@ -11,6 +11,12 @@ save = function () {
 	var _metric_unit = o_game_controller.range_units
 	var _money_highscore = global.money_highscore
 	var roomname = room_get_name(room)
+	//Stats
+	var _cash_earned = global.cash_earned
+	_cash_earned = _cash_earned + current_money
+	var _jobs_done = global.jobs_done
+	var _streets_driven = global.streets_driven
+	var _cop_kills = global.cops_kills
 	
 
 	_money = _money + current_money
@@ -24,6 +30,10 @@ save = function () {
 		colors_owned: _colors_owned,
 		range_unit: _metric_unit,
 		money_highscore: _money_highscore,
+		cash_earned: _cash_earned,
+		jobs_done: _jobs_done,
+		streets_driven: _streets_driven,
+		cop_kills: _cop_kills,
 	};
 	
 	//Save to JSON
@@ -48,6 +58,10 @@ load = function() {
 		o_game_controller.color_owned = rootStruct.colors_owned
 		o_game_controller.range_units = rootStruct.range_unit
 		global.money_highscore = rootStruct.money_highscore
+		global.cash_earned = rootStruct.cash_earned
+		global.jobs_done = rootStruct.jobs_done
+		global.streets_driven = rootStruct.streets_driven
+		global.cops_kills = rootStruct.cop_kills
 	} catch (_exception) {
 		return
 	}
