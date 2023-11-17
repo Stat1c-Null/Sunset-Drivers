@@ -35,11 +35,15 @@ if(hit == false) {
 }
 
 //Deal damage from bullets
-if(place_meeting(x,y,o_bullet) ){
+if(place_meeting(x,y,o_bullet)){
 	hp -= 10
+	if hp < 0 {
+		global.cops_kills += 1	
+	}
 }
-
-if (hp <= 0 and cop_killed == false) {
+//Increase number of cops destroyed
+if hp < 0 and cop_killed == false {
 	global.cops_kills += 1
 	cop_killed = true
 }
+
