@@ -17,6 +17,8 @@ save = function () {
 	var _jobs_done = global.jobs_done
 	var _streets_driven = global.streets_driven
 	var _cop_kills = global.cops_kills
+	var _civ_kills = global.civ_kills
+	var _bullets_fired = global.bullets_fired
 	
 
 	_money = _money + current_money
@@ -34,6 +36,8 @@ save = function () {
 		jobs_done: _jobs_done,
 		streets_driven: _streets_driven,
 		cop_kills: _cop_kills,
+		civ_kill: _civ_kills,
+		bullets_fired: _bullets_fired,
 	};
 	
 	//Save to JSON
@@ -62,6 +66,8 @@ load = function() {
 		global.jobs_done = rootStruct.jobs_done
 		global.streets_driven = rootStruct.streets_driven
 		global.cops_kills = rootStruct.cop_kills
+		global.civ_kills = rootStruct.civ_kills
+		global.bullets_fired = rootStruct.bullets_fired
 	} catch (_exception) {
 		return
 	}

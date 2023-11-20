@@ -15,3 +15,5 @@ alarm[0] = 1
 
 loopAlarmMin = 6
 loopAlarmMax = 9
+
+global.bullets_fired += 1

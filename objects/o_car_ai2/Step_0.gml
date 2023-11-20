@@ -75,3 +75,9 @@ if(hit == false) {
 if(place_meeting(x,y,o_bullet) ){
 	hp -= 4
 }
+
+//Add stats
+if hp < 1 and civ_killed == false {
+	global.civ_kills += 1
+	civ_killed = true
+}
