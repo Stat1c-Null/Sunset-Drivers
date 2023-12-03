@@ -18,6 +18,7 @@ if __b__
 		} else {
 			direction = obj_car.phy_rotation
 		}
+		global.prop_kills += 1
 	}
 }
 }

@@ -19,6 +19,7 @@ save = function () {
 	var _cop_kills = global.cops_kills
 	var _civ_kills = global.civ_kills
 	var _bullets_fired = global.bullets_fired
+	var _prop_kills = global.prop_kills
 	
 
 	_money = _money + current_money
@@ -38,10 +39,12 @@ save = function () {
 		cop_kills: _cop_kills,
 		civ_kill: _civ_kills,
 		bullets_fired: _bullets_fired,
+		prop_kills: _prop_kills,
 	};
-	
+
 	//Save to JSON
 	if global.gameover == true or roomname == "rm_mainmenu"{
+		//Save file
 		var json = json_stringify(rootStruct)
 		SaveString(json, "sdsave")
 	}
@@ -52,8 +55,11 @@ load = function() {
 	
 	//Load json
 	try {
+		// save file
 		var json = LoadString("sdsave")
 		var rootStruct = json_parse(json)
+
+		//Load file stats
 		global.dollars = rootStruct.money
 		o_game_controller.speed_lvl = rootStruct.car_speed
 		o_game_controller.gas_lvl = rootStruct.car_gas
@@ -66,8 +72,10 @@ load = function() {
 		global.jobs_done = rootStruct.jobs_done
 		global.streets_driven = rootStruct.streets_driven
 		global.cops_kills = rootStruct.cop_kills
-		global.civ_kills = rootStruct.civ_kills
+		global.civ_kills = rootStruct.civ_kill
 		global.bullets_fired = rootStruct.bullets_fired
+		global.prop_kills = rootStruct.prop_kills
+
 	} catch (_exception) {
 		return
 	}

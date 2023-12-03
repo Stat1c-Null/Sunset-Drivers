@@ -6,6 +6,7 @@ if __b__
 {
 //Reduce cars health if barrel broke
 global.health -= collision_damage
+global.prop_kills += 1
 action_kill_object();
 action_create_object(o_table_piece1, 0, 0);
 }

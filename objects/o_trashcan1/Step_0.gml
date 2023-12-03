@@ -14,6 +14,7 @@ if __b__ and destroyed == false
 		} else {
 			direction = obj_car.phy_rotation
 		}
+		global.prop_kills += 1
 	}
 	destroyed = true
 }
