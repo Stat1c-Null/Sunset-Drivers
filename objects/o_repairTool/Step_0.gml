@@ -30,6 +30,7 @@ if(destroyed)
 		if (global.health > 100) {
 			global.health = 100
 		}
+		global.money_spent += price
 
 		//Destroy Canister
 		instance_destroy(self)	

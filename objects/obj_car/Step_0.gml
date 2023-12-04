@@ -123,10 +123,12 @@ if(global.gasAmount > 0 and o_pause_menu.pause == false) {
 	if(!key_forward and !key_brake)
 	{
 		global.gasAmount -= standing_consume
+		global.gas_used += standing_consume / 5 * 0.1
 	}
 	//Drive forward
 	if ((key_forward or gamepad_RT) and !destroyed) {
 		global.gasAmount -= gasConsume
+		global.gas_used += gasConsume / 5 * 0.1
 		inc_speed += 0.1
 		phy_speed_x += lengthdir_x(acceleration_speed,-phy_rotation)
 		phy_speed_y += lengthdir_y(acceleration_speed,-phy_rotation)
@@ -137,6 +139,7 @@ if(global.gasAmount > 0 and o_pause_menu.pause == false) {
 	//Stop
 	if ((key_brake or gamepad_LT) and !destroyed) {
 		global.gasAmount -= backGasConsume
+		global.gas_used += backGasConsume / 5 * 0.1
 		inc_speed -= 0.2
 		phy_speed_x += lengthdir_x(-acceleration_speed/1.7,-phy_rotation)
 		phy_speed_y += lengthdir_y(-acceleration_speed/1.7,-phy_rotation)

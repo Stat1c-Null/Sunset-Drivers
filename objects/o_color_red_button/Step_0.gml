@@ -14,6 +14,7 @@ if(meeting == 1 and mouse_check_button_pressed(mb_left) and o_game_controller.co
 	o_game_controller.car_color = o_game_controller.colors[2]
 } else if(meeting == 1 and mouse_check_button_pressed(mb_left) and o_game_controller.color_owned[2] == false and global.dollars > o_game_controller.color_price[2]) {
 	global.dollars -= o_game_controller.color_price[2]
+	global.money_spent += o_game_controller.color_price[2]
 	o_game_controller.color_owned[2] = true
 	o_game_controller.car_color = o_game_controller.colors[2]
 } else {

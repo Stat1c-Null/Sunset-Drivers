@@ -1,4 +1,7 @@
 /// @description 
+
+death_save = false
+
 save = function () {
 	//Data
 	var current_money = global.final_money
@@ -20,6 +23,8 @@ save = function () {
 	var _civ_kills = global.civ_kills
 	var _bullets_fired = global.bullets_fired
 	var _prop_kills = global.prop_kills
+	var _gas_used = global.gas_used
+	var _money_spent = global.money_spent
 	
 
 	_money = _money + current_money
@@ -40,23 +45,25 @@ save = function () {
 		civ_kill: _civ_kills,
 		bullets_fired: _bullets_fired,
 		prop_kills: _prop_kills,
+		gas_used: _gas_used,
+		money_spent: _money_spent,
 	};
 
 	//Save to JSON
 	if global.gameover == true or roomname == "rm_mainmenu"{
 		//Save file
 		var json = json_stringify(rootStruct)
-		SaveString(json, "sdsave")
+		SaveString(json, "sdsaved")
 	}
 }
 
 load = function() {
-	if(!file_exists("sdsave")) return;
+	if(!file_exists("sdsaved")) return;
 	
 	//Load json
 	try {
 		// save file
-		var json = LoadString("sdsave")
+		var json = LoadString("sdsaved")
 		var rootStruct = json_parse(json)
 
 		//Load file stats
@@ -75,6 +82,8 @@ load = function() {
 		global.civ_kills = rootStruct.civ_kill
 		global.bullets_fired = rootStruct.bullets_fired
 		global.prop_kills = rootStruct.prop_kills
+		global.gas_used = rootStruct.gas_used
+		global.money_spent = rootStruct.money_spent
 
 	} catch (_exception) {
 		return
