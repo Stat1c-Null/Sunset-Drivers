@@ -46,11 +46,11 @@ save = function () {
 		bullets_fired: _bullets_fired,
 		prop_kills: _prop_kills,
 		gas_used: _gas_used,
-		money_spent: _money_spent,
+		money_spent: _money_spent
 	};
 
 	//Save to JSON
-	if global.gameover == true or roomname == "rm_mainmenu"{
+	if global.gameover or global.wasted or global.busted or roomname == "rm_mainmenu"{
 		//Save file
 		var json = json_stringify(rootStruct)
 		SaveString(json, "sdsaved")

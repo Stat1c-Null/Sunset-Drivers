@@ -196,19 +196,19 @@ if global.health > lowHP and playerLowHp == true {
 	playerLowHp = false	
 }
 //Bust if no gas and cops are nearby
-if(global.gasAmount <= 0 and global.final_dist < bust_dist) { 
+if(global.gasAmount <= 0 and global.final_dist <= bust_dist) { 
 	global.busted = true	
 }
 //Game over with no gas
-if(global.gasAmount <= 0 and global.final_dist > bust_dist) {
+if(global.gasAmount <= 0 and global.final_dist >= bust_dist) {
 	global.wasted = true
 }
 
 //Wasted
-if(global.health <= 0 and global.final_dist < bust_dist)
+if(global.health <= 0 and global.final_dist <= bust_dist)
 {
 	global.busted = true	
-}else if(global.health <= 0 and global.final_dist > bust_dist) {
+}else if(global.health <= 0 and global.final_dist >= bust_dist) {
 	global.wasted = true
 }
 	
