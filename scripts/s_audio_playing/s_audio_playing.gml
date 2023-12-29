@@ -1,6 +1,6 @@
 
 function s_audio_playing(){
-	songs = [a_ChroniclesOfThePit, a_wonky_chops, a_dreamy_spungebonk, a_40Minutes, a_new_sample]
+	songs = [a_ChroniclesOfThePit, a_wonky_chops, a_dreamy_spungebonk, a_40Minutes, a_little_miss_loud, a_mellow_donatello]
 	songsLength = array_length_1d(songs)
 	//show_debug_message(array_get(songs, 1))
 	for (var z = 0; z < songsLength; z++) {

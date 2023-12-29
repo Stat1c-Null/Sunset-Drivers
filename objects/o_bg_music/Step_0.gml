@@ -16,6 +16,11 @@ if(global.game_state == "game") {
 	music_play = true
 }
 
+//Fixes annoying bug when multiple audios turn on at the same time
+if audio_is_playing(a_ChroniclesOfThePit) and audio_is_playing(a_wonky_chops) {
+	audio_stop_all()
+}
+
 if(music_play == true and not s_audio_playing() and not global.gameover == true) {
 	num_songs = array_length(songs)
 	song_choice = random_range(0, num_songs - 1)

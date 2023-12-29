@@ -10,12 +10,12 @@
     {"name":"inst_20B5498","path":"rooms/rm_mainmenu/rm_mainmenu.yy",},
     {"name":"inst_5D81580A","path":"rooms/rm_mainmenu/rm_mainmenu.yy",},
     {"name":"inst_544CDBE0","path":"rooms/rm_mainmenu/rm_mainmenu.yy",},
-    {"name":"inst_40B6C7CB","path":"rooms/rm_mainmenu/rm_mainmenu.yy",},
     {"name":"inst_3D9C4C05","path":"rooms/rm_mainmenu/rm_mainmenu.yy",},
     {"name":"inst_7D411C88","path":"rooms/rm_mainmenu/rm_mainmenu.yy",},
     {"name":"inst_68BF6B7C","path":"rooms/rm_mainmenu/rm_mainmenu.yy",},
     {"name":"inst_1846084C","path":"rooms/rm_mainmenu/rm_mainmenu.yy",},
     {"name":"inst_17490664","path":"rooms/rm_mainmenu/rm_mainmenu.yy",},
+    {"name":"inst_1FF00389","path":"rooms/rm_mainmenu/rm_mainmenu.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -41,7 +41,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_17490664","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"o_stats_button","path":"objects/o_stats_button/o_stats_button.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1408.0,"y":800.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"BaseBack","depth":700,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_40B6C7CB","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"o_ui_back","path":"objects/o_ui_back/o_ui_back.yy",},"properties":[],"rotation":0.0,"scaleX":1.5000001,"scaleY":1.1333336,"x":1280.0,"y":816.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1FF00389","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"o_ui_back","path":"objects/o_ui_back/o_ui_back.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1280.0,"y":832.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMREffectLayer","resourceVersion":"1.0","name":"Effect_HeatHaze","depth":800,"effectEnabled":true,"effectType":"_filter_heathaze","gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[
         {"name":"g_Distort1Speed","type":0,"value":"0.032",},

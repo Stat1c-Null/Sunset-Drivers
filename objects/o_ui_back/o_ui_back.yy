@@ -28,8 +28,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "s_ui_back",
-    "path": "sprites/s_ui_back/s_ui_back.yy",
+    "name": "s_ui_back_big",
+    "path": "sprites/s_ui_back_big/s_ui_back_big.yy",
   },
   "spriteMaskId": null,
   "visible": true,
